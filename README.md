@@ -2,6 +2,8 @@
 
 Synth engines and stereo effects for the Teenage Engineering OP-1 Field, by `midnightops94`. Download each `.pack` individually. Each device’s source page describes its encoder controls, press actions and build steps. Synth source pages also list their factory sounds.
 
+[Quick reference PDF](docs/OP-1-Field-Quick-Reference-0.14.pdf) covers all 13 devices, with encoder actions and screen examples.
+
 ## Compatibility
 
 This release targets **OP-1 Field OS 1.7.3**, **Open-Field 0.14**, and **`base.pack` v32**. The maintainer confirmed the release trial works on an OP-1 Field running **OS 1.7.3+0**. Each pack uses Open-Field’s level-10 engine or effect API and requires no other feature pack. [Open-Field 0.14 SDK](https://github.com/LaP0573/open-field/tree/bb901bbe037db4114d294b8e3c4a8f9a7ddf28aa)
