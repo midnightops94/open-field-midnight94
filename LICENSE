@@ -1,0 +1,50 @@
+midnight94 Pack License
+Version 1.0
+
+Copyright (c) 2026 midnight94
+
+1. Covered material
+
+This license covers the original source code, build files, compiled .pack
+files, artwork, wavetables, and documentation in this repository to the
+extent midnight94 has the right to license them under these terms. It
+includes the v1.0 release published at Git commit
+2a5fc6ade1356409d2b7a3db6410314127de4486.
+
+Third-party materials remain subject to their own terms, as identified in
+THIRD-PARTY.md and LICENSES/.
+
+2. Permission to use and modify
+
+You may use, study, copy, build, and modify the covered material for any
+purpose, free of charge. You may create, perform, and release music or
+other audio made with the packs, including commercially. The distribution
+conditions below apply to the covered material itself and modified
+versions of it.
+
+3. Free redistribution
+
+You may share original or modified copies of the covered material for free,
+subject to the conditions below. Selling copies or forks, charging for
+access, or including them in a paid product or bundle requires prior
+written permission from the applicable rights holder. Voluntary donations
+are permitted when receiving the material does not depend on a payment.
+
+Keep the copyright notices and include this license with each copy you
+share. Pass on these same permissions and conditions for the covered
+material whenever you redistribute it, including in modified versions.
+
+On the download page, repository README, or documentation provided with
+the copy, give visible credit to midnight94 and link to:
+https://github.com/midnightops94/open-field-midnight94
+
+Clearly label modified versions as modified. You may give a fork its own
+name. Identify midnight94 as the source of the original work and avoid
+presenting the fork as an official release or implying endorsement.
+
+4. Warranty
+
+THE COVERED MATERIAL IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED. TO THE EXTENT PERMITTED BY LAW, THE COPYRIGHT HOLDERS
+AND CONTRIBUTORS ARE NOT LIABLE FOR CLAIMS, DAMAGES, OR OTHER LIABILITY
+ARISING FROM THE MATERIAL OR ITS USE.
