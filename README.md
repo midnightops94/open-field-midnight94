@@ -51,6 +51,17 @@ The source pages pin the Open-Field SDK and identify the Blackfin toolchain and 
 
 From a checkout of this repository, run `sha256sum -c SHA256SUMS` to verify a full clone. To inspect a single pack from an Open-Field checkout, run `python -I tools/pack_build.py check --pack /path/to/bark.pack`.
 
+## License
+
+You can use the midnight94 packs in any music, including paid performances
+and commercial releases. You can study the source, build your own versions,
+and share the original packs or your forks for free.
+
+When you redistribute, keep the license, visibly credit midnight94, link
+back to this repository, and clearly label modified builds. Selling copies
+or forks, charging for access, or including them in a paid bundle requires
+written permission. [Full license](LICENSE) · [Third-party terms](THIRD-PARTY.md)
+
 ## Unofficial project
 
 These are independent community packs. Open-Field’s own notice says it is unofficial, unsupported by Teenage Engineering and unaffiliated with them. Read the quoted notices and the upstream installation guidance before installing. [Notice](NOTICE.md) · [Credits and source terms](THIRD-PARTY.md)
