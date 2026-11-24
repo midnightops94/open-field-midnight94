@@ -1,0 +1,128 @@
+{
+  "about": "Wave eight-bank wavetable engine with the prepared Pulse warp and full bank fades.",
+  "name": "wave",
+  "version": 8,
+  "interface": 1,
+  "build": "wave_v8",
+  "sources": [
+    "examples/wave/audio.cpp",
+    "examples/wave/audio_build.cpp",
+    "examples/wave/banks.s",
+    "examples/wave/tables.cpp",
+    "examples/wave/display.cpp",
+    "examples/wave/wave_card.s",
+    "examples/wave/wave_pictures.s"
+  ],
+  "works_with": [],
+  "serves": [],
+  "exports": [],
+  "pictures": [
+    {
+      "name": "wave.svg",
+      "file": "examples/wave/wave.svg.make"
+    }
+  ],
+  "card": {
+    "level": 10,
+    "frame": "wave_frame",
+    "pick": null,
+    "pictures": true,
+    "input": "wave_input",
+    "folders": [],
+    "asks": [
+      {
+        "kind": "engine",
+        "name": "wave",
+        "stereo": false,
+        "cycles": 40000,
+        "voice_bytes": 184,
+        "voice_align": 4,
+        "render": "wave_render",
+        "reset": null,
+        "shown": "wave_shown",
+        "params": [
+          {
+            "name": "wave",
+            "low": 0,
+            "high": 32767,
+            "start": 9830
+          },
+          {
+            "name": "sweep",
+            "low": 0,
+            "high": 32767,
+            "start": 14745
+          },
+          {
+            "name": "pulse",
+            "low": 0,
+            "high": 32767,
+            "start": 16384
+          },
+          {
+            "name": "twin",
+            "low": 0,
+            "high": 32767,
+            "start": 8192
+          },
+          {
+            "name": "bank",
+            "low": 0,
+            "high": 7,
+            "start": 0
+          },
+          {
+            "name": "motion",
+            "low": 0,
+            "high": 4,
+            "start": 0
+          }
+        ],
+        "sounds": [
+          {
+            "name": "clock bass",
+            "file": "presets/clock bass.json"
+          },
+          {
+            "name": "frozen vowel",
+            "file": "presets/frozen vowel.json"
+          },
+          {
+            "name": "hollow init",
+            "file": "presets/hollow init.json"
+          },
+          {
+            "name": "ice window",
+            "file": "presets/ice window.json"
+          },
+          {
+            "name": "twin wires",
+            "file": "presets/twin wires.json"
+          },
+          {
+            "name": "reed stab",
+            "file": "presets/reed stab.json"
+          },
+          {
+            "name": "choir haze",
+            "file": "presets/choir haze.json"
+          },
+          {
+            "name": "broken bells",
+            "file": "presets/broken bells.json"
+          }
+        ]
+      },
+      {
+        "kind": "memory",
+        "name": "wave-tables",
+        "bytes": 393216,
+        "align": 32
+      }
+    ]
+  },
+  "marks": [],
+  "named": true,
+  "sum": true,
+  "path": null
+}

@@ -1,0 +1,1 @@
+{"adsr":[64,15200,4600,13700,2048,64,5117,24575],"fx_active":false,"fx_params":[12672,16448,3584,6663,8000,8000,8000,8000],"fx_type":"spring","knobs":[23920,6226,22609,20971,32767,0,0,0],"lfo_active":false,"lfo_params":[4773,-26,264,12409,0,0,0,0],"lfo_type":"tremolo","name":"broken bells","octave":0,"synth_version":3,"type":"dsynth","op1f_engine":"wave"}

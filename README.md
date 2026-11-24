@@ -15,6 +15,7 @@ This release targets **OP-1 Field OS 1.7.3**, **Open-Field 0.14**, and **`base.p
 | [Organ](src/organ) | [v5](../../raw/main/packs/organ.pack) | 266,206 bytes | Four drawbar organ models with percussion, drive and a stereo rotary cabinet. |
 | [Plonk](src/plonk) | [v7](../../raw/main/packs/plonk.pack) | 58,638 bytes | Percussive wavefolding synth with ratio detents and a short or long spring. |
 | [SID](src/sid) | [v8](../../raw/main/packs/sid.pack) | 44,395 bytes | Chip-style synth with sync, ring modulation and a multimode filter. |
+| [Wave](src/wave) | [v8](../../raw/main/packs/wave.pack) | 161,028 bytes | Eight original wavetable banks with sweep, pulse shaping and twin oscillators. |
 
 Each engine ships with eight factory sounds. Fret’s factory sounds start one or two octaves below the default register.
 
