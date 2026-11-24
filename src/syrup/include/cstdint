@@ -1,0 +1,2 @@
+// The DSP and presenter use the global, fixed-width integer names.
+#include <stdint.h>

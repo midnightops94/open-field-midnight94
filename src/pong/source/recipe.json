@@ -1,0 +1,97 @@
+{
+  "about": "Pong stereo delay with four mode switches.",
+  "name": "pong",
+  "version": 6,
+  "interface": 1,
+  "build": "pack_pong_v6",
+  "sources": [
+    "examples/userpong/pong.cpp",
+    "examples/userpong/page.cpp",
+    "examples/userpong/pose_motion.cpp",
+    "examples/userpong/dsp/packed/byte_runtime.cpp",
+    "examples/userpong/dsp/packed/codec.cpp",
+    "examples/userpong/dsp/packed/packed_access.cpp",
+    "examples/userpong/pong_card.s",
+    "examples/userpong/pong_pictures.s"
+  ],
+  "works_with": [],
+  "serves": [],
+  "exports": [],
+  "pictures": [
+    {
+      "name": "pong.svg",
+      "file": "examples/userpong/pong.svg.make"
+    },
+    {
+      "name": "pong-safe.svg",
+      "file": "examples/userpong/pong-safe.svg.make"
+    }
+  ],
+  "card": {
+    "level": 10,
+    "frame": "pong_frame",
+    "pick": null,
+    "pictures": true,
+    "input": "pong_input",
+    "asks": [
+      {
+        "kind": "effect",
+        "name": "pong",
+        "rides": "delay",
+        "mono": false,
+        "tails": true,
+        "cycles": 84000,
+        "state_bytes": 790528,
+        "state_align": 32,
+        "process": "pong_process",
+        "reset": null,
+        "shown": "pong_shown",
+        "params": [
+          {
+            "name": "court",
+            "low": 0,
+            "high": 32767,
+            "start": 11870
+          },
+          {
+            "name": "rally",
+            "low": 0,
+            "high": 32767,
+            "start": 8738
+          },
+          {
+            "name": "spin",
+            "low": 0,
+            "high": 32767,
+            "start": 18022
+          },
+          {
+            "name": "input",
+            "low": 0,
+            "high": 32767,
+            "start": 16384
+          }
+        ]
+      },
+      {
+        "kind": "keeps",
+        "name": "settings",
+        "changed": "pong_changed",
+        "keys": [
+          {
+            "name": "pong_mode",
+            "files": [
+              "synth",
+              "drum",
+              "master"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "marks": [],
+  "named": true,
+  "sum": true,
+  "path": null
+}

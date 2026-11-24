@@ -1,0 +1,129 @@
+{
+  "name": "sid",
+  "version": 8,
+  "interface": 1,
+  "build": "sid_engine",
+  "sources": [
+    "sid/sid.cpp",
+    "sid/sid_card.s",
+    "sid/sid_pictures.s"
+  ],
+  "works_with": [],
+  "serves": [],
+  "exports": [],
+  "pictures": [
+    {
+      "name": "sid-beetle.svg",
+      "file": "sid/sid.svg"
+    }
+  ],
+  "card": {
+    "level": 10,
+    "frame": "sid_frame",
+    "pick": null,
+    "pictures": true,
+    "input": "sid_input",
+    "folders": [],
+    "asks": [
+      {
+        "kind": "engine",
+        "name": "sid",
+        "stereo": true,
+        "cycles": 40000,
+        "voice_bytes": 160,
+        "voice_align": 4,
+        "render": "sid_render",
+        "reset": null,
+        "shown": "sid_shown",
+        "params": [
+          {
+            "name": "wave",
+            "low": 0,
+            "high": 32767,
+            "start": 13107
+          },
+          {
+            "name": "duty",
+            "low": 0,
+            "high": 32767,
+            "start": 11469
+          },
+          {
+            "name": "cutoff",
+            "low": 0,
+            "high": 32767,
+            "start": 16597
+          },
+          {
+            "name": "circuit",
+            "low": 0,
+            "high": 32767,
+            "start": 0
+          },
+          {
+            "name": "stack",
+            "low": 0,
+            "high": 32767,
+            "start": 0
+          },
+          {
+            "name": "link",
+            "low": 0,
+            "high": 32767,
+            "start": 0
+          },
+          {
+            "name": "response",
+            "low": 0,
+            "high": 32767,
+            "start": 0
+          },
+          {
+            "name": "route",
+            "low": 0,
+            "high": 32767,
+            "start": 0
+          }
+        ],
+        "sounds": [
+          {
+            "name": "ceramic",
+            "file": "patches/ceramic.json"
+          },
+          {
+            "name": "elastic sync",
+            "file": "patches/elastic-sync.json"
+          },
+          {
+            "name": "glass wire",
+            "file": "patches/glass-wire.json"
+          },
+          {
+            "name": "pocket bass",
+            "file": "patches/pocket-bass.json"
+          },
+          {
+            "name": "small lantern",
+            "file": "patches/small-lantern.json"
+          },
+          {
+            "name": "pulse clavi",
+            "file": "patches/pulse-clavi.json"
+          },
+          {
+            "name": "foil ticks",
+            "file": "patches/foil-ticks.json"
+          },
+          {
+            "name": "raster lead",
+            "file": "patches/raster-lead.json"
+          }
+        ]
+      }
+    ]
+  },
+  "marks": [],
+  "named": true,
+  "sum": true,
+  "path": null
+}

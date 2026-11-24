@@ -1,0 +1,1 @@
+{"adsr":[64,10240,5500,4608,2048,64,5117,24575],"fx_active":false,"fx_params":[12672,16448,3584,6663,8000,8000,8000,8000],"fx_type":"spring","knobs":[7209,5434,17039,1638,16384,10922,0,0],"lfo_active":false,"lfo_params":[4773,-26,264,12409,0,0,0,0],"lfo_type":"tremolo","name":"low tine","octave":-1,"synth_version":3,"type":"dsynth","op1f_engine":"plonk"}

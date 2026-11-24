@@ -1,0 +1,74 @@
+{
+  "about": "Organ drawbar synth with four generator models and a shared rotor clock.",
+  "name": "organ",
+  "version": 5,
+  "interface": 1,
+  "build": "organ",
+  "sources": [
+    "organ/audio.cpp",
+    "organ/organ_rotor.cpp",
+    "organ/page.cpp",
+    "organ/waves.s",
+    "organ/organ_card.s",
+    "organ/organ_pictures.s"
+  ],
+  "works_with": [],
+  "exports": [],
+  "pictures": [
+    {"name": "organ.svg", "file": "organ/organ.svg"}
+  ],
+  "card": {
+    "level": 10,
+    "frame": "organ_frame",
+    "pick": null,
+    "pictures": true,
+    "input": "organ_input",
+    "folders": [],
+    "asks": [
+      {
+        "kind": "engine",
+        "name": "organ",
+        "stereo": true,
+        "cycles": 40000,
+        "voice_bytes": 452,
+        "voice_align": 4,
+        "render": "organ_render",
+        "reset": null,
+        "shown": "organ_shown",
+        "params": [
+          {"name": "tone", "low": 0, "high": 32767, "start": 3932},
+          {"name": "low", "low": 0, "high": 32767, "start": 26869},
+          {"name": "mid", "low": 0, "high": 32767, "start": 18022},
+          {"name": "high", "low": 0, "high": 32767, "start": 10158},
+          {"name": "type", "low": 0, "high": 32767, "start": 0},
+          {"name": "drive", "low": 0, "high": 32767, "start": 10922},
+          {"name": "perc", "low": 0, "high": 32767, "start": 32767},
+          {"name": "spin", "low": 0, "high": 32767, "start": 0}
+        ],
+        "sounds": [
+          {"name": "compact", "file": "patches/compact.json"},
+          {"name": "continental", "file": "patches/continental.json"},
+          {"name": "gospel", "file": "patches/gospel.json"},
+          {"name": "init", "file": "patches/init.json"},
+          {"name": "pipe", "file": "patches/pipe.json"},
+          {"name": "rotor cabinet", "file": "patches/rotor-cabinet.json"},
+          {"name": "chapel air", "file": "patches/chapel-air.json"},
+          {"name": "garage reed", "file": "patches/garage-reed.json"}
+        ]
+      },
+      {
+        "kind": "stage",
+        "name": "organ_clock",
+        "point": "master_out",
+        "cycles": 2000,
+        "listens": false,
+        "memory": null,
+        "process": "organ_rotor_tick"
+      }
+    ]
+  },
+  "marks": [],
+  "named": true,
+  "sum": true,
+  "path": null
+}

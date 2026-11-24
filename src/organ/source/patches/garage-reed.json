@@ -1,0 +1,51 @@
+{
+  "adsr": [
+    64,
+    6500,
+    23756,
+    2048,
+    2048,
+    64,
+    5117,
+    24575
+  ],
+  "fx_active": false,
+  "fx_params": [
+    12672,
+    16448,
+    3584,
+    6663,
+    8000,
+    8000,
+    8000,
+    8000
+  ],
+  "fx_type": "spring",
+  "knobs": [
+    24576,
+    12288,
+    22528,
+    28672,
+    2,
+    21845,
+    21845,
+    32767
+  ],
+  "lfo_active": false,
+  "lfo_params": [
+    4773,
+    -26,
+    264,
+    12409,
+    0,
+    0,
+    0,
+    0
+  ],
+  "lfo_type": "tremolo",
+  "name": "garage reed",
+  "octave": 0,
+  "synth_version": 3,
+  "type": "dsynth",
+  "op1f_engine": "organ"
+}

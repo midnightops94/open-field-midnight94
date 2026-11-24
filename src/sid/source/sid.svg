@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="220" viewBox="0 0 480 220" id="afterGraphicScreen">
+  <rect x="0" y="0" width="480" height="220" fill="#000005" stroke="none" stroke-width="1.3" />
+  <g stroke-linecap="square" stroke-linejoin="round">
+    <g id="after-icon">
+      <path d="M216 65 L202 42 L187 39 M264 65 L278 42 L293 39" fill="none" stroke="#8591a0" stroke-width="2" />
+      <circle cx="185.00" cy="39.00" r="3.20" fill="#6597c1" stroke="none" stroke-width="1.3" />
+      <circle cx="295.00" cy="39.00" r="3.20" fill="#b79762" stroke="none" stroke-width="1.3" />
+      <path d="M184 91 L168 91 L159 82 L146 82 M296 91 L312 91 L321 82 L334 82" fill="none" stroke="#8591a0" stroke-width="4" />
+      <path d="M150 82 L144 82 M330 82 L336 82" fill="none" stroke="#b79762" stroke-width="3" />
+      <path d="M184 120 L154 120 L145 127 L132 127 M296 120 L326 120 L335 127 L348 127" fill="none" stroke="#8591a0" stroke-width="4" />
+      <path d="M136 127 L130 127 M344 127 L350 127" fill="none" stroke="#b79762" stroke-width="3" />
+      <path d="M184 148 L163 148 L154 167 L141 167 M296 148 L317 148 L326 167 L339 167" fill="none" stroke="#8591a0" stroke-width="4" />
+      <path d="M145 167 L139 167 M335 167 L341 167" fill="none" stroke="#b79762" stroke-width="3" />
+      <path d="M194 60 L224 60 C224 69.3333 229.3333 74 240 74 C250.6667 74 256 69.3333 256 60 L286 60 L299 73 L299 164 L285 179 L195 179 L181 164 L181 73 z" fill="#182632" stroke="#cdd0c2" stroke-width="2" />
+      <path d="M188 159 L199 170 L281 170 L292 159 M190 77 L190 159 M290 77 L290 159" fill="none" stroke="#3c6087" stroke-width="1.3" />
+      <rect x="211" y="86" width="9" height="6" fill="#cdd0c2" stroke="none" stroke-width="1.3" />
+      <rect x="260" y="86" width="9" height="6" fill="#cdd0c2" stroke="none" stroke-width="1.3" />
+      <path d="M200 110.0235 L200.6667 109.9694 L201.3333 109.9152 L202 109.861 L202.6667 109.8069 L203.3333 109.7527 L204 109.6985 L204.6667 109.6444 L205.3333 109.5902 L206 109.536 L206.6667 109.4819 L207.3333 109.4277 L208 109.3735 L208.6667 109.3194 L209.3333 109.2652 L210 109.211 L210.6667 109.1569 L211.3333 109.1027 L212 109.0485 L212.6667 108.9944 L213.3333 108.9402 L214 108.886 L214.6667 108.8319 L215.3333 108.7777 L216 108.7235 L216.6667 108.6694 L217.3333 108.6152 L218 108.561 L218.6667 108.5069 L219.3333 108.4527 L220 108.3985 L220.6667 108.3444 L221.3333 108.2902 L222 108.236 L222.6667 108.1819 L223.3333 108.1277 L224 108.0735 L224.6667 108.0194 L225.3333 107.9652 L226 107.911 L226.6667 107.8569 L227.3333 107.8027 L228 107.7485 L228.6667 107.6944 L229.3333 107.6402 L230 107.586 L230.6667 107.5319 L231.3333 107.4777 L232 107.4235 L232.6667 107.3694 L233.3333 107.3152 L234 107.261 L234.6667 107.2069 L235.3333 107.1527 L236 122.075 L236.6667 122.0208 L237.3333 121.9667 L238 121.9125 L238.6667 121.8583 L239.3333 121.8042 L240 121.75 L240.6667 121.745 L241.3333 121.7401 L242 121.7351 L242.6667 121.7302 L243.3333 121.7252 L244 121.7203 L244.6667 121.7153 L245.3333 121.7104 L246 121.7054 L246.6667 121.7005 L247.3333 121.6955 L248 121.6906 L248.6667 121.6856 L249.3333 121.6807 L250 121.6757 L250.6667 121.6708 L251.3333 121.6658 L252 121.6609 L252.6667 121.6559 L253.3333 121.651 L254 121.646 L254.6667 121.6411 L255.3333 121.6361 L256 121.6312 L256.6667 121.6262 L257.3333 121.6213 L258 121.6163 L258.6667 121.6114 L259.3333 121.6064 L260 121.6015 L260.6667 121.5965 L261.3333 121.5916 L262 121.5866 L262.6667 121.5817 L263.3333 121.5767 L264 121.5718 L264.6667 121.5668 L265.3333 121.5619 L266 121.5569 L266.6667 121.552 L267.3333 121.547 L268 121.5421 L268.6667 121.5371 L269.3333 121.5322 L270 121.5272 L270.6667 121.5223 L271.3333 121.5173 L272 121.5124 L272.6667 121.5074 L273.3333 121.5025 L274 121.4975 L274.6667 121.4925 L275.3333 121.4876 L276 121.4826 L276.6667 121.4777 L277.3333 121.4727 L278 121.4678 L278.6667 121.4628 L279.3333 121.4579 L279.9999 121.4529" fill="none" stroke="#6597c1" stroke-width="1.95" id="sidBodyVoice" />
+      <path d="M207 143 L207 133 L236.2001 133 L236.2001 143 L273 143" fill="none" stroke="#8A653C" stroke-width="1.8" id="sidBodyPulse" />
+      <g id="after-linkShape" />
+      <g id="sidSt0">
+        <path id="sidStack0" d="M218 179 L218 194 L213 198 M240 179 L240 194 L240 198 M262 179 L262 194 L267 198" fill="none" stroke="#6597c1" stroke-width="1.7" />
+      </g>
+      <g id="sidSt1" display="none">
+        <path id="sidStack1" d="M218 179 L218 203 L213 207 M240 179 L240 194 L240 198 M262 179 L262 194 L267 198" fill="none" stroke="#6597c1" stroke-width="1.7" />
+      </g>
+      <g id="sidSt2" display="none">
+        <path id="sidStack2" d="M218 179 L218 194 L213 198 M240 179 L240 194 L240 198 M262 179 L262 186 L267 190" fill="none" stroke="#6597c1" stroke-width="1.7" />
+      </g>
+      <g id="sidLi0">
+        <circle cx="231" cy="156" r="2" fill="#59462f" stroke="none" stroke-width="1.5" />
+        <circle cx="249" cy="156" r="2" fill="#59462f" stroke="none" stroke-width="1.5" />
+      </g>
+      <g id="sidLi1" display="none">
+        <path id="sidSync" d="M226 156 L235 156 L235 151 L245 151 L245 156 L254 156" fill="none" stroke="#b79762" stroke-width="1.7" />
+      </g>
+      <g id="sidLi2" display="none">
+        <circle cx="236" cy="156" r="6.5" fill="none" stroke="#b79762" stroke-width="1.5" />
+        <circle cx="244" cy="156" r="6.5" fill="none" stroke="#b79762" stroke-width="1.5" />
+      </g>
+    </g>
+    <g id="after-parameters">
+      <g id="sidWaveCorner"><path d="M10 48.5165 10.55 48.4786 11.1 48.4406 11.65 48.4027 12.2 48.3648 12.75 48.3269 13.3 48.289 13.85 48.2511 14.4 48.2131 14.95 48.1752 15.5 48.1373 16.05 48.0994 16.6 48.0615 17.15 48.0236 17.7 47.9856 18.25 47.9477 18.8 47.9098 19.35 47.8719 19.9 47.834 20.45 47.7961 21 47.7581 21.55 47.7202 22.1 47.6823 22.65 47.6444 23.2 47.6065 23.75 47.5686 24.3 47.5306 24.85 47.4927 25.4 47.4548 25.95 47.4169 26.5 47.379 27.05 47.3411 27.6 47.3031 28.15 47.2652 28.7 47.2273 29.25 47.1894 29.8 47.1515 30.35 47.1136 30.9 47.0756 31.45 47.0377 32 46.9998 32.55 46.9619 33.1 46.924 33.65 46.8861 34.2 46.8481 34.75 46.8102 35.3 46.7723 35.85 46.7344 36.4 46.6965 36.95 46.6586 37.5 46.6206 38.05 46.5827 38.6 46.5448 39.15 46.5069 39.7 56.9525 40.25 56.9146 40.8 56.8767 41.35 56.8388 41.9 56.8008 42.45 56.7629 43 56.725 43.55 56.7215 44.1 56.7181 44.65 56.7146 45.2 56.7111 45.75 56.7077 46.3 56.7042 46.85 56.7007 47.4 56.6973 47.95 56.6938 48.5 56.6903 49.05 56.6869 49.6 56.6834 50.15 56.6799 50.7 56.6765 51.25 56.673 51.8 56.6695 52.35 56.6661 52.9 56.6626 53.45 56.6592 54 56.6557 54.55 56.6522 55.1 56.6488 55.65 56.6453 56.2 56.6418 56.75 56.6384 57.3 56.6349 57.85 56.6314 58.4 56.628 58.95 56.6245 59.5 56.621 60.05 56.6176 60.6 56.6141 61.15 56.6106 61.7 56.6072 62.25 56.6037 62.8 56.6002 63.35 56.5968 63.9 56.5933 64.45 56.5898 65 56.5864 65.55 56.5829 66.1 56.5794 66.65 56.576 67.2 56.5725 67.75 56.569 68.3 56.5656 68.85 56.5621 69.4 56.5586 69.95 56.5552 70.5 56.5517 71.05 56.5482 71.6 56.5448 72.15 56.5413 72.7 56.5379 73.25 56.5344 73.8 56.5309 74.35 56.5275 74.9 56.524 75.45 56.5205 75.9999 56.5171" fill="none" stroke="#6597c1" stroke-width="1.7" id="sidEdgeVoice" />
+      <path id="after-waveLabel" d="M10 21 12 31 15 25 18 31 20 21M23 31 27 21 31 31M25 27H29M34 21 37.5 31 41 21M50 21H44V31H50M44 26H49" fill="none" stroke="#6597c1" stroke-width="1.3" />
+      </g><g id="sidDutyCorner"><path d="M10 189V174H39.2001V189H76" fill="none" stroke="#8A653C" stroke-width="1.8" id="sidEdgePulse" />
+      <path id="after-dutyLabel" d="M10 151H14L17 154V158L14 161H10V151ZM20 151V159L22 161H25L27 159V151M30 151H38M34 151V161M41 151 44.5 156 48 151M44.5 156V161" fill="none" stroke="#8A653C" stroke-width="1.3" />
+      </g><g id="sidCutoffCorner"><path d="M405 45.1242 407.0312 45.1239 409.0625 45.1233 411.0938 45.1224 413.125 45.121 415.1562 45.1189 417.1875 45.1158 419.2188 45.1111 421.25 45.1039 423.2812 45.0931 425.3125 45.0766 427.3438 45.0516 429.375 45.0138 431.4062 44.9565 433.4375 44.8698 435.4688 44.7392 437.5 44.5443 439.5312 44.2618 441.5625 43.8879 443.5938 43.5507 445.625 43.7966 447.6562 45.2463 449.6875 47.4265 451.7188 49.7055 453.75 51.906 455.7812 54.0241 457.8125 56.0876 459.8438 58.1255 461.875 60.1651 463.9062 62.2361 465.9375 64.3765 467.9688 66.6435 470 67" fill="none" stroke="#a2a4a6" stroke-width="1.8" id="sidFilter" />
+      <path id="after-cutoffLabel" d="M420 22 418 21H415L413 23V29L415 31H418L420 30M423 21V29L425 31H428L430 29V21M433 21H441M437 21V31M446 21H449L451 23V29L449 31H446L444 29V23L446 21ZM454 31V21H460M454 26H459M463 31V21H470M463 26H469" fill="none" stroke="#a2a4a6" stroke-width="1.3" />
+      <path id="after-cutoffAxis" d="M405 74H470" fill="none" stroke="#39444e" stroke-width="1" />
+      <path id="sidCutTick" d="M445.8056 70V78" fill="none" stroke="#cdd0c2" stroke-width="1.3" />
+      </g><g id="sidCircuitCorner"><path id="after-circuitLabel" d="M412 152 410 151H407L405 153V159L407 161H410L412 160M416 151V161M420 161V151H425L427 153V155L425 157H420M424 157 427 161M437 152 435 151H432L430 153V159L432 161H435L437 160M441 151V159L443 161H446L448 159V151M453 151V161M460 151H470M465 151V161" fill="none" stroke="#CC1F00" stroke-width="1.3" />
+      <path id="sidCircuit" d="M406 204H412H413.6389H415.2222H416.75H418.2222H419.6389H421H422.3333H423.6667H425H426.3333H427.6667H429H435" fill="none" stroke="#CC1F00" stroke-width="1.8" />
+      <path id="after-circuitFilter" d="M435 204H437M452 204H470M437 200H452V208H437V200ZM440 202H444L448 206" fill="none" stroke="#a2a4a6" stroke-width="1.15" />
+      <path id="sidPulse0" d="M408 204V182H423V177H435V182H458V204" fill="none" stroke="#CC1F00" stroke-width="1" display="none" opacity="0.25" />
+      <path id="sidPulse1" d="M408 204V182H423V177H435V182H458V204" fill="none" stroke="#CC1F00" stroke-width="1.45" display="none" opacity="0.52" />
+      <path id="sidPulse2" d="M408 204V182H423V177H435V182H458V204" fill="none" stroke="#CC1F00" stroke-width="1.9" display="none" opacity="0.79" />
+      <path id="sidPulse3" d="M408 204V182H423V177H435V182H458V204" fill="none" stroke="#CC1F00" stroke-width="2.35" display="none" opacity="1" />
+      <path id="sidPulse4" d="M408 204V182H423V177H435V182H458V204" fill="none" stroke="#CC1F00" stroke-width="2.8" display="none" opacity="1" />
+      <path id="sidWire0" d="M408 204V182H427L436 177V182H458V204" fill="none" stroke="#CC1F00" stroke-width="1" display="none" opacity="0.25" />
+      <path id="sidWire1" d="M408 204V182H427L436 177V182H458V204" fill="none" stroke="#CC1F00" stroke-width="1.45" display="none" opacity="0.52" />
+      <path id="sidWire2" d="M408 204V182H427L436 177V182H458V204" fill="none" stroke="#CC1F00" stroke-width="1.9" display="none" opacity="0.79" />
+      <path id="sidWire3" d="M408 204V182H427L436 177V182H458V204" fill="none" stroke="#CC1F00" stroke-width="2.35" display="none" opacity="1" />
+      <path id="sidWire4" d="M408 204V182H427L436 177V182H458V204" fill="none" stroke="#CC1F00" stroke-width="2.8" display="none" opacity="1" />
+    </g></g>
+  </g>
+  <g id="sidCard" display="none">
+    <rect fill="#CDD0C2" id="sidPopupFrame" x="109" y="75" width="262" height="70" rx="11" />
+<rect id="sidPopupPanel" fill="#000000" x="179" y="81" width="186" height="58" rx="6" />
+<g id="sidCard0" display="none">
+      <rect fill="#3c6087" x="115" y="81" width="57" height="58" rx="6" />
+<g id="sidCd00" display="none">
+        <path id="sidCi00" d="M121.107 110H129.107M139.107 110H147.107M157.107 110H165.107" fill="none" stroke="#cdd0c2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+      <g id="sidCd01" display="none">
+        <path id="sidCi01" d="M121.107 116H129.107M139.107 104H147.107M157.107 104H165.107" fill="none" stroke="#cdd0c2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+      <g id="sidCd02" display="none">
+        <path id="sidCi02" d="M121.107 116H129.107M139.107 116H147.107M157.107 104H165.107" fill="none" stroke="#cdd0c2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </g>
+    <g id="sidCard1" display="none">
+      <rect fill="#8a653c" x="115" y="81" width="57" height="58" rx="6" />
+<g id="sidCd10" display="none">
+        <path id="sidCi10" d="M124.607 110H132.607M153.607 110H161.607" fill="none" stroke="#cdd0c2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+      <g id="sidCd11" display="none">
+        <path id="sidCi11" d="M124.607 116H136.607V104H149.607V116H161.607" fill="none" stroke="#cdd0c2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+      <g id="sidCd12" display="none">
+        <circle cx="135.607" cy="110" r="11" fill="none" stroke="#cdd0c2" stroke-width="1.5" />
+        <circle cx="150.607" cy="110" r="11" fill="none" stroke="#cdd0c2" stroke-width="1.5" />
+      </g>
+    </g>
+    <g id="sidCard2" display="none">
+      <rect fill="#a2a4a6" x="115" y="81" width="57" height="58" rx="6" />
+<g id="sidCd20" display="none">
+        <path id="sidCi20" d="M122.607 98.5H144.607L163.607 121.5" fill="none" stroke="#11171b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+      <g id="sidCd21" display="none">
+        <path id="sidCi21" d="M122.607 121.5 138.607 98.5H147.607L163.607 121.5" fill="none" stroke="#11171b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+      <g id="sidCd22" display="none">
+        <path id="sidCi22" d="M122.607 121.5 141.607 98.5H163.607" fill="none" stroke="#11171b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </g>
+    <g id="sidCard3" display="none">
+      <rect fill="#CC1F00" x="115" y="81" width="57" height="58" rx="6" />
+<g id="sidCd30" display="none">
+        <path id="sidCi30" d="M122.607 110H136.607V102H150.607V118H136.607V110M150.607 110H163.607" fill="none" stroke="#11171b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+      <g id="sidCd31" display="none">
+        <path id="sidCi31" d="M121.607 119.5H164.607M130.607 119.5V105.5H139.607V100.5H151.607V105.5H157.607V119.5" fill="none" stroke="#11171b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+      <g id="sidCd32" display="none">
+        <path id="sidCi32" d="M121.607 120H164.607M130.607 120V106H140.607L150.607 100V106H157.607V120" fill="none" stroke="#11171b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </g>
+    <g id="sidTitle"><path d="M273.5,104.25V89.25" fill="none" stroke="#cdd0c2" stroke-width="1" /></g><g id="sidValue"><path d="M273.5,129.35V114.35" fill="none" stroke="#cdd0c2" stroke-width="1" /></g></g>
+</svg>

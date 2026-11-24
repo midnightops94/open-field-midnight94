@@ -1,0 +1,130 @@
+{
+  "name": "fret",
+  "version": 7,
+  "interface": 1,
+  "build": "fret_engine",
+  "sources": [
+    "fret/audio.cpp",
+    "fret/page.cpp",
+    "fret/fret_card.s",
+    "fret/fret_pictures.s"
+  ],
+  "works_with": [],
+  "serves": [],
+  "exports": [],
+  "pictures": [
+    {
+      "name": "fret-bass.svg",
+      "file": "fret/fret.svg"
+    }
+  ],
+  "card": {
+    "level": 10,
+    "frame": "fret_frame",
+    "pick": null,
+    "pictures": true,
+    "input": "fret_input",
+    "folders": [],
+    "asks": [
+      {
+        "kind": "engine",
+        "name": "fret",
+        "stereo": false,
+        "cycles": 40000,
+        "voice_bytes": 256,
+        "voice_align": 4,
+        "render": "fret_render",
+        "reset": null,
+        "shown": "fret_shown",
+        "params": [
+          {
+            "name": "hand",
+            "low": 0,
+            "high": 32767,
+            "start": 12451
+          },
+          {
+            "name": "position",
+            "low": 0,
+            "high": 32767,
+            "start": 16384
+          },
+          {
+            "name": "mute",
+            "low": 0,
+            "high": 32767,
+            "start": 8192
+          },
+          {
+            "name": "amp",
+            "low": 0,
+            "high": 32767,
+            "start": 6553
+          },
+          {
+            "name": "strings",
+            "low": 0,
+            "high": 32767,
+            "start": 0
+          },
+          {
+            "name": "pickup",
+            "low": 0,
+            "high": 32767,
+            "start": 16384
+          },
+          {
+            "name": "damper",
+            "low": 0,
+            "high": 32767,
+            "start": 0
+          },
+          {
+            "name": "circuit",
+            "low": 0,
+            "high": 32767,
+            "start": 0
+          }
+        ],
+        "sounds": [
+          {
+            "name": "pocket",
+            "file": "patches/pocket.json"
+          },
+          {
+            "name": "rubber",
+            "file": "patches/rubber.json"
+          },
+          {
+            "name": "deep",
+            "file": "patches/deep.json"
+          },
+          {
+            "name": "clank",
+            "file": "patches/clank.json"
+          },
+          {
+            "name": "pop",
+            "file": "patches/pop.json"
+          },
+          {
+            "name": "growl",
+            "file": "patches/growl.json"
+          },
+          {
+            "name": "broken cab",
+            "file": "patches/broken-cab.json"
+          },
+          {
+            "name": "slide",
+            "file": "patches/slide.json"
+          }
+        ]
+      }
+    ]
+  },
+  "marks": [],
+  "named": true,
+  "sum": true,
+  "path": null
+}

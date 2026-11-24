@@ -1,0 +1,1 @@
+{"name":"rebound bass","type":"dsynth","synth_version":3,"octave":-1,"knobs":[5898,31456,25558,0,20480,0,16384,8192],"adsr":[64,14400,26000,3840,2048,64,5117,24575],"fx_active":false,"fx_type":"spring","fx_params":[12672,16448,3584,6663,8000,8000,8000,8000],"lfo_active":false,"lfo_type":"tremolo","lfo_params":[4773,-26,264,12409,0,0,0,0],"op1f_engine":"bark"}

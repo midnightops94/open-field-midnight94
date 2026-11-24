@@ -1,0 +1,119 @@
+{
+  "name": "plonk",
+  "version": 7,
+  "interface": 1,
+  "build": "plonk_engine",
+  "sources": [
+    "plonk/plonk_audio.cpp",
+    "plonk/plonk_core.cpp",
+    "plonk/plonk_page.cpp",
+    "plonk/plonk_card.s",
+    "plonk/plonk_pictures.s"
+  ],
+  "works_with": [],
+  "serves": [],
+  "exports": [],
+  "pictures": [
+    {
+      "name": "plonk.svg",
+      "file": "plonk/plonk.svg"
+    }
+  ],
+  "card": {
+    "level": 10,
+    "frame": "plonk_frame",
+    "pick": null,
+    "pictures": true,
+    "input": "plonk_input",
+    "folders": [],
+    "asks": [
+      {
+        "kind": "engine",
+        "name": "plonk",
+        "stereo": true,
+        "cycles": 40000,
+        "voice_bytes": 1900,
+        "voice_align": 4,
+        "render": "plonk_render",
+        "reset": null,
+        "shown": "plonk_shown",
+        "params": [
+          {
+            "name": "fold",
+            "low": 0,
+            "high": 32767,
+            "start": 11468
+          },
+          {
+            "name": "ratio",
+            "low": 0,
+            "high": 32767,
+            "start": 10813
+          },
+          {
+            "name": "strike",
+            "low": 0,
+            "high": 32767,
+            "start": 13107
+          },
+          {
+            "name": "chance",
+            "low": 0,
+            "high": 32767,
+            "start": 4915
+          },
+          {
+            "name": "wave",
+            "low": 0,
+            "high": 32767,
+            "start": 0
+          },
+          {
+            "name": "spring",
+            "low": 0,
+            "high": 32767,
+            "start": 0
+          }
+        ],
+        "sounds": [
+          {
+            "name": "aquatic",
+            "file": "patches/aquatic.json"
+          },
+          {
+            "name": "brass rivet",
+            "file": "patches/brass-rivet.json"
+          },
+          {
+            "name": "glass droplets",
+            "file": "patches/glass-droplets.json"
+          },
+          {
+            "name": "init",
+            "file": "patches/init.json"
+          },
+          {
+            "name": "low tine",
+            "file": "patches/low-tine.json"
+          },
+          {
+            "name": "rubber bass",
+            "file": "patches/rubber-bass.json"
+          },
+          {
+            "name": "tank bell",
+            "file": "patches/tank-bell.json"
+          },
+          {
+            "name": "wood block",
+            "file": "patches/wood-block.json"
+          }
+        ]
+      }
+    ]
+  },
+  "marks": [],
+  "named": true,
+  "sum": true,
+  "path": null
+}

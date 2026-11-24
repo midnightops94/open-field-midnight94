@@ -1,0 +1,95 @@
+{
+  "about": "split stereo effect, approved audition source 67bd993aeb9cc98b38540457da9dc181c53ea725",
+  "name": "split",
+  "version": 4,
+  "interface": 1,
+  "build": "split_v4",
+  "sources": [
+    "examples/split/audio.cpp",
+    "examples/split/state.cpp",
+    "examples/split/page.cpp",
+    "examples/split/page_math.cpp",
+    "examples/split/card.s",
+    "examples/split/pictures.s"
+  ],
+  "works_with": [],
+  "serves": [],
+  "exports": [],
+  "pictures": [
+    {
+      "name": "split_off.svg",
+      "file": "examples/split/split_off.svg.make"
+    },
+    {
+      "name": "split_p3.svg",
+      "file": "examples/split/split_p3.svg.make"
+    }
+  ],
+  "card": {
+    "level": 10,
+    "frame": "split_frame",
+    "pick": null,
+    "pictures": true,
+    "input": "split_input",
+    "asks": [
+      {
+        "kind": "effect",
+        "name": "split",
+        "rides": "nitro",
+        "mono": false,
+        "tails": false,
+        "cycles": 84000,
+        "state_bytes": 256,
+        "state_align": 4,
+        "process": "split_process",
+        "reset": "split_reset",
+        "shown": "split_shown",
+        "params": [
+          {
+            "name": "crossover",
+            "low": 0,
+            "high": 32767,
+            "start": 12779
+          },
+          {
+            "name": "low drive",
+            "low": 0,
+            "high": 32767,
+            "start": 11796
+          },
+          {
+            "name": "high drive",
+            "low": 0,
+            "high": 32767,
+            "start": 13434
+          },
+          {
+            "name": "mix",
+            "low": 0,
+            "high": 32767,
+            "start": 27524
+          }
+        ]
+      },
+      {
+        "kind": "keeps",
+        "name": "settings",
+        "changed": "split_changed",
+        "keys": [
+          {
+            "name": "split_mode",
+            "files": [
+              "synth",
+              "drum",
+              "master"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "marks": [],
+  "named": true,
+  "sum": true,
+  "path": null
+}

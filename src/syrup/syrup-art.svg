@@ -1,0 +1,254 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="220" viewBox="0 0 480 220">
+  <rect x="0" y="0" width="480" height="220" fill="#030505" stroke="none" />
+  <g id="syrupArtwork">
+    <g id="syrupPlate">
+      <g>
+        <g id="syrupTint01">
+          <ellipse cx="304" cy="154" rx="72" ry="32" fill="#0d0907" stroke="none" stroke-width="1.15" />
+          <ellipse cx="304" cy="153" rx="65" ry="26" fill="#0a0807" stroke="none" stroke-width="0.9" />
+        </g>
+        <g id="syrupTint02">
+          <ellipse cx="304" cy="154" rx="72" ry="32" fill="#160c09" stroke="none" stroke-width="1.15" />
+          <ellipse cx="304" cy="153" rx="65" ry="26" fill="#120b08" stroke="none" stroke-width="0.9" />
+        </g>
+        <g id="syrupTint03">
+          <ellipse cx="304" cy="154" rx="72" ry="32" fill="#20100b" stroke="none" stroke-width="1.15" />
+          <ellipse cx="304" cy="153" rx="65" ry="26" fill="#190e0a" stroke="none" stroke-width="0.9" />
+        </g>
+        <g id="syrupTint04">
+          <ellipse cx="304" cy="154" rx="72" ry="32" fill="#29130d" stroke="none" stroke-width="1.15" />
+          <ellipse cx="304" cy="153" rx="65" ry="26" fill="#20110c" stroke="none" stroke-width="0.9" />
+        </g>
+        <g id="syrupTint05">
+          <ellipse cx="304" cy="154" rx="72" ry="32" fill="#33170f" stroke="none" stroke-width="1.15" />
+          <ellipse cx="304" cy="153" rx="65" ry="26" fill="#27140e" stroke="none" stroke-width="0.9" />
+        </g>
+        <g id="syrupTint06">
+          <ellipse cx="304" cy="154" rx="72" ry="32" fill="#3c1a11" stroke="none" stroke-width="1.15" />
+          <ellipse cx="304" cy="153" rx="65" ry="26" fill="#2e1810" stroke="none" stroke-width="0.9" />
+        </g>
+        <g id="syrupTint07">
+          <ellipse cx="304" cy="154" rx="72" ry="32" fill="#461e13" stroke="none" stroke-width="1.15" />
+          <ellipse cx="304" cy="153" rx="65" ry="26" fill="#361b11" stroke="none" stroke-width="0.9" />
+        </g>
+        <g id="syrupTint08">
+          <ellipse cx="304" cy="154" rx="72" ry="32" fill="#502215" stroke="none" stroke-width="1.15" />
+          <ellipse cx="304" cy="153" rx="65" ry="26" fill="#3d1e13" stroke="none" stroke-width="0.9" />
+        </g>
+        <g id="syrupTint09">
+          <ellipse cx="304" cy="154" rx="72" ry="32" fill="#592517" stroke="none" stroke-width="1.15" />
+          <ellipse cx="304" cy="153" rx="65" ry="26" fill="#442115" stroke="none" stroke-width="0.9" />
+        </g>
+        <g id="syrupTint10">
+          <ellipse cx="304" cy="154" rx="72" ry="32" fill="#632919" stroke="none" stroke-width="1.15" />
+          <ellipse cx="304" cy="153" rx="65" ry="26" fill="#4c2416" stroke="none" stroke-width="0.9" />
+        </g>
+        <g id="syrupTint11">
+          <ellipse cx="304" cy="154" rx="72" ry="32" fill="#6c2c1b" stroke="none" stroke-width="1.15" />
+          <ellipse cx="304" cy="153" rx="65" ry="26" fill="#532718" stroke="none" stroke-width="0.9" />
+        </g>
+        <g id="syrupTint12">
+          <ellipse cx="304" cy="154" rx="72" ry="32" fill="#76301d" stroke="none" stroke-width="1.15" />
+          <ellipse cx="304" cy="153" rx="65" ry="26" fill="#5a2a1a" stroke="none" stroke-width="0.9" />
+        </g>
+      </g>
+      <ellipse cx="304" cy="154" rx="72" ry="32" fill="none" stroke="#777c7e" stroke-width="1.15" />
+      <ellipse cx="304" cy="153" rx="65" ry="26" fill="none" stroke="#899394" stroke-width="0.9" />
+      <g id="syrupPancakes">
+        <path d="M257 150 C257 162 275 174 304 174 C334 174 352 162 352 150 L352 149 L257 149 Z" fill="#8b6041" stroke="#aeb7b7" stroke-width="1.18" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M257 145 C257 158 277 168 304 168 C332 168 352 158 352 145 L352 144 L257 144 Z" fill="#a3734e" stroke="#aeb7b7" stroke-width="1.18" stroke-linecap="round" stroke-linejoin="round" />
+        <ellipse cx="304" cy="144" rx="48" ry="19" fill="#c89d70" stroke="#aeb7b7" stroke-width="1.18" />
+      </g>
+      <path d="M265 143 C269 138 275 136 281 134 M319 159 C333 156 344 151 345 146" fill="none" stroke="#899394" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round" />
+      <g id="syrupMelt">
+        <path d="M307 136 C311 134 317 133 321 135 C324 136 324 137 327 137 C333 137 332 140 328 140 C323 140 323 143 318 142 C315 142 314 140 310 140 C305 140 304 138 307 136 Z" fill="#d9b650" />
+      </g>
+      <g id="syrupButter">
+        <path d="M304 132 L315 129 L323 133 L323 136 L312 140 L304 135 Z" fill="#bd953a" stroke="#d9b452" stroke-width=".8" stroke-linejoin="round" />
+        <path d="M304 132 L315 129 L323 133 L312 137 Z" fill="#f1d366" stroke="#f1dc84" stroke-width=".75" stroke-linejoin="round" />
+      </g>
+      <path d="M320 128 q23 2 40 12 m-32-13 q15 2 25 7" fill="none" stroke="#aeb7b7" stroke-width=".64" stroke-linecap="round" stroke-linejoin="round" opacity=".44" />
+      <path d="M362 142 l3 .8 m-2 1.8 3 .9 m-2 1.8 3 .8 m-2 1.7 3 .7 m-2 1.8 3 .6" fill="none" stroke="#aeb7b7" stroke-width=".64" stroke-linecap="round" stroke-linejoin="round" opacity=".44" />
+      <path d="M357 165 q-11 9-25 11 m20-8-5 2 m1 1-5 2 m1 0-5 2 m-1 0-4 1" fill="none" stroke="#aeb7b7" stroke-width=".64" stroke-linecap="round" stroke-linejoin="round" opacity=".44" />
+    </g>
+    <g id="syrupStream">
+      <g id="syrupFlow00">
+        <path d="M249 124 C261 124 270 137.588 284 147.736 Q285.413 148.055 283 148.319 C270 142.237 261 126.495 249 124.341 Z" fill="#b48952" stroke="#d3a86b" stroke-width=".5" stroke-linejoin="round" />
+      </g>
+      <g id="syrupFlow01">
+        <path d="M249 124 C261 124 270 137.282 284 147.541 Q285.717 148.096 283 148.555 C270 142.411 261 126.861 249 124.593 Z" fill="#b48952" stroke="#d3a86b" stroke-width=".5" stroke-linejoin="round" />
+      </g>
+      <g id="syrupFlow02">
+        <path d="M249 124 C261 124 270 136.977 284 147.346 Q286.022 148.136 283 148.791 C270 142.586 261 127.227 249 124.845 Z" fill="#b48952" stroke="#d3a86b" stroke-width=".5" stroke-linejoin="round" />
+      </g>
+      <g id="syrupFlow03">
+        <path d="M249 124 C261 124 270 136.673 284 147.15 Q286.327 148.177 283 149.027 C270 142.761 261 127.593 249 125.097 Z" fill="#b48952" stroke="#d3a86b" stroke-width=".5" stroke-linejoin="round" />
+      </g>
+      <g id="syrupFlow04">
+        <path d="M249 124 C261 124 270 136.368 284 146.955 Q286.632 148.218 283 149.262 C270 142.936 261 127.959 249 125.35 Z" fill="#b48952" stroke="#d3a86b" stroke-width=".5" stroke-linejoin="round" />
+      </g>
+      <g id="syrupFlow05">
+        <path d="M249 124 C261 124 270 136.062 284 146.76 Q286.938 148.258 283 149.498 C270 143.111 261 128.325 249 125.602 Z" fill="#b48952" stroke="#d3a86b" stroke-width=".5" stroke-linejoin="round" />
+      </g>
+      <g id="syrupFlow06">
+        <path d="M249 124 C261 124 270 135.757 284 146.565 Q287.243 148.299 283 149.734 C270 143.286 261 128.691 249 125.854 Z" fill="#b48952" stroke="#d3a86b" stroke-width=".5" stroke-linejoin="round" />
+      </g>
+      <g id="syrupFlow07">
+        <path d="M249 124 C261 124 270 135.452 284 146.37 Q287.548 148.34 283 149.97 C270 143.461 261 129.057 249 126.106 Z" fill="#b48952" stroke="#d3a86b" stroke-width=".5" stroke-linejoin="round" />
+      </g>
+      <g id="syrupFlow08">
+        <path d="M249 124 C261 124 270 135.148 284 146.174 Q287.853 148.38 283 150.206 C270 143.635 261 129.423 249 126.358 Z" fill="#b48952" stroke="#d3a86b" stroke-width=".5" stroke-linejoin="round" />
+      </g>
+      <g id="syrupFlow09">
+        <path d="M249 124 C261 124 270 134.843 284 145.979 Q288.158 148.421 283 150.442 C270 143.81 261 129.789 249 126.61 Z" fill="#b48952" stroke="#d3a86b" stroke-width=".5" stroke-linejoin="round" />
+      </g>
+      <g id="syrupFlow10">
+        <path d="M249 124 C261 124 270 134.537 284 145.784 Q288.462 148.462 283 150.678 C270 143.985 261 130.155 249 126.862 Z" fill="#b48952" stroke="#d3a86b" stroke-width=".5" stroke-linejoin="round" />
+      </g>
+      <g id="syrupFlow11">
+        <path d="M249 124 C261 124 270 134.232 284 145.589 Q288.767 148.502 283 150.914 C270 144.16 261 130.521 249 127.114 Z" fill="#b48952" stroke="#d3a86b" stroke-width=".5" stroke-linejoin="round" />
+      </g>
+      <g id="syrupFlow12">
+        <path d="M249 124 C261 124 270 133.928 284 145.394 Q289.072 148.543 283 151.149 C270 144.335 261 130.887 249 127.367 Z" fill="#b48952" stroke="#d3a86b" stroke-width=".5" stroke-linejoin="round" />
+      </g>
+      <g id="syrupFlow13">
+        <path d="M249 124 C261 124 270 133.623 284 145.198 Q289.377 148.584 283 151.385 C270 144.51 261 131.253 249 127.619 Z" fill="#b48952" stroke="#d3a86b" stroke-width=".5" stroke-linejoin="round" />
+      </g>
+      <g id="syrupFlow14">
+        <path d="M249 124 C261 124 270 133.317 284 145.003 Q289.683 148.624 283 151.621 C270 144.685 261 131.619 249 127.871 Z" fill="#b48952" stroke="#d3a86b" stroke-width=".5" stroke-linejoin="round" />
+      </g>
+      <g id="syrupFlow15">
+        <path d="M249 124 C261 124 270 133.012 284 144.808 Q289.988 148.665 283 151.857 C270 144.859 261 131.985 249 128.123 Z" fill="#b48952" stroke="#d3a86b" stroke-width=".5" stroke-linejoin="round" />
+      </g>
+    </g>
+    <g id="syrupPool">
+      <path d="M283 148 C271 140 294 138 302 144 C311 149 337 143 339 149 Q340 151 336 153 Q314 162 295 158 Q286 158 283 148 Z" fill="#986f3d" stroke="#caa16a" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    <g id="syrupDrip">
+      <path d="M322 155 Q324 158 323 162" fill="none" stroke="#bd955c" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    <g id="syrupSpill">
+      <g id="syrupSpill01">
+        <path d="M326 151 C335 149 339 151 340 155 C341 158 341 160 342 162 Q342 164 341 164 C338 163 340 158 337 156 C335 154 330 154 326 153 Z" fill="#aa7e45" stroke="#cfa36b" stroke-width=".75" stroke-linejoin="round" />
+      </g>
+      <g id="syrupSpill02">
+        <path d="M326 151 C337 149 340 151 341 156 C342 164 343 168 348 169 Q353 169 355 172 Q356 174 353 174 C349 174 348 172 345 172 C340 171 340 167 339 164 C338 158 340 154 326 153 Z" fill="#aa7e45" stroke="#cfa36b" stroke-width=".75" stroke-linejoin="round" />
+      </g>
+      <g id="syrupSpill03">
+        <path d="M326 151 C337 148 341 151 342 157 C343 165 344 167 350 168 C355 169 357 172 356 176 C356 180 357 184 355 185 Q353 186 353 182 C353 179 354 177 353 175 C351 173 347 173 344 172 C338 171 340 162 337 158 C335 155 329 154 326 153 Z" fill="#aa7e45" stroke="#cfa36b" stroke-width=".75" stroke-linejoin="round" />
+      </g>
+      <g id="syrupSpill04">
+        <path d="M326 151 C336 148 342 150 343 156 C344 165 346 166 351 168 C357 169 359 172 357 178 C356 183 358 188 355 190 C352 191 352 187 353 184 C354 180 355 176 352 174 C349 173 345 173 343 172 C338 170 339 163 336 158 C334 155 329 155 326 153 Z" fill="#aa7e45" stroke="#cfa36b" stroke-width=".75" stroke-linejoin="round" />
+      </g>
+    </g>
+    <g id="syrupFallingDrop">
+      <path d="M355 186 C355 189 358 191 357 193 C356 195 353 194 353 192 Q353 190 355 186 Z" fill="#bc9157" stroke="#d0a46b" stroke-width=".65" />
+    </g>
+    <g id="syrupBottle">
+      <g id="syrupBody">
+        <path d="M140.5 98.9 Q146.2 103.9 153.9 105 M162.1 54.5 Q169.6 55.9 175.2 61.3" fill="none" stroke="#aeb7b7" stroke-width=".62" stroke-linecap="round" stroke-linejoin="round" opacity=".46" />
+        <path d="M133.1 93 Q137.8 68.7 153.2 51.7" fill="none" stroke="#aeb7b7" stroke-width=".62" stroke-linecap="round" stroke-linejoin="round" opacity=".46" />
+        <path d="M166.9 111.8 L168.5 114.8 M170.7 112.5 L172.3 115.5 M188.8 66.8 L192.2 66.3 M191.7 69.4 L195.1 68.8" fill="none" stroke="#aeb7b7" stroke-width=".62" stroke-linecap="round" stroke-linejoin="round" opacity=".46" />
+        <path d="M237.6 128.5 L232.7 126 Q225.4 130.3 217.2 126.3 Q208.5 120.9 207 115.7 Q197.6 122.3 188 121 Q178.5 119.6 170.3 111.2 Q165.4 104.4 154.2 100 L138.9 95.9 Q131.8 93.5 133.2 86.4 Q138.2 70 148.1 55.9 Q152.9 50.4 159 54.5 L171.8 64.1 Q182.1 70.2 190.5 69.9 Q202.1 71.1 209.1 77.8 Q216 84.6 216.6 96 Q221.7 94 231.2 97.5 Q239.5 101.6 240.5 109.9 L245.5 112.3 Z" fill="#0e1111" stroke="#aeb7b7" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M139.4 90.6 Q144 72.8 155.2 58.2 M142.8 90 Q147.7 73.5 156.8 61.2" fill="none" stroke="#899394" stroke-width=".72" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M149.4 91 Q158 98.5 165.5 102.2 M152 90 Q160.6 97.6 165.5 100 M161.7 65.8 Q172.9 68 180.4 71.6 M162.5 68.4 Q173.7 70.6 178.7 73" fill="none" stroke="#899394" stroke-width=".72" stroke-linecap="round" stroke-linejoin="round" opacity=".68" />
+        <path d="M150.6 92.7 L156.6 88.9 M153.5 95.2 L159.4 91.4 M157.2 98.1 L162.3 94 M160.5 99.8 L165.2 96.5 M162.5 66.2 L163.6 72.4 M166.7 66.1 L167.4 73.1 M171.3 67.2 L171.1 73.8 M174.6 68.8 L174.9 74.5" fill="none" stroke="#899394" stroke-width=".72" stroke-linecap="round" stroke-linejoin="round" opacity=".6" />
+        <path d="M170.6 98 Q174.4 94.3 177.1 88.9 Q179.7 83.5 180.2 78.2 M176.5 96.4 Q181.2 90.9 182.6 83.8" fill="none" stroke="#899394" stroke-width=".72" stroke-linecap="round" stroke-linejoin="round" opacity=".76" />
+        <path d="M177.9 108.2 Q173 103.6 174.8 97.8 M192.8 77.7 Q186.1 76.6 182.7 81.6" fill="none" stroke="#899394" stroke-width=".72" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M180.7 112.9 Q183.1 116.3 187.9 117 Q191.7 117.7 195.5 114 Q198.5 112.2 199.8 109.5 M198.2 77 Q202.4 76.8 205.9 80.2 Q208.8 82.7 208.2 88 Q208.6 91.5 207.2 94.2" fill="none" stroke="#899394" stroke-width=".72" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M182.8 112.8 Q186.5 115.8 189 114.8 L195.8 109.2 M199.4 78.7 Q204 79.8 204.8 82.4 L204.6 91.2" fill="none" stroke="#899394" stroke-width=".72" stroke-linecap="round" stroke-linejoin="round" opacity=".82" />
+        <path d="M183.2 111.9 L186.2 110.1 M184.4 113.7 L187.8 110.9 M186.5 113.6 L189.9 110.8 M199.4 78.7 L199.3 83.1 M201.1 79.5 L201 83.9 M202.3 81.2 L202.2 85.6" fill="none" stroke="#899394" stroke-width=".72" stroke-linecap="round" stroke-linejoin="round" opacity=".66" />
+        <path d="M195.5 105.7 Q196.1 98.2 201.6 93.1 M198.5 103.8 Q201 100.6 202 96.6" fill="none" stroke="#899394" stroke-width=".72" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M196.2 112.7 Q201.2 110.7 204.2 106.6 M207.6 89.3 Q209.1 94.5 207.8 99.4" fill="none" stroke="#899394" stroke-width=".72" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M197.4 112.2 L199.1 110.8 M200.4 110.3 L202.5 108 M208 90.6 L207.9 92.8 M208.3 94.1 L207.8 97.2" fill="none" stroke="#899394" stroke-width=".72" stroke-linecap="round" stroke-linejoin="round" opacity=".7" />
+        <path d="M223.9 122.9 Q227.7 123.6 230.8 125.7 M228 121 Q232.6 119.9 235.6 115.8 Q238.6 111.7 237.5 107.8 Q236.3 103.9 233 102.3" fill="none" stroke="#899394" stroke-width=".78" stroke-linecap="round" stroke-linejoin="round" opacity=".84" />
+        <path d="M225.2 122.4 Q228.2 120.5 228.7 117.4 Q229.2 112.1 232.2 110.2 M226.9 123.2 Q229 120.9 229.5 117.8 M236 108.7 Q235.2 106.1 233.5 105.3" fill="none" stroke="#899394" stroke-width=".78" stroke-linecap="round" stroke-linejoin="round" opacity=".78" />
+        <path d="M221.1 118.2 Q222.8 116.8 222.9 114.6 M224.6 111 Q226.3 109.6 226.4 107.4" fill="none" stroke="#899394" stroke-width=".78" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M221.3 115.7 L221.6 115.8 M224.9 108.4 L225.1 108.6" fill="none" stroke="#899394" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M222.6 110.9 Q221.6 108.8 220.5 106.8 Q218.9 106.9 218.5 108.5 M214.6 109.3 Q214.3 107 216.5 104.9" fill="none" stroke="#899394" stroke-width=".78" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M217.8 118.8 Q214.8 118.5 213.2 115.5 M224.4 103.1 Q222.3 101 220 101.7 M211.4 108.7 Q211.5 106.5 213.8 104.3" fill="none" stroke="#899394" stroke-width=".78" stroke-linecap="round" stroke-linejoin="round" opacity=".72" />
+        <path d="M218.2 120.1 L217.8 118.8 M215.9 119 L215.8 117.2 M214.3 117.7 L214.1 115.6 M220.1 100.8 L221.4 100.3 M222.1 101 L223.4 100.6" fill="none" stroke="#899394" stroke-width=".78" stroke-linecap="round" stroke-linejoin="round" opacity=".58" />
+        <path d="M212.8 118.6 Q208.3 113 208.8 107.7 Q209.7 103.7 212.7 101.9 Q217.4 98.6 222.4 98.8" fill="none" stroke="#899394" stroke-width=".78" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M135.7 89.9 Q142.3 72 152.3 55.7 M204 117.6 Q215.9 107.9 216.3 92.5" fill="none" stroke="#899394" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M237.2 127.2 L244.2 112.8 M239.3 127.1 L245.5 114.5" fill="none" stroke="#77a5c8" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
+        <g id="syrupPinch" display="none">
+          <path d="M163 117.7 L166.5 110.5 L162.7 112 M166.5 110.5 L167.7 114.4 M191.1 60.2 L187.6 67.3 L186.4 63.4 M187.6 67.3 L191.4 65.9" fill="none" stroke="#CDD0C2" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" />
+        </g>
+        <g id="syrupClip" display="none">
+          <path d="M199.6 69.9 L200.6 63.7 M203.8 71.9 L208.9 65.5 M179.3 120 L175 124.6" fill="none" stroke="#CDD0C2" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" />
+        </g>
+      </g>
+      <g id="syrupCap">
+        <path d="M238.4 131.1 Q241.6 120.4 248 111.3 L253.8 114.1 Q252.3 125.6 244.2 133.9 Z M240.5 128.8 L244.7 130.8 M242.3 125.2 L247.2 127.6 M244 121.6 L249.8 124.4 M245.8 118 L250.8 120.4 M247.5 114.4 L251.7 116.4" fill="none" stroke="#77a5c8" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </g>
+  </g>
+  <rect id="syrupLabel0" x="13" y="10" width="1" height="10" fill="none" stroke="#4c7da8" stroke-width="1" display="none" />
+  <rect id="syrupLabel1" x="13" y="156" width="1" height="10" fill="none" stroke="#8A653C" stroke-width="1" display="none" />
+  <rect id="syrupValue1" x="13" y="177" width="1" height="35" fill="none" stroke="#cdd0c2" stroke-width="1" display="none" />
+  <rect id="syrupLabel2" x="467" y="10" width="1" height="10" fill="none" stroke="#cdd0c2" stroke-width="1" display="none" />
+  <rect id="syrupValue2" x="467" y="33" width="1" height="35" fill="none" stroke="#cdd0c2" stroke-width="1" display="none" />
+  <rect id="syrupLabel3" x="446" y="123" width="1" height="10" fill="none" stroke="#CC1F00" stroke-width="1" display="none" />
+  <rect id="syrupFallback" x="240" y="102" width="1" height="18" fill="none" stroke="#cdd0c2" stroke-width="1" display="none" />
+  <g transform="translate(46 61.561)">
+    <g id="syrupFreqScale">
+      <path d="M-25.356 -6.794 L-30.427 -8.153" fill="none" stroke="#4c7da8" stroke-width="2" stroke-linecap="square" />
+      <path d="M-22.733 -13.125 L-27.28 -15.75" fill="none" stroke="#4c7da8" stroke-width="2" stroke-linecap="square" />
+      <path d="M-18.562 -18.562 L-22.274 -22.274" fill="none" stroke="#4c7da8" stroke-width="2" stroke-linecap="square" />
+      <path d="M-13.125 -22.733 L-15.75 -27.28" fill="none" stroke="#4c7da8" stroke-width="2" stroke-linecap="square" />
+      <path d="M-6.794 -25.356 L-8.153 -30.427" fill="none" stroke="#4c7da8" stroke-width="2" stroke-linecap="square" />
+      <path d="M0 -26.25 L0 -31.5" fill="none" stroke="#4c7da8" stroke-width="2" stroke-linecap="square" />
+      <path d="M6.794 -25.356 L8.153 -30.427" fill="none" stroke="#4c7da8" stroke-width="2" stroke-linecap="square" />
+      <path d="M13.125 -22.733 L15.75 -27.28" fill="none" stroke="#4c7da8" stroke-width="2" stroke-linecap="square" />
+      <path d="M18.562 -18.562 L22.274 -22.274" fill="none" stroke="#4c7da8" stroke-width="2" stroke-linecap="square" />
+      <path d="M22.733 -13.125 L27.28 -15.75" fill="none" stroke="#4c7da8" stroke-width="2" stroke-linecap="square" />
+      <path d="M25.356 -6.794 L30.427 -8.153" fill="none" stroke="#4c7da8" stroke-width="2" stroke-linecap="square" />
+      <path d="M3.5 0 C3.5 1.933 1.933 3.5 0 3.5 C-1.933 3.5 -3.5 1.933 -3.5 0 C-3.5 -1.933 -1.933 -3.5 0 -3.5 C1.933 -3.5 3.5 -1.933 3.5 0" fill="#4c7da8" stroke="none" />
+      <path d="M-33.5 4.5 H-29.5" fill="none" stroke="#4c7da8" stroke-width="1" stroke-linecap="square" />
+      <path d="M29.5 4.5 H33.5 M31.5 2.5 V6.5" fill="none" stroke="#4c7da8" stroke-width="1" stroke-linecap="square" />
+    </g>
+    <g id="syrupNeedle">
+      <path d="M0 0 V-29.624" fill="none" stroke="#4c7da8" stroke-width="2" stroke-linecap="square" />
+    </g>
+  </g>
+  <path d="M439.44 204.923 H452.56" fill="none" stroke="#A2A4A6" stroke-width="2" stroke-linecap="square" />
+  <g id="syrupMeter00">
+    <path d="M439.44 204.923 H452.56" fill="none" stroke="#CC1F00" stroke-width="2" stroke-linecap="square" />
+  </g>
+  <path d="M439.44 198.274 H452.56" fill="none" stroke="#A2A4A6" stroke-width="2" stroke-linecap="square" />
+  <g id="syrupMeter01">
+    <path d="M439.44 198.274 H452.56" fill="none" stroke="#CC1F00" stroke-width="2" stroke-linecap="square" />
+  </g>
+  <path d="M439.44 191.625 H452.56" fill="none" stroke="#A2A4A6" stroke-width="2" stroke-linecap="square" />
+  <g id="syrupMeter02">
+    <path d="M439.44 191.625 H452.56" fill="none" stroke="#CC1F00" stroke-width="2" stroke-linecap="square" />
+  </g>
+  <path d="M439.44 184.976 H452.56" fill="none" stroke="#A2A4A6" stroke-width="2" stroke-linecap="square" />
+  <g id="syrupMeter03">
+    <path d="M439.44 184.976 H452.56" fill="none" stroke="#CC1F00" stroke-width="2" stroke-linecap="square" />
+  </g>
+  <path d="M439.44 178.327 H452.56" fill="none" stroke="#A2A4A6" stroke-width="2" stroke-linecap="square" />
+  <g id="syrupMeter04">
+    <path d="M439.44 178.327 H452.56" fill="none" stroke="#CC1F00" stroke-width="2" stroke-linecap="square" />
+  </g>
+  <path d="M439.44 171.679 H452.56" fill="none" stroke="#A2A4A6" stroke-width="2" stroke-linecap="square" />
+  <g id="syrupMeter05">
+    <path d="M439.44 171.679 H452.56" fill="none" stroke="#CC1F00" stroke-width="2" stroke-linecap="square" />
+  </g>
+  <path d="M439.44 165.03 H452.56" fill="none" stroke="#A2A4A6" stroke-width="2" stroke-linecap="square" />
+  <g id="syrupMeter06">
+    <path d="M439.44 165.03 H452.56" fill="none" stroke="#CC1F00" stroke-width="2" stroke-linecap="square" />
+  </g>
+  <path d="M439.44 158.381 H452.56" fill="none" stroke="#A2A4A6" stroke-width="2" stroke-linecap="square" />
+  <g id="syrupMeter07">
+    <path d="M439.44 158.381 H452.56" fill="none" stroke="#CC1F00" stroke-width="2" stroke-linecap="square" />
+  </g>
+  <path d="M439.44 151.732 H452.56" fill="none" stroke="#A2A4A6" stroke-width="2" stroke-linecap="square" />
+  <g id="syrupMeter08">
+    <path d="M439.44 151.732 H452.56" fill="none" stroke="#CC1F00" stroke-width="2" stroke-linecap="square" />
+  </g>
+  <path d="M439.44 145.083 H452.56" fill="none" stroke="#A2A4A6" stroke-width="2" stroke-linecap="square" />
+  <g id="syrupMeter09">
+    <path d="M439.44 145.083 H452.56" fill="none" stroke="#CC1F00" stroke-width="2" stroke-linecap="square" />
+  </g>
+</svg>

@@ -1,0 +1,93 @@
+{
+  "about": "Squash stereo compressor for the Open-Field effect interface",
+  "name": "squash",
+  "version": 3,
+  "interface": 1,
+  "build": "squash_v3",
+  "sources": [
+    "examples/squash/squash.cpp",
+    "examples/squash/page_math.cpp",
+    "examples/squash/card.s",
+    "examples/squash/pictures.s"
+  ],
+  "works_with": [],
+  "serves": [],
+  "exports": [],
+  "marks": [],
+  "pictures": [
+    {
+      "name": "squash_off.svg",
+      "file": "examples/squash/squash_off.svg.make"
+    },
+    {
+      "name": "squash.svg",
+      "file": "examples/squash/squash.svg.make"
+    }
+  ],
+  "card": {
+    "level": 10,
+    "frame": "squash_frame",
+    "input": "squash_input",
+    "pick": null,
+    "pictures": true,
+    "asks": [
+      {
+        "kind": "effect",
+        "name": "squash",
+        "rides": "punch",
+        "mono": false,
+        "tails": true,
+        "cycles": 84000,
+        "state_bytes": 128,
+        "state_align": 4,
+        "process": "squash_process",
+        "reset": "squash_reset",
+        "shown": "squash_shown",
+        "params": [
+          {
+            "name": "lid",
+            "low": 0,
+            "high": 32767,
+            "start": 12451
+          },
+          {
+            "name": "cushion",
+            "low": 0,
+            "high": 32767,
+            "start": 9830
+          },
+          {
+            "name": "timing",
+            "low": 0,
+            "high": 32767,
+            "start": 11796
+          },
+          {
+            "name": "mix",
+            "low": 0,
+            "high": 32767,
+            "start": 28180
+          }
+        ]
+      },
+      {
+        "kind": "keeps",
+        "name": "settings",
+        "changed": "squash_changed",
+        "keys": [
+          {
+            "name": "squash_modes",
+            "files": [
+              "synth",
+              "drum",
+              "master"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "named": true,
+  "sum": true,
+  "path": null
+}

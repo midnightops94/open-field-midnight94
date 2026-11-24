@@ -1,0 +1,124 @@
+{
+  "name": "bark",
+  "version": 10,
+  "interface": 1,
+  "build": "build_bark",
+  "sources": [
+    "examples/bark/bark.cpp",
+    "examples/bark/page.cpp",
+    "examples/bark/bark_card.s",
+    "examples/bark/bark_pictures.s"
+  ],
+  "works_with": [],
+  "serves": [],
+  "exports": [],
+  "pictures": [
+    {
+      "name": "bark-page.svg",
+      "file": "examples/bark/bark-page.svg"
+    }
+  ],
+  "card": {
+    "level": 10,
+    "frame": "bark_frame",
+    "pick": null,
+    "pictures": true,
+    "input": "bark_input",
+    "folders": [],
+    "asks": [
+      {
+        "kind": "engine",
+        "name": "bark",
+        "stereo": true,
+        "cycles": 40000,
+        "voice_bytes": 560,
+        "voice_align": 4,
+        "render": "bark_render",
+        "reset": null,
+        "shown": "bark_shown",
+        "params": [
+          {
+            "name": "color",
+            "low": 0,
+            "high": 32767,
+            "start": 13762
+          },
+          {
+            "name": "strike",
+            "low": 0,
+            "high": 32767,
+            "start": 14745
+          },
+          {
+            "name": "bark",
+            "low": 0,
+            "high": 32767,
+            "start": 16056
+          },
+          {
+            "name": "trem",
+            "low": 0,
+            "high": 32767,
+            "start": 0
+          },
+          {
+            "name": "piano",
+            "low": 0,
+            "high": 32767,
+            "start": 4096
+          },
+          {
+            "name": "reserved",
+            "low": 0,
+            "high": 32767,
+            "start": 0
+          },
+          {
+            "name": "material",
+            "low": 0,
+            "high": 32767,
+            "start": 32767
+          }
+        ],
+        "sounds": [
+          {
+            "name": "smoked tines",
+            "file": "smoked tines.json"
+          },
+          {
+            "name": "velvet tide",
+            "file": "velvet tide.json"
+          },
+          {
+            "name": "redline reed",
+            "file": "redline reed.json"
+          },
+          {
+            "name": "reed clav",
+            "file": "reed clav.json"
+          },
+          {
+            "name": "finger pop",
+            "file": "finger pop.json"
+          },
+          {
+            "name": "rebound bass",
+            "file": "rebound bass.json"
+          },
+          {
+            "name": "stage eighty",
+            "file": "stage eighty.json"
+          },
+          {
+            "name": "felt room",
+            "file": "felt room.json"
+          }
+        ]
+      }
+    ]
+  },
+  "marks": [],
+  "named": true,
+  "sum": true,
+  "path": null
+}

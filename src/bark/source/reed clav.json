@@ -1,0 +1,1 @@
+{"name":"reed clav","type":"dsynth","synth_version":3,"octave":0,"knobs":[26869,30801,9502,0,12288,0,24576,8192],"adsr":[64,6930,11680,4080,2048,64,5117,24575],"fx_active":false,"fx_type":"spring","fx_params":[12672,16448,3584,6663,8000,8000,8000,8000],"lfo_active":false,"lfo_type":"tremolo","lfo_params":[4773,-26,264,12409,0,0,0,0],"op1f_engine":"bark"}
