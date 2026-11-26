@@ -149,16 +149,19 @@ void chance(unsigned raw){
     transform(chanceNodes[2],1024,0,0,1024,dx,0);
 }
 void writeNumber(unsigned lane,unsigned raw){
-    unsigned v=lane==1 ? (plonk_ratio_q16(raw)*100+32768)>>16 : (raw*100+16384)>>15;
+    // Divide the rounded numerator by 32767 exactly on the full encoder range.
+    const unsigned rounded=raw*99u+16383u;
+    const unsigned units=(rounded+(rounded>>15)+1u)>>15;
+    unsigned v=lane==1 ? (plonk_ratio_q16(raw)*100+32768)>>16 : units;
     if(lastNumber[lane]==int(v))return;
     lastNumber[lane]=int(v);
     char s[7];unsigned pos=0;
     if(lane==1){
         unsigned whole=0;while(v>=100){++whole;v-=100;}
         s[pos++]=char('0'+whole);s[pos++]='.';
-    }else if(v==100){s[pos++]='1';s[pos++]='0';v=0;}
+    }
     const unsigned tens=(205*v)>>11;
-    if(tens || lane==1)s[pos++]=char('0'+tens);
+    s[pos++]=char('0'+tens);
     s[pos++]=char('0'+v-10*tens);
     s[pos]=0;
     op1f_text_set(doc,valueIds[lane],s,0,lane<2?OP1F_LEFT:OP1F_RIGHT);

@@ -1,13 +1,14 @@
 {
   "about": "Organ drawbar synth with four generator models and a shared rotor clock.",
   "name": "organ",
-  "version": 5,
+  "version": 7,
   "interface": 1,
   "build": "organ",
   "sources": [
     "organ/audio.cpp",
     "organ/organ_rotor.cpp",
     "organ/page.cpp",
+    "organ/waves.cpp",
     "organ/waves.s",
     "organ/organ_card.s",
     "organ/organ_pictures.s"
@@ -64,6 +65,12 @@
         "listens": false,
         "memory": null,
         "process": "organ_rotor_tick"
+      },
+      {
+        "kind": "memory",
+        "name": "organ_waves",
+        "bytes": 209922,
+        "align": 32
       }
     ]
   },

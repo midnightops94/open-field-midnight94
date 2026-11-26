@@ -71,7 +71,7 @@ void bind() {
     for(unsigned i=0;i<9;++i)icons[i]=numbered("pci",i);
     frames[0]=part("pc_frame");frames[1]=part("pc_panel");
     needle=part("pongspinmark");
-    text("pongn0","COURT");text("pongn1","RALLY");text("pongn2","SPIN",OP1F_CENTRE);text("pongn3","INPUT",OP1F_CENTRE);
+    text("pongn0","TABLE");text("pongn1","RALLY");text("pongn2","SPIN",OP1F_CENTRE);text("pongn3","INPUT",OP1F_CENTRE);
 }
 void draw_pose(pong_live_pose::Controls c,pong_instrument_choice::Choice mode) {
     const unsigned texture=mode.bits==12?0:mode.bits==8?1:2;
@@ -108,13 +108,13 @@ void draw(const unsigned* v,pong_instrument_choice::Choice ch) {
     const char* divisions[]={"1/16","1/8","1/4","1/2","1/16T","1/8T"};
     digits(cv,pong_extended_court::milliseconds(pong_extended_court::fitted_samples(
         pong_extended_court::requested_samples(int(v[0]<<16)),pong_extended_court::maximum_samples(ch.bits))));
-    text("pongn0",ch.sync?"COURT SYNC":"COURT MS");
+    text("pongn0",ch.sync?"TABLE SYNC":"TABLE MS");
     text("pongv0",ch.sync?divisions[unsigned(pong_sync_word::division(v[0]))]:cv);
     digits(rv,pong_rally::repeats(v[1]));text("pongv1",rv);
     for(unsigned i=0;i<12;++i)show(bars[i],i<((v[3]*12u+16383u)/32767u));
 }
 void card(pong_instrument_choice::Choice c,unsigned selection) {
-    const char* title[]={"COURT","WALL","PLAYERS","TEXTURE"};
+    const char* title[]={"TABLE","WALL","PLAYERS","TEXTURE"};
     const char* walls[]={"FOAM","WOOD","CONCRETE"};
     const char* values[]={c.sync?"SYNC":"MS",walls[c.wall],c.parallel?"DOUBLES":"SINGLES",
                           c.bits==12?"12 BIT":c.bits==8?"8 BIT":"4 BIT"};
@@ -184,14 +184,10 @@ extern "C" void pong_frame(const Op1fFrame* now) {
     if (!requested) {
         requested=true;
         document=op1f_picture(&op1f_card_pong,"pong.svg");
-        const bool fallback=!document;
-        if (fallback) {
-            document=op1f_picture(&op1f_card_pong,"pong-safe.svg");
-        }
         if (document) {
             bind();
-            off_layer=part(fallback ? "fxOff" : "stockFxOff");
-            if (fallback) text("fxOffText","fx off",OP1F_CENTRE);
+            off_layer=part("fxOff");
+            text("fxOffText","fx off",OP1F_CENTRE);
             show(off_layer,false);
         }
     }

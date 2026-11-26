@@ -2,6 +2,7 @@
 #include "engine_turns.hpp"
 #include "organ_controls.hpp"
 #include "organ_rotor.hpp"
+#include "waves.hpp"
 
 extern "C" const Op1fCard op1f_card_organ OP1F_NAMED("op1f_card_organ");
 
@@ -163,6 +164,7 @@ extern "C" int organ_input(const Op1fInput* event) {
 extern "C" void organ_frame(const Op1fFrame* now) OP1F_NAMED("organ_frame");
 extern "C" void organ_frame(const Op1fFrame* now) {
     if (!now || now->bytes < sizeof(Op1fFrame) || now->disk) return;
+    organ_prepare_waves();
     if (!picture) bind();
     if (!stood && picture) stood = op1f_page_stand_in(&op1f_card_organ, 0, picture) != 0;
     const unsigned place = slot;

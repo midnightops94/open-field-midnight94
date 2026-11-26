@@ -11,13 +11,16 @@ SID is a chip-style synthesizer with blended waveforms, oscillator sync and ring
 
 Hold Shift while turning for finer adjustment. The factory bank contains Ceramic, Elastic Sync, Glass Wire, Pocket Bass, Small Lantern, Pulse Clavi, Foil Ticks and Raster Lead.
 
+The four main controls use the beetle illustration as their readout. A press opens the corresponding mode card.
+
 ## Build
 
-Use Open-Field 0.14 commit `bb901bbe037db4114d294b8e3c4a8f9a7ddf28aa` and its documented Blackfin toolchain. Run from this directory with a new output path.
+Set `SDK` to the absolute path of the Open-Field 0.20 checkout at `25a8d7f524ec3f46902cbd8a96779df32fa5e9bc` with its Blackfin toolchain installed. Run the commands from this directory. [Open-Field build guide](https://github.com/LaP0573/open-field/blob/25a8d7f524ec3f46902cbd8a96779df32fa5e9bc/docs/build.md)
 
 ```sh
-sh build.sh /path/to/open-field /tmp/sid.pack
-sha256sum /tmp/sid.pack
+OUT=$(mktemp -d)
+sh build.sh "$SDK" "$OUT/sid.pack"
+sha256sum "$OUT/sid.pack"
 ```
 
-Expected SHA-256 is `efddad065b91c49ad3dd37413ab6660c6c1ddf81cc307f0b5504ebc9d41093e5` (44,395 bytes). The fixed-point DSP tables, picture and all eight editable preset JSON files are in `source/`. Text is rendered by the base on the device. [Open-Field build guide](https://github.com/LaP0573/open-field/blob/bb901bbe037db4114d294b8e3c4a8f9a7ddf28aa/docs/build.md) · [Open-Field MIT license](https://github.com/LaP0573/open-field/blob/bb901bbe037db4114d294b8e3c4a8f9a7ddf28aa/LICENSE)
+Expected SHA-256 for the 44,395-byte pack is `efddad065b91c49ad3dd37413ab6660c6c1ddf81cc307f0b5504ebc9d41093e5`.

@@ -1,0 +1,26 @@
+{
+  "parent_sha256": "4262b0197170a2b8b9490b312ee80bba458c899fb736150027901a7f4a99555f",
+  "candidate_sha256": "1e937f83d91ce3b95ebfbeb3b705780760e308409bf06d9126785b3600cc5d50",
+  "candidate_bytes": 82239,
+  "identical_v014_and_v020": true,
+  "changed_source": [
+    "page.cpp",
+    "recipe.json"
+  ],
+  "unchanged_audio_object": "e0f27619d3c578417310c39d0ee88dbee448cd4b486caf8d40319f8940808cae",
+  "candidate_page_object": "2280138e3da97eb404f79ff81ad0feff8379ddd52577edc0f690560887d1fb97",
+  "unchanged_picture_programs": {
+    "bark-page.svg": "e8f30768f5736dfe2d406aad0d15b0c6825d26c7749e16ed24e00932d51ea8fb"
+  },
+  "unchanged_embedded_bank": {
+    "smoked tines": "0901136a479ad249b36bd30156d1733ea71c55b4947cbf8852899ab99d9cdb24",
+    "velvet tide": "75c79f1af4532f5f279a17b412b7bb45e04afbd2baf3d8672b2524c21accc415",
+    "redline reed": "6c9d2be41a9060aba3d1075ea8c0fd475902c7688a62f1fcde6a4ef7fbc6159c",
+    "reed clav": "ebc4cd1fb96f846bdd8592a73ee707488db2c3db15cff53d1e24b70bce3b0103",
+    "finger pop": "dd1d9fa09da70a55dae29a70b4aa9d24f7ca212bf4d5b4d7ff8733d998fc1a0b",
+    "rebound bass": "b016eecf06b499cd1cc5486b84d73d8b6aeec162c320b8d7be7db9cff9ee35ba",
+    "stage eighty": "58485f4d33a8da7d1277de368c4b7c2298f5dd5b7c2f1577040e922779e8aafc",
+    "felt room": "e534984457c7afb74b81ac5e57f3399521acbbe4471bc1e95941cebc0e59136b"
+  },
+  "all_engine_descriptor_fields_identical": true
+}

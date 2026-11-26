@@ -5,6 +5,7 @@
 #include "build_r6e_card.h"
 #include "organ_drive.hpp"
 #include "organ_rotor.hpp"
+#include "waves.hpp"
 #include "contributions/organ-drive-smoothing/baseline/source/organ_control_product_20261109/tone.hpp"
 
 namespace {
@@ -50,7 +51,8 @@ extern "C" void organ_render(const Op1fVoiceBlock* block) {
     }
     const int* values = block->values;
     organ_rotor::set_spin(word(values[7]));
-    if (!voice->active || !block->step || block->step >= 0x40000000u) {
+    const auto* rows = organ_waves::ready();
+    if (!rows || !voice->active || !block->step || block->step >= 0x40000000u) {
         silence(block->out, 2 * render_frames);
         return;
     }
@@ -66,7 +68,7 @@ extern "C" void organ_render(const Op1fVoiceBlock* block) {
     controls.value[organ::GRIT] = word(values[5]);
     controls.value[organ::PERC] = word(values[6]);
     controls.value[organ::VIBE] = word(values[0]);
-    if (!organ_fast::render(voice->tone, block->out, block->step * 2, controls)) return;
+    if (!organ_fast::render(voice->tone, block->out, block->step * 2, controls, rows)) return;
 
     const unsigned raw_drive = word(values[5]);
     const auto drive = organ_drive::prepare(raw_drive);

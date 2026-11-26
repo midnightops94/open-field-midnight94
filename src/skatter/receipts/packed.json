@@ -1,0 +1,20 @@
+{
+  "version": 8,
+  "candidate_sha256": "bbeb61264035d38b129d023c388043d535942b1b340a30fce4ed7adb39a641be",
+  "parent_sha256": "acf51298b919d3d1018279f011e17bb3c4658ff79edb04373afebaf8043e4000",
+  "encoder_trial_install_matches_source_pack": true,
+  "sdk_020_014_byte_identical": true,
+  "code_changes": [
+    "display.hpp",
+    "recipe.json"
+  ],
+  "inputs_and_asks_identical": true,
+  "turn_handler_identical": true,
+  "sound_and_preset_data_unchanged": true,
+  "unchanged_picture_hashes": {
+    "skatter_off.svg": "958f07f437266135860ede5d1718b06b10bcaae5e3de216f81c13d0ea8445332",
+    "night.svg": "73102571d74b4ae5f60576e276573a9fc5a956f16b5cdafb5102ee334933a879"
+  },
+  "byte_change": -96,
+  "imports_unchanged": true
+}

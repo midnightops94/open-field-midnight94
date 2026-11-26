@@ -1,21 +1,81 @@
 {
-  "name": "syrup", "version": 8, "interface": 1, "build": "syrup",
-  "sources": ["audio.cpp","dsp/core.cpp","page.cpp","dsp/presenter_memory.cpp","dsp/target_math.cpp","card.s","pictures.s"],
-  "pictures": [{"name":"syrup.svg","file":"syrup.svg.make"},{"name":"syrup-safe.svg","file":"syrup-safe.svg.make"}],
-  "works_with": [], "serves": [], "exports": [], "marks": [],
-  "named": true, "sum": true, "path": null,
+  "name": "syrup",
+  "version": 11,
+  "interface": 1,
+  "build": "syrup",
+  "sources": [
+    "audio.cpp",
+    "dsp/core.cpp",
+    "page.cpp",
+    "dsp/presenter_memory.cpp",
+    "dsp/target_math.cpp",
+    "standard_turns.cpp",
+    "card.s",
+    "pictures.s"
+  ],
+  "pictures": [
+    {
+      "name": "syrup.svg",
+      "file": "syrup.svg.make"
+    },
+    {
+      "name": "syrup-safe.svg",
+      "file": "syrup-safe.svg.make"
+    }
+  ],
+  "works_with": [],
+  "serves": [],
+  "exports": [],
+  "marks": [],
+  "named": true,
+  "sum": true,
+  "path": null,
   "card": {
-    "level": 10, "frame": "syrup_frame", "input": null, "pick": null, "pictures": true,
-    "asks": [{
-      "kind": "effect", "name":"syrup", "rides":"nitro", "mono":false, "tails":true,
-      "cycles":80000, "state_bytes":232, "state_align":4,
-      "process":"syrup_process", "reset":"syrup_reset", "shown":"syrup_shown",
-      "params":[
-        {"name":"freq","low":0,"high":65535,"start":58269},
-        {"name":"res","low":0,"high":65535,"start":0},
-        {"name":"drive","low":0,"high":65535,"start":0},
-        {"name":"mix","low":0,"high":65535,"start":65535}
-      ]
-    }]
+    "level": 10,
+    "frame": "syrup_standard_frame",
+    "input": "syrup_standard_input",
+    "pick": null,
+    "pictures": true,
+    "asks": [
+      {
+        "kind": "effect",
+        "name": "syrup",
+        "rides": "nitro",
+        "mono": false,
+        "tails": true,
+        "cycles": 80000,
+        "state_bytes": 232,
+        "state_align": 4,
+        "process": "syrup_process",
+        "reset": "syrup_reset",
+        "shown": "syrup_standard_shown",
+        "params": [
+          {
+            "name": "freq",
+            "low": 0,
+            "high": 65535,
+            "start": 58269
+          },
+          {
+            "name": "res",
+            "low": 0,
+            "high": 65535,
+            "start": 0
+          },
+          {
+            "name": "drive",
+            "low": 0,
+            "high": 65535,
+            "start": 0
+          },
+          {
+            "name": "mix",
+            "low": 0,
+            "high": 65535,
+            "start": 65535
+          }
+        ]
+      }
+    ]
   }
 }

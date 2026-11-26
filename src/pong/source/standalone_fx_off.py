@@ -1,6 +1,5 @@
-# Our independently drawn fallback uses primitive shapes and the Field's stroke font.
-# This card only appears if the unit cannot supply the verified stock artwork.
-FALLBACK = b'''<g id="fxOff" display="none">
+# The off group is hidden by the page callback before its first display.
+FALLBACK = b'''<g id="fxOff">
 <rect x="0" y="0" width="480" height="220" fill="#000000" fill-opacity="0.8"/>
 <rect x="108" y="75" width="264" height="70" rx="12" fill="#CDD0C2"/>
 <rect x="179" y="80" width="188" height="60" rx="7" fill="#000000"/>

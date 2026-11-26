@@ -1,0 +1,42 @@
+{
+  "scope": "Published M4 boot loader with host I/O and exact OS 1.7.3+0 stock records",
+  "ampig_v11_sha256": "7546d16ff2a7439d72585f6f45bc078ec9e5de1fcf85fb93b2fb3024b962af7d",
+  "cases": {
+    "020-standalone": {
+      "runs": 2,
+      "ampig_version": 11,
+      "left_out": [],
+      "standbys": []
+    },
+    "020-all-13": {
+      "runs": 14,
+      "ampig_version": 11,
+      "left_out": [],
+      "standbys": []
+    },
+    "020-four-addons": {
+      "runs": 18,
+      "ampig_version": 11,
+      "left_out": [],
+      "standbys": []
+    },
+    "021-standalone": {
+      "runs": 2,
+      "ampig_version": 11,
+      "left_out": [],
+      "standbys": []
+    },
+    "021-all-13": {
+      "runs": 14,
+      "ampig_version": 11,
+      "left_out": [],
+      "standbys": []
+    },
+    "021-four-addons": {
+      "runs": 18,
+      "ampig_version": 11,
+      "left_out": [],
+      "standbys": []
+    }
+  }
+}

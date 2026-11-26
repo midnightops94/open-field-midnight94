@@ -1,0 +1,35 @@
+{
+  "engine": "plonk",
+  "baseline_pack": {
+    "version": 7,
+    "bytes": 58638,
+    "sha256": "f2854cf0debae6ea50c42f78953c7e2907533854615fe6058a042b95025ae78e"
+  },
+  "candidate_pack": {
+    "version": 8,
+    "bytes": 58582,
+    "sha256": "fd8a04e80fd5543959de5d0ff956c3548bcb08b69c2ecaa3d7cb78752df814c2"
+  },
+  "open_field_0_14_and_0_20_builds_byte_identical": true,
+  "native_dsp_objects_byte_identical": {
+    "plonk_audio.cpp.o": "7171e594d6d4dda87ad344cde872786b76861cd30c5c6c2e046eb863c0be73b1",
+    "plonk_core.cpp.o": "d6fdadf30b3ade60768f1e6dd9793d959ce2d0c88c1685fb52c22fa5e4f13d0b"
+  },
+  "packed_factory_sounds_unchanged": 8,
+  "packed_control_words_and_audio_contract_unchanged": true,
+  "embedded_artwork_unchanged": {
+    "plonk.svg": "12b52f6c3f30c9fc3bef976dcdcbb4c82eda4805f5c587c2a1dbe01b2048a82a"
+  },
+  "rendered_readout_checks": {
+    "unitless_readouts_per_lane": 32768,
+    "unitless_lanes": [
+      "fold",
+      "strike",
+      "chance"
+    ],
+    "ratio_readouts": 32768,
+    "heard_values_drive_text_and_geometry": true,
+    "ratio_snap_and_waveform_spring_modes_preserved": true
+  },
+  "physical_hardware_verified": false
+}

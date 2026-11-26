@@ -1,0 +1,18 @@
+{
+  "exact_anchors": {
+    "frLabel0": "M13,20V10",
+    "frLabel1": "M13,166V156",
+    "frLabel2": "M467,20V10",
+    "frLabel3": "M467,166V156",
+    "frValue1": "M13,212V177",
+    "frValue2": "M467,68V33",
+    "frValue3": "M467,212V177",
+    "frTitle": "M273.5,104.25V89.25",
+    "frChoice": "M273.5,129.35V114.35"
+  },
+  "svg_ids": 39,
+  "page_cases": "32,768 effective values each for Position, Mute and Amp, both out-of-range clamps, all 100 two-digit codes per lane, 6 pickup end-stop turns, 12 popup states, 3 visible Strings icons, preset setting and popup return, 4 hands, 8 other turn cases, native anchors, joined string segments and activity release pass",
+  "startup": "No picture read in 24 unrelated frames, unset slot, foreign page, covered or disk state; first unobscured Fret frame reads once.",
+  "refused_picture": "A refused picture is attempted once, with the base blank page retained.",
+  "initial_visibility_overridden": "32,768 effective values each for Position, Mute and Amp, both out-of-range clamps, all 100 two-digit codes per lane, 6 pickup end-stop turns, 12 popup states, 3 visible Strings icons, preset setting and popup return, 4 hands, 8 other turn cases, native anchors, joined string segments and activity release pass"
+}

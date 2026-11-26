@@ -1,0 +1,89 @@
+{
+  "sdk": "Open-Field 0.20, base v38",
+  "sdk_commit": "25a8d7f524ec3f46902cbd8a96779df32fa5e9bc",
+  "sdk_profile": "op1f-1.7.3.json",
+  "blackfin_toolchain": "bfin-elf-g++ (GCC) 8.0.0 20171013 (experimental)",
+  "rebuilds": 13,
+  "byte_identical": 13,
+  "sdk_pack_check_passes": 13,
+  "devices": {
+    "ampig": {
+      "sha256": "7546d16ff2a7439d72585f6f45bc078ec9e5de1fcf85fb93b2fb3024b962af7d",
+      "bytes": 156026,
+      "byte_identical": true,
+      "sdk_pack_check_passed": true
+    },
+    "bark": {
+      "sha256": "1e937f83d91ce3b95ebfbeb3b705780760e308409bf06d9126785b3600cc5d50",
+      "bytes": 82239,
+      "byte_identical": true,
+      "sdk_pack_check_passed": true
+    },
+    "cube": {
+      "sha256": "0af690a65017443f9eb172d5a6b308e6d34e8cf5dafda6f56a3223faadf421d5",
+      "bytes": 18290,
+      "byte_identical": true,
+      "sdk_pack_check_passed": true
+    },
+    "fret": {
+      "sha256": "cffdb9701357144dbe80958ac010055c9d32be118413c0a871eb3991d27f11fd",
+      "bytes": 64220,
+      "byte_identical": true,
+      "sdk_pack_check_passed": true
+    },
+    "organ": {
+      "sha256": "4db08b447cb5175d7d5efef4d147fed7a22d154e77817729e5336da5fa874ec6",
+      "bytes": 161898,
+      "byte_identical": true,
+      "sdk_pack_check_passed": true
+    },
+    "plonk": {
+      "sha256": "fd8a04e80fd5543959de5d0ff956c3548bcb08b69c2ecaa3d7cb78752df814c2",
+      "bytes": 58582,
+      "byte_identical": true,
+      "sdk_pack_check_passed": true
+    },
+    "pong": {
+      "sha256": "a902f79bb6aed1f4c705f17961cc847bf89ba62154ec7d439c2071ba5bc2b31a",
+      "bytes": 703470,
+      "byte_identical": true,
+      "sdk_pack_check_passed": true
+    },
+    "sid": {
+      "sha256": "efddad065b91c49ad3dd37413ab6660c6c1ddf81cc307f0b5504ebc9d41093e5",
+      "bytes": 44395,
+      "byte_identical": true,
+      "sdk_pack_check_passed": true
+    },
+    "skatter": {
+      "sha256": "bbeb61264035d38b129d023c388043d535942b1b340a30fce4ed7adb39a641be",
+      "bytes": 150207,
+      "byte_identical": true,
+      "sdk_pack_check_passed": true
+    },
+    "split": {
+      "sha256": "3bad3c8bc62b44c2bccb82441f433431268b52cfccec7ba266aad81f8e06ba62",
+      "bytes": 56709,
+      "byte_identical": true,
+      "sdk_pack_check_passed": true
+    },
+    "squash": {
+      "sha256": "ffafe18bb4aeae63cdc834ca9ab441d459081ed2f3c4795789a4b71b4bdcedc8",
+      "bytes": 59243,
+      "byte_identical": true,
+      "sdk_pack_check_passed": true
+    },
+    "syrup": {
+      "sha256": "4be2788cab1446e8028f4680901167bb9ed4e34eb4941617ebd45eb46390a33b",
+      "bytes": 271885,
+      "byte_identical": true,
+      "sdk_pack_check_passed": true
+    },
+    "wave": {
+      "sha256": "01a5d236676bebd6a079c635dcb91d925cb91afcf72314630637fe0364602430",
+      "bytes": 161084,
+      "byte_identical": true,
+      "sdk_pack_check_passed": true
+    }
+  }
+}

@@ -1,0 +1,477 @@
+{
+  "scope": "Open-Field 0.24 card, engine, effect and options table validators run in GNU Blackfin simulation on the SDK relocations already matched to the production host loader CRCs. Checks cover the thirteen Midnight94 card descriptors and their ask tables only. The simulator does not run the base audio or UI runtime.",
+  "sdk_commit": "c65e40de0ef51f601bc0445daa85d906378dea52",
+  "pack_sha256": {
+    "ampig.pack": "7546d16ff2a7439d72585f6f45bc078ec9e5de1fcf85fb93b2fb3024b962af7d",
+    "bark.pack": "1e937f83d91ce3b95ebfbeb3b705780760e308409bf06d9126785b3600cc5d50",
+    "cube.pack": "0af690a65017443f9eb172d5a6b308e6d34e8cf5dafda6f56a3223faadf421d5",
+    "fret.pack": "cffdb9701357144dbe80958ac010055c9d32be118413c0a871eb3991d27f11fd",
+    "organ.pack": "4db08b447cb5175d7d5efef4d147fed7a22d154e77817729e5336da5fa874ec6",
+    "plonk.pack": "fd8a04e80fd5543959de5d0ff956c3548bcb08b69c2ecaa3d7cb78752df814c2",
+    "pong.pack": "a902f79bb6aed1f4c705f17961cc847bf89ba62154ec7d439c2071ba5bc2b31a",
+    "sid.pack": "efddad065b91c49ad3dd37413ab6660c6c1ddf81cc307f0b5504ebc9d41093e5",
+    "skatter.pack": "bbeb61264035d38b129d023c388043d535942b1b340a30fce4ed7adb39a641be",
+    "split.pack": "3bad3c8bc62b44c2bccb82441f433431268b52cfccec7ba266aad81f8e06ba62",
+    "squash.pack": "ffafe18bb4aeae63cdc834ca9ab441d459081ed2f3c4795789a4b71b4bdcedc8",
+    "syrup.pack": "4be2788cab1446e8028f4680901167bb9ed4e34eb4941617ebd45eb46390a33b",
+    "wave.pack": "01a5d236676bebd6a079c635dcb91d925cb91afcf72314630637fe0364602430"
+  },
+  "profiles": {
+    "N1-base_and_13": {
+      "ampig": {
+        "address": 2368684596,
+        "relocated_sha256": "ec2b55d03565a36e6bc3402301c045464debe9660ece60778bdd39cf25da469f",
+        "ask_kinds": [
+          7,
+          6
+        ],
+        "passed": true
+      },
+      "bark": {
+        "address": 2368711508,
+        "relocated_sha256": "75613e351ad7866d7c572a8749c295f1aa107e9c55318543be560e85408e8f10",
+        "ask_kinds": [
+          8
+        ],
+        "passed": true
+      },
+      "cube": {
+        "address": 2369422036,
+        "relocated_sha256": "c5e128fc7605262e936b30d700c2e9c1e2b1eaa8be492cc52aa6aca444e6fbd3",
+        "ask_kinds": [
+          7
+        ],
+        "passed": true
+      },
+      "fret": {
+        "address": 2369437620,
+        "relocated_sha256": "4f63ec56fa43bddac3c2cd7e7182b1855251392211c5436ddf2ba594a8ef0269",
+        "ask_kinds": [
+          8
+        ],
+        "passed": true
+      },
+      "organ": {
+        "address": 2369483828,
+        "relocated_sha256": "59fbea1706f4cf4e0303fe0bdd21cb1b87a3883ebf78f8ec2dba701b8133468f",
+        "ask_kinds": [
+          8,
+          3,
+          4
+        ],
+        "passed": true
+      },
+      "plonk": {
+        "address": 2369618132,
+        "relocated_sha256": "cd095beaa1b6e8c8b838cc4f3eb708a47472f2ce3d7b209f36d5c50101eda1d5",
+        "ask_kinds": [
+          8
+        ],
+        "passed": true
+      },
+      "pong": {
+        "address": 2369644628,
+        "relocated_sha256": "4af207bfab59cd3f08bea0594ad55370e59bbe3e42410f7ab29d5a8bf1ad1c35",
+        "ask_kinds": [
+          7,
+          6
+        ],
+        "passed": true
+      },
+      "sid": {
+        "address": 2369701108,
+        "relocated_sha256": "73beca901879ce1e7878b1959eddf7d1a317378fe713b419cb188353f730e6cd",
+        "ask_kinds": [
+          8
+        ],
+        "passed": true
+      },
+      "skatter": {
+        "address": 2369730580,
+        "relocated_sha256": "733dc78efe67719c7288d15d5b1d8f80f7a2f97ac5c8dca7f7ecf0a7327b5e96",
+        "ask_kinds": [
+          7,
+          6
+        ],
+        "passed": true
+      },
+      "split": {
+        "address": 2369753140,
+        "relocated_sha256": "5fa7a0774ca7ef5499ac1aeded145dadcf20cb8ab37a8911bec44c4f702d3707",
+        "ask_kinds": [
+          7,
+          6
+        ],
+        "passed": true
+      },
+      "squash": {
+        "address": 2369773812,
+        "relocated_sha256": "8b495840c07a45b1c8634b615c4d717b596b3410997edf6908a4a0cf2fad2968",
+        "ask_kinds": [
+          7,
+          6
+        ],
+        "passed": true
+      },
+      "syrup": {
+        "address": 2369801492,
+        "relocated_sha256": "9c66226ebb426540de297de769116c3a45bd74f38176f615712c4f838f4d37eb",
+        "ask_kinds": [
+          7
+        ],
+        "passed": true
+      },
+      "wave": {
+        "address": 2369822260,
+        "relocated_sha256": "cc6f6137fac724123166c6289d23e19435b93e2dee9928ad200b58a393488cbe",
+        "ask_kinds": [
+          8,
+          4
+        ],
+        "passed": true
+      }
+    },
+    "N1-official_four": {
+      "ampig": {
+        "address": 2369143188,
+        "relocated_sha256": "dc10e1cc28a9bf72a33e70cfd152739f5fbcfd524393bd2e187987d55e9d4d10",
+        "ask_kinds": [
+          7,
+          6
+        ],
+        "passed": true
+      },
+      "bark": {
+        "address": 2369170100,
+        "relocated_sha256": "735e20c5f902d42b5a8a5c4900721a3149a8a712266589d6af979f6610f84ccd",
+        "ask_kinds": [
+          8
+        ],
+        "passed": true
+      },
+      "cube": {
+        "address": 2369880628,
+        "relocated_sha256": "728af37131577fb2079a898039b861304a0688378b9984b2f259906017fa716e",
+        "ask_kinds": [
+          7
+        ],
+        "passed": true
+      },
+      "fret": {
+        "address": 2369896212,
+        "relocated_sha256": "0ff90ca3edb77d90e46c48b1183135b9feae356c62e62328b8d972f7e71a1cec",
+        "ask_kinds": [
+          8
+        ],
+        "passed": true
+      },
+      "organ": {
+        "address": 2370232180,
+        "relocated_sha256": "c7bba2abdc6edb8449bc06b7d517ed220fda19929ea8f9b6297e5a120669e105",
+        "ask_kinds": [
+          8,
+          3,
+          4
+        ],
+        "passed": true
+      },
+      "plonk": {
+        "address": 2370366484,
+        "relocated_sha256": "d658062beb43356224e645b6074ce7d3246f7949da808d01bc6366f144ef486b",
+        "ask_kinds": [
+          8
+        ],
+        "passed": true
+      },
+      "pong": {
+        "address": 2370392980,
+        "relocated_sha256": "6f230b519a8fffdb677740309623d539a04c26bc8fbe775268f4e6ef61763f32",
+        "ask_kinds": [
+          7,
+          6
+        ],
+        "passed": true
+      },
+      "sid": {
+        "address": 2370449460,
+        "relocated_sha256": "614f409261abaddd7adb23ee74f0617d3c2c941413eda85f849de9547a8eaff6",
+        "ask_kinds": [
+          8
+        ],
+        "passed": true
+      },
+      "skatter": {
+        "address": 2370510164,
+        "relocated_sha256": "40b232a8185090b6eb135acd5147d8ca6b9f549d47a2f5e118a41b48b855ad74",
+        "ask_kinds": [
+          7,
+          6
+        ],
+        "passed": true
+      },
+      "split": {
+        "address": 2370532724,
+        "relocated_sha256": "7e3b9f30e78e155a1814ec52d22fb5c7200a0c341c6c77f59a171e76f3f6edb9",
+        "ask_kinds": [
+          7,
+          6
+        ],
+        "passed": true
+      },
+      "squash": {
+        "address": 2370553396,
+        "relocated_sha256": "c7f0d3a1574233619a64bc4253b5189620a627dee03d7df4457eb7423442c206",
+        "ask_kinds": [
+          7,
+          6
+        ],
+        "passed": true
+      },
+      "syrup": {
+        "address": 2370581076,
+        "relocated_sha256": "606396cf585ddc341d3d253ec938c069b3df8b8cabd1a2244650169b64e1e0fc",
+        "ask_kinds": [
+          7
+        ],
+        "passed": true
+      },
+      "wave": {
+        "address": 2370601844,
+        "relocated_sha256": "31b632eb84be76de21cbe60e4b9b3da8973b1a22fbc5b8f8cd956bc2cfb575ad",
+        "ask_kinds": [
+          8,
+          4
+        ],
+        "passed": true
+      }
+    },
+    "N2-base_and_13": {
+      "ampig": {
+        "address": 2231369748,
+        "relocated_sha256": "7fd1d926cf7681955a8128cd546d8ed827df752d8291b35a0daf147b3125cc24",
+        "ask_kinds": [
+          7,
+          6
+        ],
+        "passed": true
+      },
+      "bark": {
+        "address": 2231396660,
+        "relocated_sha256": "73a8f70245074d21f15e6ccdbd6bf5479c95b19ac3fdd22f5e9d9eff3c3cbbfe",
+        "ask_kinds": [
+          8
+        ],
+        "passed": true
+      },
+      "cube": {
+        "address": 2232107188,
+        "relocated_sha256": "06b0c76573496648f08928552486f4b247bb42237bd7bf78bcbc967976d9a1cf",
+        "ask_kinds": [
+          7
+        ],
+        "passed": true
+      },
+      "fret": {
+        "address": 2232122772,
+        "relocated_sha256": "e1275267c6506f57408fcc466aa767af896b29294fbc7bf1b1d1b1570ed86122",
+        "ask_kinds": [
+          8
+        ],
+        "passed": true
+      },
+      "organ": {
+        "address": 2232168980,
+        "relocated_sha256": "a679de036830942a3b823bedfead6a77dc07eed2735ec95f104d617d51e30309",
+        "ask_kinds": [
+          8,
+          3,
+          4
+        ],
+        "passed": true
+      },
+      "plonk": {
+        "address": 2232303284,
+        "relocated_sha256": "625b2f56ec2c829f4f0799aaf1959db731883669169a9b2ef81c4e77893ea62f",
+        "ask_kinds": [
+          8
+        ],
+        "passed": true
+      },
+      "pong": {
+        "address": 2232329780,
+        "relocated_sha256": "037efe98d9410b74cda084c309fc4c5d257393d3337da69a079cd6707850f4d5",
+        "ask_kinds": [
+          7,
+          6
+        ],
+        "passed": true
+      },
+      "sid": {
+        "address": 2232386260,
+        "relocated_sha256": "2a46e466061dd1a9cf9710e69b960e0fd49fe2d5c8dc1999a83c68fda6fe621a",
+        "ask_kinds": [
+          8
+        ],
+        "passed": true
+      },
+      "skatter": {
+        "address": 2232415732,
+        "relocated_sha256": "7b04f2889cda2af3f709aa12dc92e15e4d47ec72964109e8bcc861b476404610",
+        "ask_kinds": [
+          7,
+          6
+        ],
+        "passed": true
+      },
+      "split": {
+        "address": 2232438292,
+        "relocated_sha256": "2db27cd09b573c8075f1a675f7ce974455287f992fc6beeed920e9bf49cc53b9",
+        "ask_kinds": [
+          7,
+          6
+        ],
+        "passed": true
+      },
+      "squash": {
+        "address": 2232458964,
+        "relocated_sha256": "462c3ce228d0f59751feca4a9ac8cad5fc9ad24894bd3e0b5a0da3511adc15de",
+        "ask_kinds": [
+          7,
+          6
+        ],
+        "passed": true
+      },
+      "syrup": {
+        "address": 2232486644,
+        "relocated_sha256": "ef1465babf00ff9bf1ce2af19ec56a4b5cef94bb9b31b3c6dc72475175824992",
+        "ask_kinds": [
+          7
+        ],
+        "passed": true
+      },
+      "wave": {
+        "address": 2232507412,
+        "relocated_sha256": "586cbfe86b335439f30b3e123dd3960dabf05c775d699ecf8f769a299f16dbbb",
+        "ask_kinds": [
+          8,
+          4
+        ],
+        "passed": true
+      }
+    },
+    "N2-official_four": {
+      "ampig": {
+        "address": 2231828340,
+        "relocated_sha256": "d581530177cefd88ff5011abe834b3071ca4122e6f5d6d32666d747d25adce31",
+        "ask_kinds": [
+          7,
+          6
+        ],
+        "passed": true
+      },
+      "bark": {
+        "address": 2231855252,
+        "relocated_sha256": "265c553f443acb0bf5f37570f1b1e107fd67dfc81ca9e21ca5ce96091e00f441",
+        "ask_kinds": [
+          8
+        ],
+        "passed": true
+      },
+      "cube": {
+        "address": 2232565780,
+        "relocated_sha256": "3530ad3067d753ec67a6a99f74bc27aae02f0f0c62a294f72b6d138e7b2329e5",
+        "ask_kinds": [
+          7
+        ],
+        "passed": true
+      },
+      "fret": {
+        "address": 2232581364,
+        "relocated_sha256": "4e4e18d51f32928ad5b967c3069c77e2c26860a7d11cfc75f08a3f812bdf4024",
+        "ask_kinds": [
+          8
+        ],
+        "passed": true
+      },
+      "organ": {
+        "address": 2232917332,
+        "relocated_sha256": "a144916394781db2879f1ea79f38bacc70f0ef706f2216c26550daf98899bb04",
+        "ask_kinds": [
+          8,
+          3,
+          4
+        ],
+        "passed": true
+      },
+      "plonk": {
+        "address": 2233051636,
+        "relocated_sha256": "00ee4da071a34f5783a658c539c2ffb15f285a30040ede8749b673c9d17a78b1",
+        "ask_kinds": [
+          8
+        ],
+        "passed": true
+      },
+      "pong": {
+        "address": 2233078132,
+        "relocated_sha256": "1f1b02b3784c99abac4ebb2ac3a8830171ad2dfb07b3ae7de8c8f451fc1c6a75",
+        "ask_kinds": [
+          7,
+          6
+        ],
+        "passed": true
+      },
+      "sid": {
+        "address": 2233134612,
+        "relocated_sha256": "a5001cdd4cbafbda51b4d9f7a5fc0e2dcc5d46999d83b1da9280b0ff3e7adedc",
+        "ask_kinds": [
+          8
+        ],
+        "passed": true
+      },
+      "skatter": {
+        "address": 2233195316,
+        "relocated_sha256": "204230ae12225d2181fbd3b93a8c1609cf1c8b824a946e9f7bd48ebf6fc93261",
+        "ask_kinds": [
+          7,
+          6
+        ],
+        "passed": true
+      },
+      "split": {
+        "address": 2233217876,
+        "relocated_sha256": "4bfc08ea5a07f78a8d7ab8ba3505217df5002297f03ac0f56d95c8a469560db2",
+        "ask_kinds": [
+          7,
+          6
+        ],
+        "passed": true
+      },
+      "squash": {
+        "address": 2233238548,
+        "relocated_sha256": "69d97a4963f6c283d99d88b40384ec10eb5a6e27adf57808054628b9d055946d",
+        "ask_kinds": [
+          7,
+          6
+        ],
+        "passed": true
+      },
+      "syrup": {
+        "address": 2233266228,
+        "relocated_sha256": "81f35b907a18420e251981534c0ebcc5c8b7fdc4214bfc39ef22d1384c838ed2",
+        "ask_kinds": [
+          7
+        ],
+        "passed": true
+      },
+      "wave": {
+        "address": 2233286996,
+        "relocated_sha256": "bf4cee92cd24472995d81ac2eaa1e06dbeed383adf7b1ad239671fb584b22a12",
+        "ask_kinds": [
+          8,
+          4
+        ],
+        "passed": true
+      }
+    }
+  }
+}

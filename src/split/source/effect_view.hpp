@@ -107,8 +107,7 @@ struct Page {
         for(unsigned i=0;i<4;++i) {
             const unsigned v=(values[i]*99u+16383)/full;
             const unsigned tens=v/10;
-            const char digits2[]={char('0'+tens),char('0'+v-tens*10),0};
-            const char* digits=digits2+(tens==0);
+            const char digits[]={char('0'+tens),char('0'+v-tens*10),0};
             const char caption[]={'c','a','p',char('0'+i),0};
             const char number[]={'v','a','l',char('0'+i),0};
             const unsigned align=i<2?OP1F_LEFT:OP1F_RIGHT;

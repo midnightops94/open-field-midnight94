@@ -1,0 +1,30 @@
+{
+  "pcm_sha256": "ead9697a897254153c989abd5cd238831df6159d0d9ea2ae6db6a74753e386d8",
+  "exact_pcm_words": 245760,
+  "existing_cases": {
+    "four_corner_lanes": 4,
+    "banks": 8,
+    "shape_states": 5,
+    "motion_caption_preserves_ids": 5,
+    "motion_clicks": 3,
+    "motion_clicks_preserve_amount": true,
+    "plain_and_shifted_turns": 8,
+    "covered_page_discards": true,
+    "no_canvas_commits_turn": true,
+    "canvas_guard": true,
+    "table_edge_words_equal": 98304,
+    "setup_frames": 32,
+    "held_note_state_and_pcm_unchanged": true,
+    "page_reentry_retains_table": true,
+    "pending_and_refusal_caption": true
+  },
+  "unchanged_draw_stream_sha256": "e1193bfa7097ce32711d93f01013e40b883a7858b70aa0502d148334f145d40e",
+  "cached_display": {
+    "repeated_frames": 48,
+    "wave_table_reads": 0,
+    "text_calls": 0,
+    "lines_drawn": 5981
+  },
+  "twin_effective_values_checked": 32768,
+  "all_twin_codes_exact": true
+}

@@ -1,14 +1,15 @@
 {
   "about": "split stereo effect, approved audition source 67bd993aeb9cc98b38540457da9dc181c53ea725",
   "name": "split",
-  "version": 4,
+  "version": 6,
   "interface": 1,
-  "build": "split_v4",
+  "build": "split_v6",
   "sources": [
     "examples/split/audio.cpp",
     "examples/split/state.cpp",
     "examples/split/page.cpp",
     "examples/split/page_math.cpp",
+    "examples/split/standard_turns.cpp",
     "examples/split/card.s",
     "examples/split/pictures.s"
   ],
@@ -27,10 +28,10 @@
   ],
   "card": {
     "level": 10,
-    "frame": "split_frame",
+    "frame": "split_standard_frame",
     "pick": null,
     "pictures": true,
-    "input": "split_input",
+    "input": "split_standard_input",
     "asks": [
       {
         "kind": "effect",
@@ -43,7 +44,7 @@
         "state_align": 4,
         "process": "split_process",
         "reset": "split_reset",
-        "shown": "split_shown",
+        "shown": "split_standard_shown",
         "params": [
           {
             "name": "crossover",

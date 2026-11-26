@@ -1,8 +1,6 @@
 #pragma once
 #include "candidate_fixed.hpp"
 
-extern "C" const int16_t organ_resident_waves[];
-
 // Constant-pitch Open-Field block adapter for the approved dry Organ renderer.
 // The 256-word output is used as temporary storage before stereo duplication.
 namespace organ_fast {
@@ -20,8 +18,8 @@ __attribute__((always_inline)) inline int product_q15(int a,int b){
 }
 using organ_fixed::one;
 
-inline const int16_t* row_at(unsigned row) {
-    return organ_resident_waves + (row << 9);
+inline const int16_t* row_at(const int16_t* rows, unsigned row) {
+    return rows + (row << 9);
 }
 
 struct Group {
@@ -58,7 +56,7 @@ inline void start(Voice& v) {
     v.click=one; v.percussion=one; v.low=one; v.high=one; v.age=0;
     v.harmonic=0; v.harmonic_target=0;
 }
-inline void registration(Voice& v,unsigned step,const organ::Controls& c) {
+inline void registration(Voice& v,unsigned step,const organ::Controls& c,const int16_t* rows) {
     const auto* k=c.value;
     const unsigned model=k[organ::TYPE];
     const unsigned lower=(unsigned(k[1])<<16)|k[0];
@@ -86,11 +84,11 @@ inline void registration(Voice& v,unsigned step,const organ::Controls& c) {
         unsigned j=0;
         while(j+1<count && step>=knots[j+1].increment)++j;
         const auto& lower=knots[j];
-        g.a=row_at(lower.wave);
+        g.a=row_at(rows,lower.wave);
         g.b=g.a;
         unsigned fraction=0;
         if(j+1<count){
-            g.b=row_at(knots[j+1].wave);
+            g.b=row_at(rows,knots[j+1].wave);
             fraction=(((step-lower.increment)>>lower.shift)*lower.multiplier)>>16;
         }
         if(fraction>=32768){g.a=g.b;fraction=0;}
@@ -167,7 +165,8 @@ inline int ease33(int x,int target){
     const int d=target-x;
     return x+((d*33)>>15)+int(unsigned(d-1)<992u);
 }
-inline bool render(Voice& __restrict v,int* __restrict out,unsigned step,const organ::Controls& __restrict c) {
+inline bool render(Voice& __restrict v,int* __restrict out,unsigned step,const organ::Controls& __restrict c,
+                   const int16_t* rows) {
     if(!out) return false;
     const unsigned model=c.value[organ::TYPE],percussion=c.value[organ::PERC];
     if(model>5){
@@ -175,7 +174,7 @@ inline bool render(Voice& __restrict v,int* __restrict out,unsigned step,const o
         for(unsigned i=0;i<256;++i)cleared[i]=0;
         return false;
     }
-    registration(v,step,c);
+    registration(v,step,c,rows);
     const int grit_goal=control(c.value[organ::GRIT])*256,perc_goal=control(percussion)*256;
     const unsigned vibe_raw=c.value[organ::VIBE];
     const int vibe_goal=vibe_raw<=16384?0:vibe_raw>=32767?one:int(vibe_raw-16384)*512;
@@ -242,7 +241,7 @@ inline bool render(Voice& __restrict v,int* __restrict out,unsigned step,const o
     for(unsigned j=0;j<18;++j)if(v.groups[j].weight || v.groups[j].target){
         const auto& g=v.groups[j];
         const bool interpolated=g.a!=g.b && g.fraction;
-        if((!interpolated && g.a==row_at(5)) || (!g.target && g.weight<256)){
+        if((!interpolated && g.a==row_at(rows,5)) || (!g.target && g.weight<256)){
             // Row 5 is silent throughout the authored table. A sub-Q15
             // fading weight also contributes exactly zero and falls one
             // Q23 unit per sample for the remainder of its lifetime.

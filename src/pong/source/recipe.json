@@ -1,11 +1,12 @@
 {
   "about": "Pong stereo delay with four mode switches.",
   "name": "pong",
-  "version": 6,
+  "version": 10,
   "interface": 1,
-  "build": "pack_pong_v6",
+  "build": "pack_pong_v10",
   "sources": [
     "examples/userpong/pong.cpp",
+    "examples/userpong/standard_turns.cpp",
     "examples/userpong/page.cpp",
     "examples/userpong/pose_motion.cpp",
     "examples/userpong/dsp/packed/byte_runtime.cpp",
@@ -21,18 +22,14 @@
     {
       "name": "pong.svg",
       "file": "examples/userpong/pong.svg.make"
-    },
-    {
-      "name": "pong-safe.svg",
-      "file": "examples/userpong/pong-safe.svg.make"
     }
   ],
   "card": {
     "level": 10,
-    "frame": "pong_frame",
+    "frame": "pong_standard_frame",
     "pick": null,
     "pictures": true,
-    "input": "pong_input",
+    "input": "pong_standard_input",
     "asks": [
       {
         "kind": "effect",
@@ -45,10 +42,10 @@
         "state_align": 32,
         "process": "pong_process",
         "reset": null,
-        "shown": "pong_shown",
+        "shown": "pong_standard_shown",
         "params": [
           {
-            "name": "court",
+            "name": "table",
             "low": 0,
             "high": 32767,
             "start": 11870

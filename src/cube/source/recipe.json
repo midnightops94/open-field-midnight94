@@ -1,11 +1,12 @@
 {
   "about": "cube stereo effect for Open-Field 0.12",
   "name": "cube",
-  "version": 5,
+  "version": 7,
   "interface": 1,
-  "build": "cube_v5",
+  "build": "cube_v7",
   "sources": [
     "examples/cube/cube.cpp",
+    "examples/cube/standard_turns.cpp",
     "examples/cube/card.s",
     "examples/cube/pictures.s"
   ],
@@ -24,10 +25,10 @@
   ],
   "card": {
     "level": 10,
-    "frame": "cube_frame",
+    "frame": "cube_standard_frame",
     "pick": null,
     "pictures": true,
-    "input": null,
+    "input": "cube_standard_input",
     "asks": [
       {
         "kind": "effect",
@@ -40,7 +41,7 @@
         "state_align": 8,
         "process": "cube_process",
         "reset": "cube_reset",
-        "shown": "cube_shown",
+        "shown": "cube_standard_shown",
         "params": [
           {
             "name": "shape",

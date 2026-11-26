@@ -1,0 +1,286 @@
+{
+  "turns": 3144,
+  "contexts": 2244,
+  "clickTests": 0,
+  "clickVector": [
+    [
+      0,
+      54,
+      0,
+      null
+    ],
+    [
+      0,
+      55,
+      0,
+      null
+    ],
+    [
+      0,
+      56,
+      0,
+      null
+    ],
+    [
+      0,
+      57,
+      0,
+      null
+    ],
+    [
+      0,
+      61,
+      0,
+      null
+    ],
+    [
+      0,
+      62,
+      0,
+      null
+    ],
+    [
+      0,
+      63,
+      0,
+      null
+    ],
+    [
+      0,
+      64,
+      0,
+      null
+    ],
+    [
+      1,
+      54,
+      0,
+      null
+    ],
+    [
+      1,
+      55,
+      0,
+      null
+    ],
+    [
+      1,
+      56,
+      0,
+      null
+    ],
+    [
+      1,
+      57,
+      0,
+      null
+    ],
+    [
+      1,
+      61,
+      0,
+      null
+    ],
+    [
+      1,
+      62,
+      0,
+      null
+    ],
+    [
+      1,
+      63,
+      0,
+      null
+    ],
+    [
+      1,
+      64,
+      0,
+      null
+    ]
+  ],
+  "displays": [
+    {
+      "lane": "shape",
+      "trials": [
+        {
+          "counts": 0,
+          "shift": false,
+          "before": 16380,
+          "requested": null,
+          "stored": 16380,
+          "view": "49"
+        },
+        {
+          "counts": 1024,
+          "shift": false,
+          "before": 16380,
+          "requested": 17363,
+          "stored": 17360,
+          "view": "52"
+        },
+        {
+          "counts": 1024,
+          "shift": true,
+          "before": 16380,
+          "requested": 16708,
+          "stored": 16707,
+          "view": "50"
+        },
+        {
+          "counts": -1024,
+          "shift": false,
+          "before": 16380,
+          "requested": 15397,
+          "stored": 15394,
+          "view": "47"
+        },
+        {
+          "counts": -1024,
+          "shift": true,
+          "before": 16380,
+          "requested": 16052,
+          "stored": 16051,
+          "view": "48"
+        }
+      ]
+    },
+    {
+      "lane": "morph",
+      "trials": [
+        {
+          "counts": 0,
+          "shift": false,
+          "before": 16383,
+          "requested": null,
+          "stored": 16383,
+          "view": "49"
+        },
+        {
+          "counts": 1024,
+          "shift": false,
+          "before": 16383,
+          "requested": 17366,
+          "stored": 17366,
+          "view": "52"
+        },
+        {
+          "counts": 1024,
+          "shift": true,
+          "before": 16383,
+          "requested": 16711,
+          "stored": 16711,
+          "view": "50"
+        },
+        {
+          "counts": -1024,
+          "shift": false,
+          "before": 16383,
+          "requested": 15400,
+          "stored": 15400,
+          "view": "47"
+        },
+        {
+          "counts": -1024,
+          "shift": true,
+          "before": 16383,
+          "requested": 16055,
+          "stored": 16055,
+          "view": "49"
+        }
+      ]
+    },
+    {
+      "lane": "reso",
+      "trials": [
+        {
+          "counts": 0,
+          "shift": false,
+          "before": 16382,
+          "requested": null,
+          "stored": 16382,
+          "view": "49"
+        },
+        {
+          "counts": 1024,
+          "shift": false,
+          "before": 16382,
+          "requested": 17365,
+          "stored": 17364,
+          "view": "52"
+        },
+        {
+          "counts": 1024,
+          "shift": true,
+          "before": 16382,
+          "requested": 16710,
+          "stored": 16709,
+          "view": "50"
+        },
+        {
+          "counts": -1024,
+          "shift": false,
+          "before": 16382,
+          "requested": 15399,
+          "stored": 15398,
+          "view": "47"
+        },
+        {
+          "counts": -1024,
+          "shift": true,
+          "before": 16382,
+          "requested": 16054,
+          "stored": 16053,
+          "view": "49"
+        }
+      ]
+    },
+    {
+      "lane": "mix",
+      "trials": [
+        {
+          "counts": 0,
+          "shift": false,
+          "before": 16383,
+          "requested": null,
+          "stored": 16383,
+          "view": "49"
+        },
+        {
+          "counts": 1024,
+          "shift": false,
+          "before": 16383,
+          "requested": 17366,
+          "stored": 17366,
+          "view": "52"
+        },
+        {
+          "counts": 1024,
+          "shift": true,
+          "before": 16383,
+          "requested": 16711,
+          "stored": 16711,
+          "view": "50"
+        },
+        {
+          "counts": -1024,
+          "shift": false,
+          "before": 16383,
+          "requested": 15400,
+          "stored": 15400,
+          "view": "47"
+        },
+        {
+          "counts": -1024,
+          "shift": true,
+          "before": 16383,
+          "requested": 16055,
+          "stored": 16055,
+          "view": "49"
+        }
+      ]
+    }
+  ],
+  "syrupSequences": {}
+}

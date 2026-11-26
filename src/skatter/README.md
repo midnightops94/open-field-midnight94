@@ -1,15 +1,19 @@
-# Skatter
+# Skatter v8
 
-Skatter is a stereo granular effect for Open-Field 0.14. Net sets the span of recorded audio the grains can draw from. Grain sets their length and affects their playback speed. Scatter adds variation. Mix blends the grains with the dry input. Press Blue to switch between Free and Capture. Press Gray to cycle Forward, Both and Reverse. Both lets each new grain play in either direction. Each synth slot, drum slot and the master remember their own mode choices.
+Skatter is a stereo granular effect. Net sets the span of recorded audio the grains can draw from. Grain sets their length and affects their playback speed. Scatter adds variation. Mix blends the grains with the dry input. The four controls display `00` through `99` and the net and grains follow their effective values.
 
-The grain engine lives in `source/splice.cpp`, its parameter curves in `source/curves.hpp`, and the Open-Field adapter in `source/skatter.cpp`. The catcher’s editable vector scene is `source/night.svg`. It follows the effective controls, including LFO modulation. The bypass card uses a public stock-picture reference that the Field resolves locally. A self-contained alternate card covers installations with a different stock picture.
+Press Blue to switch between Free and Capture. Press Gray to cycle Forward, Both and Reverse. Both lets each new grain play in either direction. Each synth slot, drum slot and the master remember their own mode choices.
+
+Select Skatter from a synth, drum or master FX page. Hold Shift while turning for finer adjustment.
 
 ## Build
 
-Use the BF707 toolchain specified by Open-Field 0.14 and checkout `bb901bbe037db4114d294b8e3c4a8f9a7ddf28aa`. Run this command from this directory. The second path contains the toolchain’s `bin/` directory. [Open-Field 0.14 build documentation](https://github.com/LaP0573/open-field/tree/bb901bbe037db4114d294b8e3c4a8f9a7ddf28aa)
+Set `SDK` to the absolute path of the Open-Field 0.20 checkout at `25a8d7f524ec3f46902cbd8a96779df32fa5e9bc` with its Blackfin toolchain installed. Run the commands from this directory. [Open-Field build guide](https://github.com/LaP0573/open-field/blob/25a8d7f524ec3f46902cbd8a96779df32fa5e9bc/docs/build.md)
 
 ```sh
-python3 build.py /path/to/open-field /path/to/bfin-tools
+OUT=$(mktemp -d)
+python3 build.py "$SDK" "$SDK/open-xy/local/toolchain" "$OUT"
+sha256sum "$OUT/skatter.pack"
 ```
 
-The resulting `dist/skatter.pack` is Skatter v6. Its SHA-256 is `d5c998d9c14aa0f8920a9147b9170878237aa50eb221c83a3dc13d82e6416b39`.
+Expected SHA-256 for the 150,207-byte pack is `bbeb61264035d38b129d023c388043d535942b1b340a30fce4ed7adb39a641be`.

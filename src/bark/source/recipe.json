@@ -1,6 +1,6 @@
 {
   "name": "bark",
-  "version": 10,
+  "version": 12,
   "interface": 1,
   "build": "build_bark",
   "sources": [

@@ -124,11 +124,11 @@ void labelContact(unsigned material,unsigned piano){
     }
     displayedContact=next;
 }
-void number(unsigned n,char(&s)[4]) {
-    if(n==100){s[0]='1';s[1]='0';s[2]='0';s[3]=0;return;}
-    unsigned tens=(n*205)>>11,at=0;
-    if(tens)s[at++]=char('0'+tens);
-    s[at++]=char('0'+n-10*tens);s[at]=0;
+void two_digits(unsigned value, char (&text)[3]) {
+    const unsigned tens=(value*205)>>11;
+    text[0]=char('0'+tens);
+    text[1]=char('0'+value-10*tens);
+    text[2]=0;
 }
 void draw(unsigned slot,unsigned ms) {
     int v[5];
@@ -143,9 +143,9 @@ void draw(unsigned slot,unsigned ms) {
         op1f_text_set(doc,"tmTitle",titles[piano],0,OP1F_CENTRE);
     }
     for(unsigned i=0;i<4;++i){
-        const unsigned n=(unsigned(v[i])*100+16384)>>15;
+        const unsigned n=(unsigned(v[i])*99u+16383u)/32767u;
         if(oldValue[i]!=int(n)){
-            char s[4];number(n,s);
+            char s[3];two_digits(n,s);
             op1f_text_set(doc,cornerValues[i],s,0,i<2?OP1F_LEFT:OP1F_RIGHT);
             oldValue[i]=int(n);
         }

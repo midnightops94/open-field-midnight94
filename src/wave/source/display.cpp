@@ -98,14 +98,14 @@ void draw_sweep(void* canvas, u32 frame, u32 control) {
     mark(canvas,a,2,ochre);
     mark(canvas,b,2,ochre);
 }
-void format(char* out,u32 key,bool decimal) {
+void format(char* out,u32 key,bool decimal,bool padded) {
     // The maximum value is 300 in tenths. Exact small unsigned divide by ten.
     const u32 whole10=(key*52429u)>>19;
     const u32 n=decimal ? whole10 : key;
     const u32 tens=(n*52429u)>>19;
     const u32 hundreds=(tens*52429u)>>19;
     if (hundreds) *out++=static_cast<char>('0'+hundreds);
-    if (tens) *out++=static_cast<char>('0'+tens-10*hundreds);
+    if (tens || padded) *out++=static_cast<char>('0'+tens-10*hundreds);
     *out++=static_cast<char>('0'+n-10*tens);
     if (decimal) { *out++='.'; *out++=static_cast<char>('0'+key-10*whole10); }
     *out=0;
@@ -198,11 +198,12 @@ extern "C" void wave_frame(const Op1fFrame* now) {
     unsigned q[4];
     for (unsigned i=0;i<4;++i) q[i]=values[i]>=32767?32768u:unsigned(values[i]);
     const unsigned span=(q[1]*q[1]+16384u)>>15;
-    const unsigned k[4]={(150*q[0]+16384u)>>15,(300*span+16384u)>>15,25u+((50*q[2]+16384u)>>15),(100*q[3]+16384u)>>15};
+    const unsigned twin_readout=(99u*unsigned(values[3])+16383u)/32767u;
+    const unsigned k[4]={(150*q[0]+16384u)>>15,(300*span+16384u)>>15,25u+((50*q[2]+16384u)>>15),twin_readout};
     for (unsigned i=0;i<4;++i) {
         if (document && k[i]!=last_values[i]) {
             char value[8];
-            format(value,k[i],i<2);
+            format(value,k[i],i<2,i==3);
             if (op1f_text_set(document,value_ids[i],value,0,i<2?OP1F_LEFT:OP1F_RIGHT)) last_values[i]=k[i];
         }
     }

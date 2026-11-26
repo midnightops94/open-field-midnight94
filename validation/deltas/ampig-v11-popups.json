@@ -1,0 +1,734 @@
+{
+  "pack_sha256": "7546d16ff2a7439d72585f6f45bc078ec9e5de1fcf85fb93b2fb3024b962af7d",
+  "scope": "Display callbacks under browser I/O, stock text uses host approximation, no physical raster test.",
+  "stock": {
+    "native": [
+      {
+        "title": "circuit",
+        "value": "diode",
+        "index": 1,
+        "refuse": "",
+        "icon": [
+          124,
+          101,
+          38,
+          18
+        ]
+      },
+      {
+        "title": "circuit",
+        "value": "starved",
+        "index": 2,
+        "refuse": "",
+        "icon": [
+          126,
+          101,
+          34,
+          18
+        ]
+      },
+      {
+        "title": "circuit",
+        "value": "valve",
+        "index": 0,
+        "refuse": "",
+        "icon": [
+          129,
+          92.00175476074219,
+          28,
+          35.99824523925781
+        ]
+      },
+      {
+        "title": "recover",
+        "value": "fast",
+        "index": 4,
+        "refuse": "",
+        "icon": [
+          122,
+          102,
+          42,
+          23
+        ]
+      },
+      {
+        "title": "recover",
+        "value": "slow",
+        "index": 5,
+        "refuse": "",
+        "icon": [
+          122,
+          102,
+          42,
+          23
+        ]
+      },
+      {
+        "title": "recover",
+        "value": "flow",
+        "index": 3,
+        "refuse": "",
+        "icon": [
+          122,
+          102,
+          42,
+          23
+        ]
+      }
+    ],
+    "refused_title": [
+      {
+        "title": "circuit",
+        "value": "diode",
+        "index": 1,
+        "refuse": "modeTitle",
+        "icon": [
+          124,
+          101,
+          38,
+          18
+        ]
+      },
+      {
+        "title": "circuit",
+        "value": "starved",
+        "index": 2,
+        "refuse": "modeTitle",
+        "icon": [
+          126,
+          101,
+          34,
+          18
+        ]
+      },
+      {
+        "title": "circuit",
+        "value": "valve",
+        "index": 0,
+        "refuse": "modeTitle",
+        "icon": [
+          129,
+          92.00175476074219,
+          28,
+          35.99824523925781
+        ]
+      },
+      {
+        "title": "recover",
+        "value": "fast",
+        "index": 4,
+        "refuse": "modeTitle",
+        "icon": [
+          122,
+          102,
+          42,
+          23
+        ]
+      },
+      {
+        "title": "recover",
+        "value": "slow",
+        "index": 5,
+        "refuse": "modeTitle",
+        "icon": [
+          122,
+          102,
+          42,
+          23
+        ]
+      },
+      {
+        "title": "recover",
+        "value": "flow",
+        "index": 3,
+        "refuse": "modeTitle",
+        "icon": [
+          122,
+          102,
+          42,
+          23
+        ]
+      }
+    ],
+    "refused_value": [
+      {
+        "title": "circuit",
+        "value": "diode",
+        "index": 1,
+        "refuse": "modeValue",
+        "icon": [
+          124,
+          101,
+          38,
+          18
+        ]
+      },
+      {
+        "title": "circuit",
+        "value": "starved",
+        "index": 2,
+        "refuse": "modeValue",
+        "icon": [
+          126,
+          101,
+          34,
+          18
+        ]
+      },
+      {
+        "title": "circuit",
+        "value": "valve",
+        "index": 0,
+        "refuse": "modeValue",
+        "icon": [
+          129,
+          92.00175476074219,
+          28,
+          35.99824523925781
+        ]
+      },
+      {
+        "title": "recover",
+        "value": "fast",
+        "index": 4,
+        "refuse": "modeValue",
+        "icon": [
+          122,
+          102,
+          42,
+          23
+        ]
+      },
+      {
+        "title": "recover",
+        "value": "slow",
+        "index": 5,
+        "refuse": "modeValue",
+        "icon": [
+          122,
+          102,
+          42,
+          23
+        ]
+      },
+      {
+        "title": "recover",
+        "value": "flow",
+        "index": 3,
+        "refuse": "modeValue",
+        "icon": [
+          122,
+          102,
+          42,
+          23
+        ]
+      }
+    ],
+    "roadie_and_fx_off": {
+      "defaults": {
+        "readout": [
+          "drive",
+          "34",
+          "sag",
+          "46",
+          "tone",
+          "52",
+          "mix",
+          "99"
+        ],
+        "outline": "#7a9aa9",
+        "outlineIndex": "o03",
+        "handleY": 1.599609375,
+        "bellyY": 150.29296620190144,
+        "toneWidth": 0.6054688096046448,
+        "toneSlope": -0.0898437649011612,
+        "effectIndex": "w05",
+        "dryIndex": "y06",
+        "cone": 1,
+        "mode": "c00"
+      },
+      "closed": {
+        "readout": [
+          "drive",
+          "00",
+          "sag",
+          "00",
+          "tone",
+          "00",
+          "mix",
+          "00"
+        ],
+        "outline": "#6d8997",
+        "outlineIndex": "o00",
+        "handleY": -3,
+        "bellyY": 142.01758831739426,
+        "toneWidth": 0.1601562350988388,
+        "toneSlope": -0.1904296725988388,
+        "effectIndex": "w00",
+        "dryIndex": "y00",
+        "cone": 1,
+        "mode": "c00"
+      },
+      "open": {
+        "readout": [
+          "drive",
+          "99",
+          "sag",
+          "99",
+          "tone",
+          "99",
+          "mix",
+          "99"
+        ],
+        "outline": "#a1ccde",
+        "outlineIndex": "o08",
+        "handleY": 7,
+        "bellyY": 159.9970703125,
+        "toneWidth": 1,
+        "toneSlope": 0,
+        "effectIndex": "w05",
+        "dryIndex": "y06",
+        "cone": 1,
+        "mode": "c00"
+      },
+      "lfo": [
+        {
+          "lane": 0,
+          "base": 16384,
+          "heard": 22203
+        },
+        {
+          "lane": 1,
+          "base": 16384,
+          "heard": 10402
+        },
+        {
+          "lane": 2,
+          "base": 16384,
+          "heard": 16205
+        },
+        {
+          "lane": 3,
+          "base": 16384,
+          "heard": 22535
+        }
+      ],
+      "circuit": [
+        {
+          "title": "circuit",
+          "value": "diode",
+          "component": "c01"
+        },
+        {
+          "title": "circuit",
+          "value": "starved",
+          "component": "c02"
+        },
+        {
+          "title": "circuit",
+          "value": "valve",
+          "component": "c00"
+        }
+      ],
+      "recover": [
+        {
+          "title": "recover",
+          "value": "fast",
+          "component": "c00"
+        },
+        {
+          "title": "recover",
+          "value": "slow",
+          "component": "c00"
+        },
+        {
+          "title": "recover",
+          "value": "flow",
+          "component": "c00"
+        }
+      ],
+      "bypass": [
+        {
+          "id": "stockFxOff",
+          "text": "fx off",
+          "box": [
+            107.5,
+            74.875,
+            265,
+            70.25
+          ],
+          "letter_box": [
+            237.40199279785156,
+            102.6240005493164,
+            74.00001525878906,
+            15.001007080078125
+          ],
+          "paths": 4,
+          "rectangles": 2
+        }
+      ]
+    }
+  },
+  "standalone": {
+    "native": [
+      {
+        "title": "circuit",
+        "value": "diode",
+        "index": 1,
+        "refuse": "",
+        "icon": [
+          124,
+          101,
+          38,
+          18
+        ]
+      },
+      {
+        "title": "circuit",
+        "value": "starved",
+        "index": 2,
+        "refuse": "",
+        "icon": [
+          126,
+          101,
+          34,
+          18
+        ]
+      },
+      {
+        "title": "circuit",
+        "value": "valve",
+        "index": 0,
+        "refuse": "",
+        "icon": [
+          129,
+          92.00175476074219,
+          28,
+          35.99824523925781
+        ]
+      },
+      {
+        "title": "recover",
+        "value": "fast",
+        "index": 4,
+        "refuse": "",
+        "icon": [
+          122,
+          102,
+          42,
+          23
+        ]
+      },
+      {
+        "title": "recover",
+        "value": "slow",
+        "index": 5,
+        "refuse": "",
+        "icon": [
+          122,
+          102,
+          42,
+          23
+        ]
+      },
+      {
+        "title": "recover",
+        "value": "flow",
+        "index": 3,
+        "refuse": "",
+        "icon": [
+          122,
+          102,
+          42,
+          23
+        ]
+      }
+    ],
+    "refused_title": [
+      {
+        "title": "circuit",
+        "value": "diode",
+        "index": 1,
+        "refuse": "modeTitle",
+        "icon": [
+          124,
+          101,
+          38,
+          18
+        ]
+      },
+      {
+        "title": "circuit",
+        "value": "starved",
+        "index": 2,
+        "refuse": "modeTitle",
+        "icon": [
+          126,
+          101,
+          34,
+          18
+        ]
+      },
+      {
+        "title": "circuit",
+        "value": "valve",
+        "index": 0,
+        "refuse": "modeTitle",
+        "icon": [
+          129,
+          92.00175476074219,
+          28,
+          35.99824523925781
+        ]
+      },
+      {
+        "title": "recover",
+        "value": "fast",
+        "index": 4,
+        "refuse": "modeTitle",
+        "icon": [
+          122,
+          102,
+          42,
+          23
+        ]
+      },
+      {
+        "title": "recover",
+        "value": "slow",
+        "index": 5,
+        "refuse": "modeTitle",
+        "icon": [
+          122,
+          102,
+          42,
+          23
+        ]
+      },
+      {
+        "title": "recover",
+        "value": "flow",
+        "index": 3,
+        "refuse": "modeTitle",
+        "icon": [
+          122,
+          102,
+          42,
+          23
+        ]
+      }
+    ],
+    "refused_value": [
+      {
+        "title": "circuit",
+        "value": "diode",
+        "index": 1,
+        "refuse": "modeValue",
+        "icon": [
+          124,
+          101,
+          38,
+          18
+        ]
+      },
+      {
+        "title": "circuit",
+        "value": "starved",
+        "index": 2,
+        "refuse": "modeValue",
+        "icon": [
+          126,
+          101,
+          34,
+          18
+        ]
+      },
+      {
+        "title": "circuit",
+        "value": "valve",
+        "index": 0,
+        "refuse": "modeValue",
+        "icon": [
+          129,
+          92.00175476074219,
+          28,
+          35.99824523925781
+        ]
+      },
+      {
+        "title": "recover",
+        "value": "fast",
+        "index": 4,
+        "refuse": "modeValue",
+        "icon": [
+          122,
+          102,
+          42,
+          23
+        ]
+      },
+      {
+        "title": "recover",
+        "value": "slow",
+        "index": 5,
+        "refuse": "modeValue",
+        "icon": [
+          122,
+          102,
+          42,
+          23
+        ]
+      },
+      {
+        "title": "recover",
+        "value": "flow",
+        "index": 3,
+        "refuse": "modeValue",
+        "icon": [
+          122,
+          102,
+          42,
+          23
+        ]
+      }
+    ],
+    "roadie_and_fx_off": {
+      "defaults": {
+        "readout": [
+          "drive",
+          "34",
+          "sag",
+          "46",
+          "tone",
+          "52",
+          "mix",
+          "99"
+        ],
+        "outline": "#7a9aa9",
+        "outlineIndex": "o03",
+        "handleY": 1.599609375,
+        "bellyY": 150.29296620190144,
+        "toneWidth": 0.6054688096046448,
+        "toneSlope": -0.0898437649011612,
+        "effectIndex": "w05",
+        "dryIndex": "y06",
+        "cone": 1,
+        "mode": "c00"
+      },
+      "closed": {
+        "readout": [
+          "drive",
+          "00",
+          "sag",
+          "00",
+          "tone",
+          "00",
+          "mix",
+          "00"
+        ],
+        "outline": "#6d8997",
+        "outlineIndex": "o00",
+        "handleY": -3,
+        "bellyY": 142.01758831739426,
+        "toneWidth": 0.1601562350988388,
+        "toneSlope": -0.1904296725988388,
+        "effectIndex": "w00",
+        "dryIndex": "y00",
+        "cone": 1,
+        "mode": "c00"
+      },
+      "open": {
+        "readout": [
+          "drive",
+          "99",
+          "sag",
+          "99",
+          "tone",
+          "99",
+          "mix",
+          "99"
+        ],
+        "outline": "#a1ccde",
+        "outlineIndex": "o08",
+        "handleY": 7,
+        "bellyY": 159.9970703125,
+        "toneWidth": 1,
+        "toneSlope": 0,
+        "effectIndex": "w05",
+        "dryIndex": "y06",
+        "cone": 1,
+        "mode": "c00"
+      },
+      "lfo": [
+        {
+          "lane": 0,
+          "base": 16384,
+          "heard": 22203
+        },
+        {
+          "lane": 1,
+          "base": 16384,
+          "heard": 10402
+        },
+        {
+          "lane": 2,
+          "base": 16384,
+          "heard": 16205
+        },
+        {
+          "lane": 3,
+          "base": 16384,
+          "heard": 22535
+        }
+      ],
+      "circuit": [
+        {
+          "title": "circuit",
+          "value": "diode",
+          "component": "c01"
+        },
+        {
+          "title": "circuit",
+          "value": "starved",
+          "component": "c02"
+        },
+        {
+          "title": "circuit",
+          "value": "valve",
+          "component": "c00"
+        }
+      ],
+      "recover": [
+        {
+          "title": "recover",
+          "value": "fast",
+          "component": "c00"
+        },
+        {
+          "title": "recover",
+          "value": "slow",
+          "component": "c00"
+        },
+        {
+          "title": "recover",
+          "value": "flow",
+          "component": "c00"
+        }
+      ],
+      "bypass": [
+        {
+          "id": "fxOff",
+          "text": "fx off",
+          "box": [
+            108,
+            75,
+            264,
+            70
+          ],
+          "paths": 2,
+          "rectangles": 5
+        }
+      ]
+    }
+  }
+}

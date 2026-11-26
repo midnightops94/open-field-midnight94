@@ -1,0 +1,286 @@
+{
+  "turns": 3144,
+  "contexts": 2244,
+  "clickTests": 8,
+  "clickVector": [
+    [
+      0,
+      54,
+      1,
+      1
+    ],
+    [
+      0,
+      55,
+      0,
+      null
+    ],
+    [
+      0,
+      56,
+      1,
+      1
+    ],
+    [
+      0,
+      57,
+      0,
+      null
+    ],
+    [
+      0,
+      61,
+      1,
+      1
+    ],
+    [
+      0,
+      62,
+      0,
+      null
+    ],
+    [
+      0,
+      63,
+      1,
+      1
+    ],
+    [
+      0,
+      64,
+      0,
+      null
+    ],
+    [
+      1,
+      54,
+      1,
+      1
+    ],
+    [
+      1,
+      55,
+      0,
+      null
+    ],
+    [
+      1,
+      56,
+      1,
+      1
+    ],
+    [
+      1,
+      57,
+      0,
+      null
+    ],
+    [
+      1,
+      61,
+      1,
+      1
+    ],
+    [
+      1,
+      62,
+      0,
+      null
+    ],
+    [
+      1,
+      63,
+      1,
+      1
+    ],
+    [
+      1,
+      64,
+      0,
+      null
+    ]
+  ],
+  "displays": [
+    {
+      "lane": "net",
+      "trials": [
+        {
+          "counts": 0,
+          "shift": false,
+          "before": 16381,
+          "requested": null,
+          "stored": 16381,
+          "view": "49"
+        },
+        {
+          "counts": 1024,
+          "shift": false,
+          "before": 16381,
+          "requested": 17364,
+          "stored": 17362,
+          "view": "52"
+        },
+        {
+          "counts": 1024,
+          "shift": true,
+          "before": 16381,
+          "requested": 16709,
+          "stored": 16707,
+          "view": "50"
+        },
+        {
+          "counts": -1024,
+          "shift": false,
+          "before": 16381,
+          "requested": 15398,
+          "stored": 15397,
+          "view": "47"
+        },
+        {
+          "counts": -1024,
+          "shift": true,
+          "before": 16381,
+          "requested": 16053,
+          "stored": 16052,
+          "view": "48"
+        }
+      ]
+    },
+    {
+      "lane": "grain",
+      "trials": [
+        {
+          "counts": 0,
+          "shift": false,
+          "before": 16381,
+          "requested": null,
+          "stored": 16381,
+          "view": "49"
+        },
+        {
+          "counts": 1024,
+          "shift": false,
+          "before": 16381,
+          "requested": 17364,
+          "stored": 17362,
+          "view": "52"
+        },
+        {
+          "counts": 1024,
+          "shift": true,
+          "before": 16381,
+          "requested": 16709,
+          "stored": 16707,
+          "view": "50"
+        },
+        {
+          "counts": -1024,
+          "shift": false,
+          "before": 16381,
+          "requested": 15398,
+          "stored": 15397,
+          "view": "47"
+        },
+        {
+          "counts": -1024,
+          "shift": true,
+          "before": 16381,
+          "requested": 16053,
+          "stored": 16052,
+          "view": "48"
+        }
+      ]
+    },
+    {
+      "lane": "scatter",
+      "trials": [
+        {
+          "counts": 0,
+          "shift": false,
+          "before": 16383,
+          "requested": null,
+          "stored": 16383,
+          "view": "49"
+        },
+        {
+          "counts": 1024,
+          "shift": false,
+          "before": 16383,
+          "requested": 17366,
+          "stored": 17366,
+          "view": "52"
+        },
+        {
+          "counts": 1024,
+          "shift": true,
+          "before": 16383,
+          "requested": 16711,
+          "stored": 16711,
+          "view": "50"
+        },
+        {
+          "counts": -1024,
+          "shift": false,
+          "before": 16383,
+          "requested": 15400,
+          "stored": 15400,
+          "view": "47"
+        },
+        {
+          "counts": -1024,
+          "shift": true,
+          "before": 16383,
+          "requested": 16055,
+          "stored": 16055,
+          "view": "49"
+        }
+      ]
+    },
+    {
+      "lane": "mix",
+      "trials": [
+        {
+          "counts": 0,
+          "shift": false,
+          "before": 16383,
+          "requested": null,
+          "stored": 16383,
+          "view": "49"
+        },
+        {
+          "counts": 1024,
+          "shift": false,
+          "before": 16383,
+          "requested": 17366,
+          "stored": 17366,
+          "view": "52"
+        },
+        {
+          "counts": 1024,
+          "shift": true,
+          "before": 16383,
+          "requested": 16711,
+          "stored": 16711,
+          "view": "50"
+        },
+        {
+          "counts": -1024,
+          "shift": false,
+          "before": 16383,
+          "requested": 15400,
+          "stored": 15400,
+          "view": "47"
+        },
+        {
+          "counts": -1024,
+          "shift": true,
+          "before": 16383,
+          "requested": 16055,
+          "stored": 16055,
+          "view": "49"
+        }
+      ]
+    }
+  ],
+  "syrupSequences": {}
+}

@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>AmPig · Roadie</title>
+<style>
+  :root {
+    color-scheme: dark;
+    font-family: system-ui, sans-serif;
+    color: #e3e7e3;
+    background: #111518;
+    --drive: #91b8d2;
+    --sag: #d5af70;
+    --tone: #cdd0c2;
+    --mix: #ee9068;
+    --line: #30373c;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; }
+  main { max-width: 850px; margin: 0 auto; padding: clamp(16px, 4vw, 36px); }
+  h1 { margin: 0; font-size: clamp(26px, 5vw, 34px); font-weight: 600; letter-spacing: -.045em; }
+  .subtitle { margin: 3px 0 0; color: #adb6ba; font-size: 14px; }
+  header { display: flex; justify-content: space-between; align-items: end; gap: 14px; flex-wrap: wrap; margin-bottom: 16px; }
+  .actions { display: flex; align-items: center; gap: 8px; }
+  button { font: inherit; color: inherit; border: 1px solid #495157; border-radius: 7px; background: #232a2e; cursor: pointer; }
+  button:focus-visible, input:focus-visible { outline: 2px solid #bcd7eb; outline-offset: 4px; }
+  .actions button { padding: 8px 14px; min-height: 44px; }
+  #hit { background: #deded1; color: #171b1d; border-color: #deded1; font-weight: 650; }
+  #repeat[aria-pressed="true"] { background: #283d4c; color: #c7e5fa; border-color: #6993b1; }
+  .screen { display: block; width: 100%; height: auto; border: 1px solid #303739; border-radius: 9px; background: #060809; }
+  .readout { font: 10px Arial, sans-serif; letter-spacing: .18px; }
+  .outline { stroke: var(--outline, #7295a7); stroke-width: var(--outline-weight, 1.55); }
+  .controls { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0 22px; margin-top: 17px; }
+  .lane { border-top: 1px solid var(--line); padding-top: 11px; min-width: 0; }
+  .lane[data-lane="drive"] { --accent: var(--drive); }
+  .lane[data-lane="sag"] { --accent: var(--sag); }
+  .lane[data-lane="tone"] { --accent: var(--tone); }
+  .lane[data-lane="mix"] { --accent: var(--mix); }
+  .lane label { display: block; font-weight: 620; font-size: 14px; color: var(--accent); }
+  .lane input { display: block; width: 100%; height: 32px; margin: 2px 0 0; accent-color: var(--accent); cursor: pointer; }
+  .lane p { min-height: 34px; margin: 3px 0 5px; color: #b2bdc3; font-size: 12px; line-height: 1.45; }
+  .lane button { min-height: 34px; min-width: 70px; padding: 4px 9px; font-size: 12px; }
+  .hint { color: #b2bdc3; font-size: 13px; line-height: 1.45; margin: 15px 0 0; }
+  @media (max-width: 600px) {
+    .controls { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 13px 17px; }
+  }
+  @media (pointer: coarse) {
+    .lane button { min-height: 44px; }
+    .lane input { height: 38px; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div>
+      <h1>AmPig</h1>
+      <p class="subtitle">Roadie · Combo Cabinet</p>
+    </div>
+    <div class="actions">
+      <button id="hit" type="button">Hit</button>
+      <button id="repeat" type="button" aria-pressed="false">Repeat</button>
+    </div>
+  </header>
+
+  <svg class="screen" viewBox="0 0 480 220" role="img" aria-labelledby="screen-name screen-desc">
+    <title id="screen-name">Roadie amplifier display</title>
+    <desc id="screen-desc">Roadie's outline brightens with Drive. Sag lowers his belly and amp cabinet between planted hooves. Tone opens the grille and Mix switches the balance between two signal paths.</desc>
+    <rect width="480" height="220" fill="#060809"/>
+    <g aria-hidden="true">
+      <g class="readout">
+        <text x="20" y="30" fill="#628eb0">DRIVE</text>
+        <text x="20" y="159" fill="#a88550">SAG</text>
+        <text x="460" y="30" fill="#a8aaab" text-anchor="end">TONE</text>
+        <text x="460" y="159" fill="#e46139" text-anchor="end">MIX</text>
+      </g>
+      <g fill="none" stroke="#c3c5bf" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round">
+        <g id="drive-digits" transform="translate(21 40)"><path/><path transform="translate(24 0)"/></g>
+        <g id="sag-digits" transform="translate(21 169)"><path/><path transform="translate(24 0)"/></g>
+        <g id="tone-digits" transform="translate(416 40)"><path/><path transform="translate(24 0)"/></g>
+        <g id="mix-digits" transform="translate(416 169)"><path/><path transform="translate(24 0)"/></g>
+      </g>
+    </g>
+
+    <g id="pig" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <g class="outline">
+        <g id="handle">
+          <path d="M245 67 V64 Q245 57.6 253 57.6 H279 Q287 57.6 287 64 V67"/>
+          <path d="M239 66 V64 H249 V66 M283 66 V64 H294 V66" stroke-width="1.1"/>
+        </g>
+        <path id="back"/>
+        <path id="belly"/>
+        <path d="M114 96 Q126 95 132 85 Q144 67 163 67
+                 M314 67 C332 67 346 86 346 108 Q346 131 330 141 Q323 145 324 159
+                 M296 145 L307 159 M176 144 L166 159 H149 V146
+                 Q149 142 143 140 Q119 135 111 120"/>
+        <path d="M170 67 Q186 73 185 93 Q185 105 176 100 Q164 96 160 83 Q157 75 150 76"/>
+        <path d="M346 97 Q354 105 352 130 Q349 160 362 158 Q368 158 372 151 Q375 147 383 148 H394"/>
+        <path d="M378 148 H384" stroke-width="4"/>
+        <path d="M183 152 V159 M198 152 V159 M273 152 V159 M286 152 V159"/>
+      </g>
+
+      <g id="face" class="outline">
+        <rect x="101" y="96" width="19" height="24" rx="7"/>
+        <path d="M107.4 105 V112 M113.3 105 V112 M132 116 H149"/>
+        <path id="eye" d="M138 96.5 H151" stroke="#cdd0c2"/>
+      </g>
+
+      <g id="cabinet-panel" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M222 72.5 H312 Q332 73 340 94 Q343 104 341 116
+                 Q338 136 324 136 H252 Q233 135 233 115 Q233 104 236 94
+                 Q237 89 233 89 H222 Q219 89 219 85 V77 Q219 73 222 72.5Z"
+              stroke="#587887" stroke-width="1.15"/>
+        <circle cx="228.5" cy="80.5" r="2.2" stroke="#a7aaab" stroke-width="1.1"/>
+        <g stroke="#7897a6" stroke-width="1.1">
+          <circle cx="241.5" cy="80.5" r="4.4"/>
+          <circle cx="254.4" cy="80.5" r="4.4"/>
+          <path id="drive-knob" d="M241.5 80.5 V77.8"/>
+          <path id="tone-knob" d="M254.4 80.5 V77.8"/>
+        </g>
+        <g id="grille" stroke="#859a9f">
+          <line/><line/><line/><line/><line/>
+          <line/><line/><line/><line/><line/>
+        </g>
+        <circle cx="294.2" cy="104.5" r="30.6" stroke="#84809a" stroke-width="1.4"/>
+        <g id="cone" stroke="#a29bb4" stroke-width="1.35">
+          <circle r="24.8"/>
+          <circle r="8"/>
+        </g>
+      </g>
+
+      <g id="wet" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M156 110.5 H174 Q181 110.5 185 108 Q191 105.5 200 105.5"
+              id="input-wave" stroke="#6a8de2" stroke-width="1.75"/>
+        <path d="M219.9 105.5 H233.6" stroke="#6a8de2" stroke-width="1.75"/>
+        <path id="drive-ticks" stroke="#d48746" stroke-width="1.45"/>
+      </g>
+      <g id="circuit-parts" stroke="#b09150" stroke-width="1.4">
+        <g>
+          <rect id="tube-glass" x="201" y="93.5" width="19" height="24" rx="5.8" fill="#b47f36"/>
+          <path d="M206 117.5 V122.4 M214.6 117.5 V122.4"/>
+          <path id="tube-core" d="M206.1 99.3 H214.9 M206.9 112.7 V109.7 H214.3 V112.7"
+                stroke="#e4b86c" stroke-width="1.6"/>
+        </g>
+        <g>
+          <path d="M199.7 105.5 L210.5 93.5 L221.8 105.5 L210.5 117.5 Z"/>
+          <path id="diode-core" d="M201 105.5 H206.5 M206.5 101.5 L213 105.5 L206.5 109.5 Z
+            M213 101.5 V109.5 M213 105.5 H220" stroke="#e4b86c" stroke-width="1.5"/>
+        </g>
+        <g>
+          <rect x="201" y="98" width="17.2" height="15" rx="2.7"/>
+          <path d="M218.2 102.3 H220.9 V108.7 H218.2 M205 101.9 V109"/>
+          <path id="starved-core" d="M208.4 108 L210.9 103 L213 108 L215.3 103"
+                stroke="#d97047" stroke-width="1.5"/>
+        </g>
+      </g>
+      <path id="rail" stroke="#ed713d"/>
+      <g id="dry" stroke="#a4c3d0" stroke-width="1.8">
+        <path id="dry-route"/>
+        <path id="dry-dash" stroke="#ddeae9" stroke-width="2.35" stroke-dasharray="12 190"/>
+        <circle cx="323" cy="141" r="2"/>
+      </g>
+
+      <g class="outline">
+        <rect x="145.5" y="159" width="23" height="8" rx="1.2"/>
+        <rect x="182.7" y="159" width="16.4" height="8" rx="1.2"/>
+        <rect x="272.8" y="159" width="15.2" height="8" rx="1.2"/>
+        <rect x="303.3" y="159" width="24" height="8" rx="1.2"/>
+      </g>
+    </g>
+  </svg>
+
+  <div class="controls" aria-label="AmPig controls">
+    <div class="lane" data-lane="drive">
+      <label for="drive">Drive</label>
+      <input id="drive" type="range" min="0" max="99" value="64" aria-describedby="drive-action">
+      <p id="drive-action">Outline intensity, circuit heat and cone throw</p>
+      <button id="circuit" type="button" aria-label="Drive circuit, Valve. Click to cycle.">Valve</button>
+    </div>
+    <div class="lane" data-lane="sag">
+      <label for="sag">Sag</label>
+      <input id="sag" type="range" min="0" max="99" value="46" aria-describedby="sag-action">
+      <p id="sag-action">Belly droop, cabinet drop and power rail bend</p>
+      <button id="recovery" type="button" aria-label="Sag recovery, Flow. Click to cycle.">Flow</button>
+    </div>
+    <div class="lane" data-lane="tone">
+      <label for="tone">Tone</label>
+      <input id="tone" type="range" min="0" max="99" value="52" aria-describedby="tone-action">
+      <p id="tone-action">Grille louvers open and brighten</p>
+    </div>
+    <div class="lane" data-lane="mix">
+      <label for="mix">Mix</label>
+      <input id="mix" type="range" min="0" max="99" value="99" aria-describedby="mix-action">
+      <p id="mix-action">Dry path to wet speaker</p>
+    </div>
+  </div>
+  <p class="hint">Tap Hit for one pulse or use Repeat while adjusting the controls. This mockup is silent.</p>
+</main>
+
+<script>
+  'use strict';
+
+  const node = id => document.getElementById(id);
+  const attribute = (element, name, value) => element.setAttribute(name, value);
+  const bounded = value => Math.max(0, Math.min(1, value));
+  const approach = (current, target, seconds, constant) =>
+    current + (target - current) * -Math.expm1(-seconds / constant);
+  const interpolate = (first, second, weight) => first + (second - first) * weight;
+  const dec = value => value.toFixed(3);
+  const digits = [
+    'M6 0H12Q18 0 18 6V20Q18 26 12 26H6Q0 26 0 20V6Q0 0 6 0Z',
+    'M4 5L10 0V26',
+    'M0 6Q0 0 6 0H12Q18 0 18 6Q18 10 14 13L5 20Q0 23 0 26H18',
+    'M0 3Q3 0 7 0H12Q18 0 18 6Q18 12 12 13Q18 14 18 20Q18 26 12 26H6Q2 26 0 23M8 13H12',
+    'M16 26V0H13L0 17H20',
+    'M18 0H1V12H12Q18 12 18 18V20Q18 26 12 26H6Q1 26 0 22',
+    'M18 4Q16 0 12 0H7Q0 0 0 7V20Q0 26 6 26H12Q18 26 18 20V18Q18 12 12 12H7Q0 12 0 18',
+    'M0 0H18L6 26',
+    'M6 13Q0 13 0 7V6Q0 0 6 0H12Q18 0 18 6V7Q18 13 12 13H6Q0 13 0 19V20Q0 26 6 26H12Q18 26 18 20V19Q18 13 12 13',
+    'M0 22Q2 26 6 26H11Q18 26 18 19V6Q18 0 12 0H6Q0 0 0 6V8Q0 14 6 14H11Q18 14 18 8'
+  ];
+  const knobs = ['drive', 'sag', 'tone', 'mix'].map(id => {
+    const input = node(id);
+    const digitNodes = Array.from(node(id + '-digits').children);
+    const knob = { input, target: 0, shown: Number(input.value) / 99 };
+    const read = () => {
+      const value = String(input.value).padStart(2, '0');
+      digitNodes.forEach((path, i) => attribute(path, 'd', digits[Number(value[i])]));
+      knob.target = Number(input.value) / 99;
+    };
+    input.addEventListener('input', read);
+    read();
+    return knob;
+  });
+
+  const circuits = ['Valve', 'Diode', 'Starved'];
+  const recoveries = ['Flow', 'Fast', 'Slow'];
+  const releaseSeconds = [.20, .070, .95];
+  const circuitWeights = [1, 0, 0];
+  let circuit = 0;
+  let recovery = 0;
+  let release = releaseSeconds[0];
+  let stimulus = 0;
+  let level = 0;
+  let supply = 0;
+  let phase = 0;
+  let repeat = false;
+  let nextHit = 0;
+  let hitIndex = 0;
+  let previousTime = 0;
+  let scheduled = false;
+  const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+
+  const pig = node('pig');
+  const back = node('back');
+  const belly = node('belly');
+  const handle = node('handle');
+  const panel = node('cabinet-panel');
+  const wet = node('wet');
+  const parts = node('circuit-parts');
+  const circuitDrawings = Array.from(parts.children);
+  const dry = node('dry');
+  const dryRoute = node('dry-route');
+  const dryDash = node('dry-dash');
+  const wave = node('input-wave');
+  const ticks = node('drive-ticks');
+  const core = node('tube-core');
+  const glass = node('tube-glass');
+  const diodeCore = node('diode-core');
+  const starvedCore = node('starved-core');
+  const rail = node('rail');
+  const cone = node('cone');
+  const grille = Array.from(node('grille').children);
+  const driveKnob = node('drive-knob');
+  const toneKnob = node('tone-knob');
+
+  function setMode(button, label, value) {
+    button.textContent = value;
+    button.setAttribute('aria-label', label + ', ' + value + '. Click to cycle.');
+  }
+  node('circuit').addEventListener('click', event => {
+    circuit = (circuit + 1) % circuits.length;
+    setMode(event.currentTarget, 'Drive circuit', circuits[circuit]);
+    schedule();
+  });
+  node('recovery').addEventListener('click', event => {
+    recovery = (recovery + 1) % recoveries.length;
+    setMode(event.currentTarget, 'Sag recovery', recoveries[recovery]);
+    schedule();
+  });
+  node('hit').addEventListener('click', () => {
+    stimulus = 1;
+    schedule();
+  });
+  node('repeat').addEventListener('click', event => {
+    repeat = !repeat;
+    event.currentTarget.setAttribute('aria-pressed', String(repeat));
+    nextHit = 0;
+    hitIndex = 0;
+    schedule();
+  });
+  knobs.forEach(knob => knob.input.addEventListener('input', schedule));
+
+  function drawWave(drive, modulation) {
+    const points = [];
+    for (let i = 0; i <= 20; i++) {
+      const u = i / 20;
+      const tone = Math.sin(u * 2 * Math.PI - phase);
+      const round = tone;
+      const clip = Math.tanh(tone * 3.6);
+      const sputter = Math.tanh(tone * 4.5) * Math.pow(Math.cos(phase * 1.58 + u * 7), 4);
+      const shape = round * circuitWeights[0] + clip * circuitWeights[1] + sputter * circuitWeights[2];
+      const x = interpolate(156, 201, u);
+      const baseline = interpolate(110.5, 105.5, bounded((u - .45) / .41));
+      const y = baseline - shape * Math.sin(u * Math.PI) * modulation * (1.5 + 13 * drive);
+      points.push((i ? 'L' : 'M') + dec(x) + ' ' + dec(y));
+    }
+    attribute(wave, 'd', points.join(' '));
+  }
+
+  function drawOutline(drive, push) {
+    const low = [57, 70, 77], high = [161, 204, 222], highlight = [224, 239, 241];
+    const intensity = Math.pow(drive, 1.4);
+    const channels = low.map((base, i) =>
+      Math.round(interpolate(interpolate(base, high[i], intensity), highlight[i], push)));
+    pig.style.setProperty('--outline', 'rgb(' + channels.join(',') + ')');
+    pig.style.setProperty('--outline-weight', dec(interpolate(1.1, 2, intensity) + .24 * push));
+  }
+
+  function drawCabinet(sag, load) {
+    const drop = interpolate(-3, 7, sag) + 4 * sag * load;
+    const top = dec(67 + drop);
+    attribute(back, 'd', 'M163 67 H177 C197 67 201 ' + top + ' 221 ' + top
+      + ' H293 C303 ' + top + ' 307 67 314 67');
+    attribute(handle, 'transform', 'translate(0 ' + dec(drop) + ')');
+
+    const bellyY = 142 + 18 * sag + 6 * sag * load;
+    const bottom = dec(bellyY);
+    attribute(belly, 'd', 'M299 149 Q294 152 284 152 C268 152 259 ' + bottom
+      + ' 237 ' + bottom + ' S206 152 187 152 Q178 152 174 149');
+
+    const squeeze = .062 * sag;
+    const deck = 'translate(0 ' + dec(drop + 72.5 * squeeze) + ') scale(1 ' + dec(1 - squeeze) + ')';
+    [panel, wet, parts].forEach(part => attribute(part, 'transform', deck));
+
+    const railY = 134 + drop / 2;
+    const railStart = dec(railY);
+    const railLow = dec(railY + sag * (8 + 8 * load));
+    const railEnd = dec(railY + 1);
+    attribute(rail, 'd', 'M189 ' + railStart + ' H211 C227 ' + railStart + ' 228 '
+      + railLow + ' 242 ' + railLow + ' S256 ' + railEnd + ' 276 ' + railEnd + ' H296');
+
+    const dryY = dec(bellyY - 4);
+    const dryLine = 'M156 110.5 H167 Q174 110.5 179 120 L187 134 Q191 141 203 141 H218 '
+      + 'C225 141 230 ' + dryY + ' 242 ' + dryY + ' S277 141 293 141 H321';
+    attribute(dryRoute, 'd', dryLine);
+    attribute(dryDash, 'd', dryLine);
+  }
+
+  function drawGrille(tone) {
+    attribute(toneKnob, 'transform', 'rotate(' + dec(interpolate(-120, 120, tone)) + ' 254.4 80.5)');
+    grille.forEach((line, i) => {
+      const left = i < 5;
+      const y = 105 + (i % 5 - 2) * interpolate(2.9, 5.85, tone);
+      const center = left ? 249.2 : 333;
+      const halfWidth = interpolate(.16, 1, tone) * (left ? 12.6 : 4.4);
+      const tilt = (1 - tone) * (left ? -1 : 1) * 2.4;
+      attribute(line, 'x1', dec(center - halfWidth));
+      attribute(line, 'y1', dec(y - tilt));
+      attribute(line, 'x2', dec(center + halfWidth));
+      attribute(line, 'y2', dec(y + tilt));
+      attribute(line, 'stroke-width', dec(interpolate(.8, 2, tone)));
+      attribute(line, 'opacity', dec(interpolate(.22, .94, tone)));
+    });
+  }
+
+  function draw() {
+    const [drive, sag, tone, mix] = knobs.map(knob => knob.shown);
+    const visibleMotion = reducedMotion.matches ? .35 : 1;
+    const motion = level * visibleMotion;
+    const gain = (.16 + .84 * drive) * motion;
+    const load = bounded(supply * 1.6) * visibleMotion * mix;
+    drawOutline(drive, drive * motion * .48 * mix);
+    drawCabinet(sag, load);
+    drawWave(drive, gain);
+    drawGrille(tone);
+    attribute(driveKnob, 'transform', 'rotate(' + dec(interpolate(-120, 120, drive)) + ' 241.5 80.5)');
+    attribute(glass, 'fill-opacity', dec(.04 + .54 * bounded(drive * .64 + gain * .76)));
+    attribute(core, 'opacity', dec(.31 + .68 * bounded(drive * .62 + gain)));
+    attribute(diodeCore, 'opacity', dec(.54 + .46 * bounded(drive * .55 + gain)));
+    attribute(starvedCore, 'opacity', dec(.43 + .57 * bounded(drive * .58 + gain * .64)));
+    circuitDrawings.forEach((drawing, i) => attribute(drawing, 'opacity', dec(circuitWeights[i])));
+    const peak = 1.6 + 2.8 * drive + 5 * gain;
+    attribute(ticks, 'd', 'M226 98v-' + dec(peak) + ' M231 98v-' + dec(peak * .83));
+    attribute(rail, 'stroke-width', dec(1.45 + .65 * sag + .48 * load));
+
+    const wetInk = dec(interpolate(.07, 1, mix));
+    attribute(rail, 'opacity', wetInk);
+    attribute(wet, 'opacity', wetInk);
+    attribute(parts, 'opacity', dec(interpolate(.42, 1, mix)));
+    attribute(dry, 'opacity', dec(1 - mix));
+    attribute(dryDash, 'stroke-dashoffset', dec(-phase * 3));
+    attribute(dryDash, 'opacity', dec(motion));
+
+    const excursion = gain * mix * Math.sin(phase) * .185;
+    attribute(cone, 'transform', 'translate(294.2 104.5) scale('
+      + dec(1 + excursion) + ' ' + dec(1 + excursion * .81) + ')');
+  }
+
+  function schedule() {
+    if (!scheduled) {
+      scheduled = true;
+      requestAnimationFrame(frame);
+    }
+  }
+
+  function frame(timestamp) {
+    scheduled = false;
+    const seconds = previousTime ? Math.min((timestamp - previousTime) / 1000, .050) : 1 / 60;
+    previousTime = timestamp;
+    if (repeat && timestamp >= nextHit) {
+      stimulus = Math.max(stimulus, [1, .58, .81, .63][hitIndex++ % 4]);
+      nextHit = timestamp + 570;
+    }
+    knobs.forEach(knob => {
+      knob.shown = approach(knob.shown, knob.target, seconds, .090);
+      if (Math.abs(knob.shown - knob.target) < .0001) knob.shown = knob.target;
+    });
+    circuitWeights.forEach((weight, i) => {
+      const target = Number(i === circuit);
+      const eased = approach(weight, target, seconds, .12);
+      circuitWeights[i] = Math.abs(eased - target) < .001 ? target : eased;
+    });
+    release = approach(release, releaseSeconds[recovery], seconds, .12);
+    stimulus *= Math.exp(-seconds / .112);
+    level = approach(level, stimulus, seconds, stimulus > level ? .019 : .080);
+    supply = approach(supply, level, seconds, level > supply ? .035 : release);
+    phase += seconds * 2 * Math.PI * 8;
+    draw();
+    const transition = knobs.some(knob => knob.shown !== knob.target)
+      || circuitWeights[circuit] !== 1 || Math.abs(release - releaseSeconds[recovery]) > .001;
+    if (repeat || stimulus > .0004 || level > .0004 || supply > .0004 || transition) {
+      schedule();
+    } else {
+      stimulus = level = supply = 0;
+      previousTime = 0;
+      draw();
+    }
+  }
+
+  reducedMotion.addEventListener('change', draw);
+  draw();
+</script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-# Fret v7
+# Fret v9
 
 Fret models an electric bass. Its screen shows the strings, moving pickup and damper. Press an encoder to open its mode card.
 
@@ -15,16 +15,16 @@ Hold Shift while turning for finer control. Pocket, Deep, Growl and Broken Cab r
 
 Pocket, Rubber, Deep, Clank, Pop, Growl, Broken Cab and Slide. Each preset stores volume 75.
 
+Position, Mute and Amp show `00` through `99`, including LFO modulation. Hand shows one of four playing poses. Pickup position and damping also move the corresponding parts of the bass illustration.
+
 ## Build
 
-Use Linux, Python 3 and the Blackfin toolchain configured in an Open-Field 0.14 checkout at commit `bb901bbe037db4114d294b8e3c4a8f9a7ddf28aa`. The pack targets OP-1 Field OS 1.7.3+0 and Open-Field base v32. [Open-Field SDK](https://github.com/LaP0573/open-field/tree/bb901bbe037db4114d294b8e3c4a8f9a7ddf28aa)
-
-From this directory, run the following commands with `SDK` set to that checkout.
+Set `SDK` to the absolute path of the Open-Field 0.20 checkout at `25a8d7f524ec3f46902cbd8a96779df32fa5e9bc` with its Blackfin toolchain installed. Run the commands from this directory. [Open-Field build guide](https://github.com/LaP0573/open-field/blob/25a8d7f524ec3f46902cbd8a96779df32fa5e9bc/docs/build.md)
 
 ```sh
-sha256sum -c SHA256SUMS
-sh build.sh "$SDK" /tmp/fret.pack
-sha256sum /tmp/fret.pack
+OUT=$(mktemp -d)
+sh build.sh "$SDK" "$OUT/fret.pack"
+sha256sum "$OUT/fret.pack"
 ```
 
-The released pack SHA-256 is `38791f4422d7ac590223caa2ab9dd59a37a5dce19401811213f95e39926fffc1`. The `source/` directory contains the engine, page, editable SVG, build recipe, factory presets and tables used in that build.
+Expected SHA-256 for the 64,220-byte pack is `cffdb9701357144dbe80958ac010055c9d32be118413c0a871eb3991d27f11fd`.

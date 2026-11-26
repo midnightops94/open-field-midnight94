@@ -1,5 +1,5 @@
 .section .rodata
 .balign 4
-.global _organ_resident_waves
-_organ_resident_waves:
-.incbin "organ/waves.i16le"
+.global _organ_encoded_waves
+_organ_encoded_waves:
+.incbin "organ/waves.delta"

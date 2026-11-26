@@ -1,0 +1,20 @@
+{
+  "version": 7,
+  "candidate_sha256": "0af690a65017443f9eb172d5a6b308e6d34e8cf5dafda6f56a3223faadf421d5",
+  "parent_sha256": "736f81d703cef59249b7e67470395cc21b09e59fe3e4f98611edfeef20d0b513",
+  "encoder_trial_install_matches_source_pack": true,
+  "sdk_020_014_byte_identical": true,
+  "code_changes": [
+    "display.hpp",
+    "recipe.json"
+  ],
+  "inputs_and_asks_identical": true,
+  "turn_handler_identical": true,
+  "sound_and_preset_data_unchanged": true,
+  "unchanged_picture_hashes": {
+    "cube_off.svg": "8f316ea57a0005c52db2a3e999b683e0a7b27cb04699a4bea221654a27cd2e07",
+    "chamber.svg": "666e9d76af7d39a272cabb79a1f4cbca5bbcb0e7938f4cc5ccc03b998debc1fe"
+  },
+  "byte_change": -132,
+  "imports_unchanged": true
+}

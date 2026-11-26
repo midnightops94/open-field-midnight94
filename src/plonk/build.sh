@@ -1,5 +1,5 @@
 #!/bin/sh
-# Build against an Open-Field 0.14 SDK checkout with its documented toolchain.
+# Build against an Open-Field 0.14 or 0.20 SDK checkout with its documented toolchain.
 set -eu
 project=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
 sdk=$(CDPATH= cd -- "${1:?Supply the Open-Field SDK directory}" && pwd)
@@ -16,5 +16,5 @@ cp -R "$project/source" "$stage/plonk"
 cd "$stage"
 python3 -I tools/pack_build.py card --recipe plonk/recipe.json --out plonk/plonk_card.s
 python3 -I tools/pack_build.py pictures --recipe plonk/recipe.json --out plonk/plonk_pictures.s
-python3 -I tools/pack_build.py build3 --recipe plonk/recipe.json --profile profiles/op1f-1.7.3.json --out "$out"
+python3 -I tools/pack_build.py build3 --recipe plonk/recipe.json --profile profiles/op1f-1.7.3.json --build-dir "$outdir/build-objects" --out "$out"
 python3 -I tools/pack_build.py check --pack "$out"

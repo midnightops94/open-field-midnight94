@@ -1,34 +1,34 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" width="480" height="220" viewBox="0 0 480 220">
   <rect x="0" y="0" width="480" height="220" fill="#0d0e0e" />
-  <path d="M 70.5,22 L 78.3,22 M 74.4,22 L 74.4,35" fill="none" stroke="#70b5f3" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" />
-  <path d="M 80.9,24.08 L 82.98,22 L 86.62,22 L 88.7,24.08 L 88.7,32.92 L 86.62,35 L 82.98,35 L 80.9,32.92 L 80.9,24.08" fill="none" stroke="#70b5f3" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" />
-  <path d="M 91.3,35 L 91.3,22 L 99.1,35 L 99.1,22" fill="none" stroke="#70b5f3" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" />
-  <path d="M 109.5,22 L 101.7,22 L 101.7,35 L 109.5,35 M 101.7,28.5 L 107.55,28.5" fill="none" stroke="#70b5f3" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 70.5,22 L 78.3,22 M 74.4,22 L 74.4,35" fill="none" stroke="#3C6087" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 80.9,24.08 L 82.98,22 L 86.62,22 L 88.7,24.08 L 88.7,32.92 L 86.62,35 L 82.98,35 L 80.9,32.92 L 80.9,24.08" fill="none" stroke="#3C6087" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 91.3,35 L 91.3,22 L 99.1,35 L 99.1,22" fill="none" stroke="#3C6087" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 109.5,22 L 101.7,22 L 101.7,35 L 109.5,35 M 101.7,28.5 L 107.55,28.5" fill="none" stroke="#3C6087" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" />
   <rect x="87.5" y="49" width="5" height="102" rx="1" fill="#39423e" />
   <path d="M 72,54 L 65,54 M 108,54 L 115,54" fill="none" stroke="#747c79" stroke-width="1" stroke-linejoin="round" />
   <path d="M 72,77 L 68,77 M 108,77 L 112,77" fill="none" stroke="#474e4b" stroke-width="1" stroke-linejoin="round" />
   <path d="M 72,100 L 65,100 M 108,100 L 115,100" fill="none" stroke="#747c79" stroke-width="1" stroke-linejoin="round" />
   <path d="M 72,123 L 68,123 M 108,123 L 112,123" fill="none" stroke="#474e4b" stroke-width="1" stroke-linejoin="round" />
   <path d="M 72,146 L 65,146 M 108,146 L 115,146" fill="none" stroke="#747c79" stroke-width="1" stroke-linejoin="round" />
-  <path d="M 73.5,168 L 80.1,168 M 76.8,168 L 76.8,179" fill="none" stroke="#70b5f3" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
-  <path d="M 82.3,168 L 85.6,173.28 L 88.9,168 M 85.6,173.28 L 85.6,179" fill="none" stroke="#70b5f3" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
-  <path d="M 91.1,179 L 91.1,168 L 95.94,168 L 97.7,169.76 L 97.7,172.62 L 95.94,174.38 L 91.1,174.38" fill="none" stroke="#70b5f3" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
-  <path d="M 106.5,168 L 99.9,168 L 99.9,179 L 106.5,179 M 99.9,173.5 L 104.85,173.5" fill="none" stroke="#70b5f3" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 73.5,168 L 80.1,168 M 76.8,168 L 76.8,179" fill="none" stroke="#3C6087" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 82.3,168 L 85.6,173.28 L 88.9,168 M 85.6,173.28 L 85.6,179" fill="none" stroke="#3C6087" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 91.1,179 L 91.1,168 L 95.94,168 L 97.7,169.76 L 97.7,172.62 L 95.94,174.38 L 91.1,174.38" fill="none" stroke="#3C6087" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 106.5,168 L 99.9,168 L 99.9,179 L 106.5,179 M 99.9,173.5 L 104.85,173.5" fill="none" stroke="#3C6087" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
   <g id="orgHand00">
-    <rect x="64" y="45" width="52" height="18" rx="1.1" fill="#70b5f3" stroke="#eef0e8" stroke-width="0.9" />
+    <rect x="64" y="45" width="52" height="18" rx="1.1" fill="#3C6087" stroke="#eef0e8" stroke-width="0.9" />
     <path d="M 76,54 L 104,54" fill="none" stroke="#252a27" stroke-width="1.6" stroke-linejoin="round" />
   </g>
   <g id="orgHand01">
-    <path d="M 64,45 L 116,45 L 111,63 L 69,63 L 64,45" fill="#70b5f3" stroke="#eef0e8" stroke-width="0.9" stroke-linejoin="round" />
+    <path d="M 64,45 L 116,45 L 111,63 L 69,63 L 64,45" fill="#3C6087" stroke="#eef0e8" stroke-width="0.9" stroke-linejoin="round" />
     <path d="M 76,54 L 104,54" fill="none" stroke="#252a27" stroke-width="1.6" stroke-linejoin="round" />
   </g>
   <g id="orgHand02">
-    <path d="M 64,45 L 116,45 L 116,60 L 109,60 L 109,63 L 71,63 L 71,60 L 64,60 L 64,45" fill="#70b5f3" stroke="#eef0e8" stroke-width="0.9" stroke-linejoin="round" />
+    <path d="M 64,45 L 116,45 L 116,60 L 109,60 L 109,63 L 71,63 L 71,60 L 64,60 L 64,45" fill="#3C6087" stroke="#eef0e8" stroke-width="0.9" stroke-linejoin="round" />
     <path d="M 76,54 L 104,54" fill="none" stroke="#252a27" stroke-width="1.6" stroke-linejoin="round" />
   </g>
   <g id="orgHand03">
-    <rect x="64" y="45" width="52" height="18" rx="9" fill="#70b5f3" stroke="#eef0e8" stroke-width="0.9" />
+    <rect x="64" y="45" width="52" height="18" rx="9" fill="#3C6087" stroke="#eef0e8" stroke-width="0.9" />
     <path d="M 76,54 L 104,54" fill="none" stroke="#252a27" stroke-width="1.6" stroke-linejoin="round" />
   </g>
   <g id="orgSwitch000">
@@ -36,7 +36,7 @@
     <path d="M 63.75,189 L 63.75,199 M 69.75,189 L 69.75,199 M 63.75,194 L 69.75,194" fill="none" stroke="#c7cec8" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
   </g>
   <g id="orgSwitch001">
-    <rect x="60.25" y="185" width="13" height="18" rx="1" fill="#70b5f3" stroke="#70b5f3" stroke-width="0.9" />
+    <rect x="60.25" y="185" width="13" height="18" rx="1" fill="#3C6087" stroke="#3C6087" stroke-width="0.9" />
     <path d="M 63.75,189 L 63.75,199 M 69.75,189 L 69.75,199 M 63.75,194 L 69.75,194" fill="none" stroke="#141715" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
   </g>
   <g id="orgSwitch002">
@@ -48,7 +48,7 @@
     <path d="M 79.25,189 L 82.25,199 L 85.25,189" fill="none" stroke="#c7cec8" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
   </g>
   <g id="orgSwitch011">
-    <rect x="75.75" y="185" width="13" height="18" rx="1" fill="#70b5f3" stroke="#70b5f3" stroke-width="0.9" />
+    <rect x="75.75" y="185" width="13" height="18" rx="1" fill="#3C6087" stroke="#3C6087" stroke-width="0.9" />
     <path d="M 79.25,189 L 82.25,199 L 85.25,189" fill="none" stroke="#141715" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
   </g>
   <g id="orgSwitch012">
@@ -60,7 +60,7 @@
     <path d="M 100.75,189 L 94.75,189 L 94.75,199 M 94.75,194 L 99.25,194" fill="none" stroke="#c7cec8" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
   </g>
   <g id="orgSwitch021">
-    <rect x="91.25" y="185" width="13" height="18" rx="1" fill="#70b5f3" stroke="#70b5f3" stroke-width="0.9" />
+    <rect x="91.25" y="185" width="13" height="18" rx="1" fill="#3C6087" stroke="#3C6087" stroke-width="0.9" />
     <path d="M 100.75,189 L 94.75,189 L 94.75,199 M 94.75,194 L 99.25,194" fill="none" stroke="#141715" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
   </g>
   <g id="orgSwitch022">
@@ -72,41 +72,41 @@
     <path d="M 116.25,190.5 L 114.75,189 L 111.75,189 L 110.25,190.5 L 110.25,197.5 L 111.75,199 L 114.75,199 L 116.25,197.5" fill="none" stroke="#c7cec8" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
   </g>
   <g id="orgSwitch031">
-    <rect x="106.75" y="185" width="13" height="18" rx="1" fill="#70b5f3" stroke="#70b5f3" stroke-width="0.9" />
+    <rect x="106.75" y="185" width="13" height="18" rx="1" fill="#3C6087" stroke="#3C6087" stroke-width="0.9" />
     <path d="M 116.25,190.5 L 114.75,189 L 111.75,189 L 110.25,190.5 L 110.25,197.5 L 111.75,199 L 114.75,199 L 116.25,197.5" fill="none" stroke="#141715" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
   </g>
   <g id="orgSwitch032">
     <rect x="106.75" y="185" width="13" height="18" rx="1" fill="#0d0e0e" stroke="#929a95" stroke-width="0.9" stroke-dasharray="2 2" />
     <path d="M 116.25,190.5 L 114.75,189 L 111.75,189 L 110.25,190.5 L 110.25,197.5 L 111.75,199 L 114.75,199 L 116.25,197.5" fill="none" stroke="#c7cec8" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
   </g>
-  <path d="M 175.7,22 L 175.7,35 L 183.5,35" fill="none" stroke="#cf9b60" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" />
-  <path d="M 186.1,24.08 L 188.18,22 L 191.82,22 L 193.9,24.08 L 193.9,32.92 L 191.82,35 L 188.18,35 L 186.1,32.92 L 186.1,24.08" fill="none" stroke="#cf9b60" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" />
-  <path d="M 196.5,22 L 197.8,35 L 200.4,30.45 L 203,35 L 204.3,22" fill="none" stroke="#cf9b60" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 175.7,22 L 175.7,35 L 183.5,35" fill="none" stroke="#8A653C" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 186.1,24.08 L 188.18,22 L 191.82,22 L 193.9,24.08 L 193.9,32.92 L 191.82,35 L 188.18,35 L 186.1,32.92 L 186.1,24.08" fill="none" stroke="#8A653C" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 196.5,22 L 197.8,35 L 200.4,30.45 L 203,35 L 204.3,22" fill="none" stroke="#8A653C" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" />
   <rect x="187.5" y="49" width="5" height="102" rx="1" fill="#39423e" />
   <path d="M 172,54 L 165,54 M 208,54 L 215,54" fill="none" stroke="#747c79" stroke-width="1" stroke-linejoin="round" />
   <path d="M 172,77 L 168,77 M 208,77 L 212,77" fill="none" stroke="#474e4b" stroke-width="1" stroke-linejoin="round" />
   <path d="M 172,100 L 165,100 M 208,100 L 215,100" fill="none" stroke="#747c79" stroke-width="1" stroke-linejoin="round" />
   <path d="M 172,123 L 168,123 M 208,123 L 212,123" fill="none" stroke="#474e4b" stroke-width="1" stroke-linejoin="round" />
   <path d="M 172,146 L 165,146 M 208,146 L 215,146" fill="none" stroke="#747c79" stroke-width="1" stroke-linejoin="round" />
-  <path d="M 169.1,168 L 173.39,168 L 175.7,170.2 L 175.7,176.8 L 173.39,179 L 169.1,179 L 169.1,168" fill="none" stroke="#cf9b60" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
-  <path d="M 177.9,179 L 177.9,168 L 182.74,168 L 184.5,169.76 L 184.5,172.62 L 182.74,174.38 L 177.9,174.38 M 181.42,174.38 L 184.5,179" fill="none" stroke="#cf9b60" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
-  <path d="M 187.47,168 L 192.53,168 M 190,168 L 190,179 M 187.47,179 L 192.53,179" fill="none" stroke="#cf9b60" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
-  <path d="M 195.5,168 L 198.8,179 L 202.1,168" fill="none" stroke="#cf9b60" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
-  <path d="M 210.9,168 L 204.3,168 L 204.3,179 L 210.9,179 M 204.3,173.5 L 209.25,173.5" fill="none" stroke="#cf9b60" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 169.1,168 L 173.39,168 L 175.7,170.2 L 175.7,176.8 L 173.39,179 L 169.1,179 L 169.1,168" fill="none" stroke="#8A653C" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 177.9,179 L 177.9,168 L 182.74,168 L 184.5,169.76 L 184.5,172.62 L 182.74,174.38 L 177.9,174.38 M 181.42,174.38 L 184.5,179" fill="none" stroke="#8A653C" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 187.47,168 L 192.53,168 M 190,168 L 190,179 M 187.47,179 L 192.53,179" fill="none" stroke="#8A653C" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 195.5,168 L 198.8,179 L 202.1,168" fill="none" stroke="#8A653C" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 210.9,168 L 204.3,168 L 204.3,179 L 210.9,179 M 204.3,173.5 L 209.25,173.5" fill="none" stroke="#8A653C" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
   <g id="orgHand10">
-    <rect x="164" y="45" width="52" height="18" rx="1.1" fill="#cf9b60" stroke="#eef0e8" stroke-width="0.9" />
+    <rect x="164" y="45" width="52" height="18" rx="1.1" fill="#8A653C" stroke="#eef0e8" stroke-width="0.9" />
     <path d="M 176,54 L 204,54" fill="none" stroke="#252a27" stroke-width="1.6" stroke-linejoin="round" />
   </g>
   <g id="orgHand11">
-    <path d="M 164,45 L 216,45 L 211,63 L 169,63 L 164,45" fill="#cf9b60" stroke="#eef0e8" stroke-width="0.9" stroke-linejoin="round" />
+    <path d="M 164,45 L 216,45 L 211,63 L 169,63 L 164,45" fill="#8A653C" stroke="#eef0e8" stroke-width="0.9" stroke-linejoin="round" />
     <path d="M 176,54 L 204,54" fill="none" stroke="#252a27" stroke-width="1.6" stroke-linejoin="round" />
   </g>
   <g id="orgHand12">
-    <path d="M 164,45 L 216,45 L 216,60 L 209,60 L 209,63 L 171,63 L 171,60 L 164,60 L 164,45" fill="#cf9b60" stroke="#eef0e8" stroke-width="0.9" stroke-linejoin="round" />
+    <path d="M 164,45 L 216,45 L 216,60 L 209,60 L 209,63 L 171,63 L 171,60 L 164,60 L 164,45" fill="#8A653C" stroke="#eef0e8" stroke-width="0.9" stroke-linejoin="round" />
     <path d="M 176,54 L 204,54" fill="none" stroke="#252a27" stroke-width="1.6" stroke-linejoin="round" />
   </g>
   <g id="orgHand13">
-    <rect x="164" y="45" width="52" height="18" rx="9" fill="#cf9b60" stroke="#eef0e8" stroke-width="0.9" />
+    <rect x="164" y="45" width="52" height="18" rx="9" fill="#8A653C" stroke="#eef0e8" stroke-width="0.9" />
     <path d="M 176,54 L 204,54" fill="none" stroke="#252a27" stroke-width="1.6" stroke-linejoin="round" />
   </g>
   <g id="orgSwitch100">
@@ -114,7 +114,7 @@
     <path d="M 176.75,191 L 178.75,189 L 178.75,199 M 176.55,199 L 180.95,199" fill="none" stroke="#c7cec8" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
   </g>
   <g id="orgSwitch101">
-    <rect x="168.75" y="185" width="20" height="18" rx="1" fill="#cf9b60" stroke="#cf9b60" stroke-width="0.9" />
+    <rect x="168.75" y="185" width="20" height="18" rx="1" fill="#8A653C" stroke="#8A653C" stroke-width="0.9" />
     <path d="M 176.75,191 L 178.75,189 L 178.75,199 M 176.55,199 L 180.95,199" fill="none" stroke="#141715" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
   </g>
   <g id="orgSwitch102">
@@ -126,40 +126,40 @@
     <path d="M 198.25,190.6 L 199.85,189 L 202.65,189 L 204.25,190.6 L 204.25,192.5 L 198.25,197 L 198.25,199 L 204.25,199" fill="none" stroke="#c7cec8" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
   </g>
   <g id="orgSwitch111">
-    <rect x="191.25" y="185" width="20" height="18" rx="1" fill="#cf9b60" stroke="#cf9b60" stroke-width="0.9" />
+    <rect x="191.25" y="185" width="20" height="18" rx="1" fill="#8A653C" stroke="#8A653C" stroke-width="0.9" />
     <path d="M 198.25,190.6 L 199.85,189 L 202.65,189 L 204.25,190.6 L 204.25,192.5 L 198.25,197 L 198.25,199 L 204.25,199" fill="none" stroke="#141715" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
   </g>
   <g id="orgSwitch112">
     <rect x="191.25" y="185" width="20" height="18" rx="1" fill="#0d0e0e" stroke="#929a95" stroke-width="0.9" stroke-dasharray="2 2" />
     <path d="M 198.25,190.6 L 199.85,189 L 202.65,189 L 204.25,190.6 L 204.25,192.5 L 198.25,197 L 198.25,199 L 204.25,199" fill="none" stroke="#c7cec8" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
   </g>
-  <path d="M 275.7,35 L 275.7,22 L 279.6,27.2 L 283.5,22 L 283.5,35" fill="none" stroke="#ccd4d3" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" />
-  <path d="M 287.01,22 L 292.99,22 M 290,22 L 290,35 M 287.01,35 L 292.99,35" fill="none" stroke="#ccd4d3" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" />
-  <path d="M 296.5,22 L 301.57,22 L 304.3,24.6 L 304.3,32.4 L 301.57,35 L 296.5,35 L 296.5,22" fill="none" stroke="#ccd4d3" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 275.7,35 L 275.7,22 L 279.6,27.2 L 283.5,22 L 283.5,35" fill="none" stroke="#CDD0C2" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 287.01,22 L 292.99,22 M 290,22 L 290,35 M 287.01,35 L 292.99,35" fill="none" stroke="#CDD0C2" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 296.5,22 L 301.57,22 L 304.3,24.6 L 304.3,32.4 L 301.57,35 L 296.5,35 L 296.5,22" fill="none" stroke="#CDD0C2" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" />
   <rect x="287.5" y="49" width="5" height="102" rx="1" fill="#39423e" />
   <path d="M 272,54 L 265,54 M 308,54 L 315,54" fill="none" stroke="#747c79" stroke-width="1" stroke-linejoin="round" />
   <path d="M 272,77 L 268,77 M 308,77 L 312,77" fill="none" stroke="#474e4b" stroke-width="1" stroke-linejoin="round" />
   <path d="M 272,100 L 265,100 M 308,100 L 315,100" fill="none" stroke="#747c79" stroke-width="1" stroke-linejoin="round" />
   <path d="M 272,123 L 268,123 M 308,123 L 312,123" fill="none" stroke="#474e4b" stroke-width="1" stroke-linejoin="round" />
   <path d="M 272,146 L 265,146 M 308,146 L 315,146" fill="none" stroke="#747c79" stroke-width="1" stroke-linejoin="round" />
-  <path d="M 273.5,179 L 273.5,168 L 278.34,168 L 280.1,169.76 L 280.1,172.62 L 278.34,174.38 L 273.5,174.38" fill="none" stroke="#ccd4d3" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
-  <path d="M 288.9,168 L 282.3,168 L 282.3,179 L 288.9,179 M 282.3,173.5 L 287.25,173.5" fill="none" stroke="#ccd4d3" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
-  <path d="M 291.1,179 L 291.1,168 L 295.94,168 L 297.7,169.76 L 297.7,172.62 L 295.94,174.38 L 291.1,174.38 M 294.62,174.38 L 297.7,179" fill="none" stroke="#ccd4d3" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
-  <path d="M 306.5,169.65 L 304.85,168 L 301.55,168 L 299.9,169.65 L 299.9,177.35 L 301.55,179 L 304.85,179 L 306.5,177.35" fill="none" stroke="#ccd4d3" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 273.5,179 L 273.5,168 L 278.34,168 L 280.1,169.76 L 280.1,172.62 L 278.34,174.38 L 273.5,174.38" fill="none" stroke="#CDD0C2" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 288.9,168 L 282.3,168 L 282.3,179 L 288.9,179 M 282.3,173.5 L 287.25,173.5" fill="none" stroke="#CDD0C2" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 291.1,179 L 291.1,168 L 295.94,168 L 297.7,169.76 L 297.7,172.62 L 295.94,174.38 L 291.1,174.38 M 294.62,174.38 L 297.7,179" fill="none" stroke="#CDD0C2" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 306.5,169.65 L 304.85,168 L 301.55,168 L 299.9,169.65 L 299.9,177.35 L 301.55,179 L 304.85,179 L 306.5,177.35" fill="none" stroke="#CDD0C2" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
   <g id="orgHand20">
-    <rect x="264" y="45" width="52" height="18" rx="1.1" fill="#ccd4d3" stroke="#eef0e8" stroke-width="0.9" />
+    <rect x="264" y="45" width="52" height="18" rx="1.1" fill="#CDD0C2" stroke="#eef0e8" stroke-width="0.9" />
     <path d="M 276,54 L 304,54" fill="none" stroke="#252a27" stroke-width="1.6" stroke-linejoin="round" />
   </g>
   <g id="orgHand21">
-    <path d="M 264,45 L 316,45 L 311,63 L 269,63 L 264,45" fill="#ccd4d3" stroke="#eef0e8" stroke-width="0.9" stroke-linejoin="round" />
+    <path d="M 264,45 L 316,45 L 311,63 L 269,63 L 264,45" fill="#CDD0C2" stroke="#eef0e8" stroke-width="0.9" stroke-linejoin="round" />
     <path d="M 276,54 L 304,54" fill="none" stroke="#252a27" stroke-width="1.6" stroke-linejoin="round" />
   </g>
   <g id="orgHand22">
-    <path d="M 264,45 L 316,45 L 316,60 L 309,60 L 309,63 L 271,63 L 271,60 L 264,60 L 264,45" fill="#ccd4d3" stroke="#eef0e8" stroke-width="0.9" stroke-linejoin="round" />
+    <path d="M 264,45 L 316,45 L 316,60 L 309,60 L 309,63 L 271,63 L 271,60 L 264,60 L 264,45" fill="#CDD0C2" stroke="#eef0e8" stroke-width="0.9" stroke-linejoin="round" />
     <path d="M 276,54 L 304,54" fill="none" stroke="#252a27" stroke-width="1.6" stroke-linejoin="round" />
   </g>
   <g id="orgHand23">
-    <rect x="264" y="45" width="52" height="18" rx="9" fill="#ccd4d3" stroke="#eef0e8" stroke-width="0.9" />
+    <rect x="264" y="45" width="52" height="18" rx="9" fill="#CDD0C2" stroke="#eef0e8" stroke-width="0.9" />
     <path d="M 276,54 L 304,54" fill="none" stroke="#252a27" stroke-width="1.6" stroke-linejoin="round" />
   </g>
   <g id="orgSwitch200">
@@ -167,7 +167,7 @@
     <path d="M 276.75,191 L 278.75,189 L 278.75,199 M 276.55,199 L 280.95,199" fill="none" stroke="#c7cec8" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
   </g>
   <g id="orgSwitch201">
-    <rect x="268.75" y="185" width="20" height="18" rx="1" fill="#ccd4d3" stroke="#ccd4d3" stroke-width="0.9" />
+    <rect x="268.75" y="185" width="20" height="18" rx="1" fill="#CDD0C2" stroke="#CDD0C2" stroke-width="0.9" />
     <path d="M 276.75,191 L 278.75,189 L 278.75,199 M 276.55,199 L 280.95,199" fill="none" stroke="#141715" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
   </g>
   <g id="orgSwitch202">
@@ -179,41 +179,41 @@
     <path d="M 298.25,190.6 L 299.85,189 L 302.65,189 L 304.25,190.6 L 304.25,192.5 L 298.25,197 L 298.25,199 L 304.25,199" fill="none" stroke="#c7cec8" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
   </g>
   <g id="orgSwitch211">
-    <rect x="291.25" y="185" width="20" height="18" rx="1" fill="#ccd4d3" stroke="#ccd4d3" stroke-width="0.9" />
+    <rect x="291.25" y="185" width="20" height="18" rx="1" fill="#CDD0C2" stroke="#CDD0C2" stroke-width="0.9" />
     <path d="M 298.25,190.6 L 299.85,189 L 302.65,189 L 304.25,190.6 L 304.25,192.5 L 298.25,197 L 298.25,199 L 304.25,199" fill="none" stroke="#141715" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
   </g>
   <g id="orgSwitch212">
     <rect x="291.25" y="185" width="20" height="18" rx="1" fill="#0d0e0e" stroke="#929a95" stroke-width="0.9" stroke-dasharray="2 2" />
     <path d="M 298.25,190.6 L 299.85,189 L 302.65,189 L 304.25,190.6 L 304.25,192.5 L 298.25,197 L 298.25,199 L 304.25,199" fill="none" stroke="#c7cec8" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
   </g>
-  <path d="M 370.5,22 L 370.5,35 M 378.3,22 L 378.3,35 M 370.5,28.5 L 378.3,28.5" fill="none" stroke="#ff8f4d" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" />
-  <path d="M 381.81,22 L 387.79,22 M 384.8,22 L 384.8,35 M 381.81,35 L 387.79,35" fill="none" stroke="#ff8f4d" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" />
-  <path d="M 399.1,23.95 L 397.15,22 L 393.25,22 L 391.3,23.95 L 391.3,33.05 L 393.25,35 L 399.1,35 L 399.1,29.15 L 395.2,29.15" fill="none" stroke="#ff8f4d" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" />
-  <path d="M 401.7,22 L 401.7,35 M 409.5,22 L 409.5,35 M 401.7,28.5 L 409.5,28.5" fill="none" stroke="#ff8f4d" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 370.5,22 L 370.5,35 M 378.3,22 L 378.3,35 M 370.5,28.5 L 378.3,28.5" fill="none" stroke="#E52817" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 381.81,22 L 387.79,22 M 384.8,22 L 384.8,35 M 381.81,35 L 387.79,35" fill="none" stroke="#E52817" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 399.1,23.95 L 397.15,22 L 393.25,22 L 391.3,23.95 L 391.3,33.05 L 393.25,35 L 399.1,35 L 399.1,29.15 L 395.2,29.15" fill="none" stroke="#E52817" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 401.7,22 L 401.7,35 M 409.5,22 L 409.5,35 M 401.7,28.5 L 409.5,28.5" fill="none" stroke="#E52817" stroke-width="1.456" stroke-linecap="round" stroke-linejoin="round" />
   <rect x="387.5" y="49" width="5" height="102" rx="1" fill="#39423e" />
   <path d="M 372,54 L 365,54 M 408,54 L 415,54" fill="none" stroke="#747c79" stroke-width="1" stroke-linejoin="round" />
   <path d="M 372,77 L 368,77 M 408,77 L 412,77" fill="none" stroke="#474e4b" stroke-width="1" stroke-linejoin="round" />
   <path d="M 372,100 L 365,100 M 408,100 L 415,100" fill="none" stroke="#747c79" stroke-width="1" stroke-linejoin="round" />
   <path d="M 372,123 L 368,123 M 408,123 L 412,123" fill="none" stroke="#474e4b" stroke-width="1" stroke-linejoin="round" />
   <path d="M 372,146 L 365,146 M 408,146 L 415,146" fill="none" stroke="#747c79" stroke-width="1" stroke-linejoin="round" />
-  <path d="M 380.1,169.65 L 378.45,168 L 375.15,168 L 373.5,169.65 L 373.5,171.85 L 375.15,173.5 L 378.45,173.5 L 380.1,175.15 L 380.1,177.35 L 378.45,179 L 375.15,179 L 373.5,177.35" fill="none" stroke="#ff8f4d" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
-  <path d="M 382.3,179 L 382.3,168 L 387.14,168 L 388.9,169.76 L 388.9,172.62 L 387.14,174.38 L 382.3,174.38" fill="none" stroke="#ff8f4d" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
-  <path d="M 391.87,168 L 396.93,168 M 394.4,168 L 394.4,179 M 391.87,179 L 396.93,179" fill="none" stroke="#ff8f4d" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
-  <path d="M 399.9,179 L 399.9,168 L 406.5,179 L 406.5,168" fill="none" stroke="#ff8f4d" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 380.1,169.65 L 378.45,168 L 375.15,168 L 373.5,169.65 L 373.5,171.85 L 375.15,173.5 L 378.45,173.5 L 380.1,175.15 L 380.1,177.35 L 378.45,179 L 375.15,179 L 373.5,177.35" fill="none" stroke="#E52817" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 382.3,179 L 382.3,168 L 387.14,168 L 388.9,169.76 L 388.9,172.62 L 387.14,174.38 L 382.3,174.38" fill="none" stroke="#E52817" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 391.87,168 L 396.93,168 M 394.4,168 L 394.4,179 M 391.87,179 L 396.93,179" fill="none" stroke="#E52817" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 399.9,179 L 399.9,168 L 406.5,179 L 406.5,168" fill="none" stroke="#E52817" stroke-width="1.199" stroke-linecap="round" stroke-linejoin="round" />
   <g id="orgHand30">
-    <rect x="364" y="45" width="52" height="18" rx="1.1" fill="#ff8f4d" stroke="#eef0e8" stroke-width="0.9" />
+    <rect x="364" y="45" width="52" height="18" rx="1.1" fill="#E52817" stroke="#eef0e8" stroke-width="0.9" />
     <path d="M 376,54 L 404,54" fill="none" stroke="#252a27" stroke-width="1.6" stroke-linejoin="round" />
   </g>
   <g id="orgHand31">
-    <path d="M 364,45 L 416,45 L 411,63 L 369,63 L 364,45" fill="#ff8f4d" stroke="#eef0e8" stroke-width="0.9" stroke-linejoin="round" />
+    <path d="M 364,45 L 416,45 L 411,63 L 369,63 L 364,45" fill="#E52817" stroke="#eef0e8" stroke-width="0.9" stroke-linejoin="round" />
     <path d="M 376,54 L 404,54" fill="none" stroke="#252a27" stroke-width="1.6" stroke-linejoin="round" />
   </g>
   <g id="orgHand32">
-    <path d="M 364,45 L 416,45 L 416,60 L 409,60 L 409,63 L 371,63 L 371,60 L 364,60 L 364,45" fill="#ff8f4d" stroke="#eef0e8" stroke-width="0.9" stroke-linejoin="round" />
+    <path d="M 364,45 L 416,45 L 416,60 L 409,60 L 409,63 L 371,63 L 371,60 L 364,60 L 364,45" fill="#E52817" stroke="#eef0e8" stroke-width="0.9" stroke-linejoin="round" />
     <path d="M 376,54 L 404,54" fill="none" stroke="#252a27" stroke-width="1.6" stroke-linejoin="round" />
   </g>
   <g id="orgHand33">
-    <rect x="364" y="45" width="52" height="18" rx="9" fill="#ff8f4d" stroke="#eef0e8" stroke-width="0.9" />
+    <rect x="364" y="45" width="52" height="18" rx="9" fill="#E52817" stroke="#eef0e8" stroke-width="0.9" />
     <path d="M 376,54 L 404,54" fill="none" stroke="#252a27" stroke-width="1.6" stroke-linejoin="round" />
   </g>
   <g id="orgSwitch300">
@@ -221,7 +221,7 @@
     <path d="M 381.75,190.5 L 380.25,189 L 377.25,189 L 375.75,190.5 L 375.75,192.5 L 377.25,194 L 380.25,194 L 381.75,195.5 L 381.75,197.5 L 380.25,199 L 377.25,199 L 375.75,197.5" fill="none" stroke="#c7cec8" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
   </g>
   <g id="orgSwitch301">
-    <rect x="368.75" y="185" width="20" height="18" rx="1" fill="#ff8f4d" stroke="#ff8f4d" stroke-width="0.9" />
+    <rect x="368.75" y="185" width="20" height="18" rx="1" fill="#E52817" stroke="#E52817" stroke-width="0.9" />
     <path d="M 381.75,190.5 L 380.25,189 L 377.25,189 L 375.75,190.5 L 375.75,192.5 L 377.25,194 L 380.25,194 L 381.75,195.5 L 381.75,197.5 L 380.25,199 L 377.25,199 L 375.75,197.5" fill="none" stroke="#141715" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
   </g>
   <g id="orgSwitch302">
@@ -233,7 +233,7 @@
     <path d="M 404.25,189 L 398.25,189 L 398.25,199 M 398.25,194 L 402.75,194" fill="none" stroke="#c7cec8" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
   </g>
   <g id="orgSwitch311">
-    <rect x="391.25" y="185" width="20" height="18" rx="1" fill="#ff8f4d" stroke="#ff8f4d" stroke-width="0.9" />
+    <rect x="391.25" y="185" width="20" height="18" rx="1" fill="#E52817" stroke="#E52817" stroke-width="0.9" />
     <path d="M 404.25,189 L 398.25,189 L 398.25,199 M 398.25,194 L 402.75,194" fill="none" stroke="#141715" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
   </g>
   <g id="orgSwitch312">

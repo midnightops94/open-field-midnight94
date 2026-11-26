@@ -129,7 +129,9 @@ inline Text format(Lane lane, const Parameters& values, bool trim) noexcept {
         writer.hundredths(unsigned(value < 0 ? -value : value));
         writer.append(" db");
     } else if (lane == Lane::res) {
-        writer.number((uint32_t(values.resonance) * 100 + 32767u) / 65535u);
+        const unsigned value = (uint32_t(values.resonance) * 99u + 32767u) / 65535u;
+        writer.put(char('0' + value / 10));
+        writer.put(char('0' + value % 10));
     }
     return text;
 }

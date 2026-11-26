@@ -1,0 +1,77 @@
+{
+  "parent_sha256": "4107262512f4ad4bb04febcfb519690259114f459bac289a1bbd3ef08b2eb6a0",
+  "pack_sha256": "4db08b447cb5175d7d5efef4d147fed7a22d154e77817729e5336da5fa874ec6",
+  "pack_bytes": 161898,
+  "version": 7,
+  "same_bytes_on_open_field_020_and_014": true,
+  "stock_fm_release": "1.7.3+0",
+  "stock_fm_svg_sha256": "8fe40e8e30a85f30dd6355510a4e4a0a0c2e5a9b24216d8f68f047e5e5560b96",
+  "lane_inks": {
+    "#70b5f3": {
+      "role": "Tone and Organ",
+      "ink": "#3C6087",
+      "count": 20,
+      "stock_fm_selectors": [
+        "opa",
+        "ope"
+      ]
+    },
+    "#cf9b60": {
+      "role": "Low and Drive",
+      "ink": "#8A653C",
+      "count": 16,
+      "stock_fm_selectors": [
+        "opb",
+        "opf"
+      ]
+    },
+    "#ccd4d3": {
+      "role": "Mid and Perc",
+      "ink": "#CDD0C2",
+      "count": 15,
+      "stock_fm_selectors": [
+        "opc",
+        "opg"
+      ]
+    },
+    "#ff8f4d": {
+      "role": "High and Spin",
+      "ink": "#E52817",
+      "count": 16,
+      "stock_fm_selectors": [
+        "opd",
+        "oph"
+      ]
+    }
+  },
+  "artwork": {
+    "old_sha256": "200e9d30ff59d52552d0e4f5b66f66e14e2d9dd07c199949d8f8c7dce0ee4f9c",
+    "new_sha256": "850c7d4994c86d4342ac95c0c95fd23e0493d7f2fb0ef9e9a4d198259e62cdb5",
+    "size": 27502,
+    "changed_color_attributes": 67,
+    "all_geometry_and_neutral_parts_exact": true
+  },
+  "changed_resident_body_offsets": [
+    125324,
+    130764,
+    130864,
+    130865,
+    130866,
+    130867
+  ],
+  "changed_resident_fields": [
+    "card version",
+    "picture directory version",
+    "picture CRC"
+  ],
+  "eight_factory_preset_bytes_identical": true,
+  "new_ask_memory_bytes": 209922,
+  "unchanged_native_object_sha256": {
+    "audio.cpp.o": "216f91f67300dda391844acc536f49c7dd8f4a7c95d8f8572722e017a84b3e0f",
+    "organ_rotor.cpp.o": "adaf9c4fcde6f6a3c67d1eee19bfc340ed406dc9805cdb02d883f0e33a175871",
+    "page.cpp.o": "40c24d5d6d07b8ff0f32c98cd6a6fb34b5d3d949acf48d8ba80739777f136a9f",
+    "waves.cpp.o": "813c84237bf4c3e386b47926daf521bd4172dec81ec07fa74433fdb1485b53ab",
+    "waves.s.o": "68bddeebe0e0c3d32f79ab262b49b0a0697b2c8c8d25f6273f472f3c611c37d2"
+  },
+  "physical_device_verified": false
+}

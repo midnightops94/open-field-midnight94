@@ -19,11 +19,11 @@ static inline void captions(void* canvas,void* document,const char* const (&labe
     static const unsigned colors[]={OP1F_COLOUR(76,125,168),OP1F_COLOUR(138,101,60),
                                     OP1F_COLOUR(205,208,194),OP1F_COLOUR(204,31,0)};
     for(unsigned lane=0;lane<4;++lane) {
-        const unsigned n=(v[lane]*100u+16383u)>>15;
-        char digits[4]; unsigned len=0, k=n;
-        if(k==100) {digits[len++]='1';k=0;}
-        if(n>=10) { const unsigned tens=(k*205u)>>11; digits[len++]=char('0'+tens); k-=10*tens; }
-        digits[len++]=char('0'+k);digits[len]=0;
+        const unsigned rounded=v[lane]*99u+16383u;
+        // Exact division by 32767 for the bounded display numerator, with no runtime helper.
+        const unsigned n=(rounded+1u+(rounded>>15))>>15;
+        const unsigned tens=(n*205u)>>11;
+        const char digits[]={char('0'+tens),char('0'+n-10*tens),0};
         const unsigned align=lane<2?OP1F_LEFT:OP1F_RIGHT;
         if(document && op1f_text_set(document,cap[lane],labels[lane],0,align) &&
                        op1f_text_set(document,val[lane],digits,0,align)) continue;
@@ -31,7 +31,7 @@ static inline void captions(void* canvas,void* document,const char* const (&labe
         const int y=lane&1 ? 156 : 10;
         // The base bitmap font has seven-pixel capitals. Scale 5 gives 35 px digits.
         op1f_paint_text(canvas,lane<2?13:467-int(6*title-1)*2,y,labels[lane],colors[lane],2);
-        op1f_paint_text(canvas,lane<2?13:467-int(6*len-1)*5,lane&1?177:33,digits,OP1F_COLOUR(205,208,194),5);
+        op1f_paint_text(canvas,lane<2?13:467-(6*2-1)*5,lane&1?177:33,digits,OP1F_COLOUR(205,208,194),5);
     }
 }
 

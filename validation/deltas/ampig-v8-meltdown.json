@@ -1,0 +1,485 @@
+{
+  "held_signal_fundamental_hz": 215,
+  "measurement_window_ms": 5.804988662131519,
+  "driven_brownout": [
+    {
+      "circuit": "valve",
+      "recover": "flow",
+      "tone": 0,
+      "input_peak": 0.22,
+      "brownouts": 14,
+      "modulation_depth_db": 25.238648626931607,
+      "baseline_depth_db": 0.8957754716885218,
+      "audible_burst_rms": 0.012225988643833828,
+      "muted_rms": 0.0006688851538126956
+    },
+    {
+      "circuit": "valve",
+      "recover": "flow",
+      "tone": 53,
+      "input_peak": 0.22,
+      "brownouts": 14,
+      "modulation_depth_db": 28.70075062759195,
+      "baseline_depth_db": 0.5609274425557577,
+      "audible_burst_rms": 0.026522647939153123,
+      "muted_rms": 0.0009740457351534668
+    },
+    {
+      "circuit": "valve",
+      "recover": "flow",
+      "tone": 99,
+      "input_peak": 0.22,
+      "brownouts": 14,
+      "modulation_depth_db": 28.91216492630192,
+      "baseline_depth_db": 0.42384979872902356,
+      "audible_burst_rms": 0.02890346142257424,
+      "muted_rms": 0.0010359567150029403
+    },
+    {
+      "circuit": "valve",
+      "recover": "fast",
+      "tone": 0,
+      "input_peak": 0.22,
+      "brownouts": 23,
+      "modulation_depth_db": 14.576803111113403,
+      "baseline_depth_db": 0.8803214058927662,
+      "audible_burst_rms": 0.014737006193356163,
+      "muted_rms": 0.002751497423536131
+    },
+    {
+      "circuit": "valve",
+      "recover": "fast",
+      "tone": 53,
+      "input_peak": 0.22,
+      "brownouts": 23,
+      "modulation_depth_db": 20.669506590034143,
+      "baseline_depth_db": 0.5507193016455374,
+      "audible_burst_rms": 0.03107652192406326,
+      "muted_rms": 0.002877114045893167
+    },
+    {
+      "circuit": "valve",
+      "recover": "fast",
+      "tone": 99,
+      "input_peak": 0.22,
+      "brownouts": 23,
+      "modulation_depth_db": 21.17614004392921,
+      "baseline_depth_db": 0.4176167935958272,
+      "audible_burst_rms": 0.03359951192265998,
+      "muted_rms": 0.0029344449496508814
+    },
+    {
+      "circuit": "valve",
+      "recover": "slow",
+      "tone": 0,
+      "input_peak": 0.22,
+      "brownouts": 11,
+      "modulation_depth_db": 28.798694114648484,
+      "baseline_depth_db": 0.9010904048286595,
+      "audible_burst_rms": 0.01143918717002957,
+      "muted_rms": 0.0004153942305878507
+    },
+    {
+      "circuit": "valve",
+      "recover": "slow",
+      "tone": 53,
+      "input_peak": 0.22,
+      "brownouts": 11,
+      "modulation_depth_db": 30.049688458114822,
+      "baseline_depth_db": 0.5639793055983097,
+      "audible_burst_rms": 0.025287906622751054,
+      "muted_rms": 0.0007951122715018552
+    },
+    {
+      "circuit": "valve",
+      "recover": "slow",
+      "tone": 99,
+      "input_peak": 0.22,
+      "brownouts": 11,
+      "modulation_depth_db": 30.11206311468166,
+      "baseline_depth_db": 0.4267628897705037,
+      "audible_burst_rms": 0.027828756077561828,
+      "muted_rms": 0.0008687416401517663
+    },
+    {
+      "circuit": "diode",
+      "recover": "flow",
+      "tone": 0,
+      "input_peak": 0.22,
+      "brownouts": 14,
+      "modulation_depth_db": 29.085932808743287,
+      "baseline_depth_db": 0.8942677251451356,
+      "audible_burst_rms": 0.010522447425354898,
+      "muted_rms": 0.00036967503619424354
+    },
+    {
+      "circuit": "diode",
+      "recover": "flow",
+      "tone": 53,
+      "input_peak": 0.22,
+      "brownouts": 14,
+      "modulation_depth_db": 30.304967190673317,
+      "baseline_depth_db": 0.296436493626464,
+      "audible_burst_rms": 0.02352147219423637,
+      "muted_rms": 0.0007181516141317792
+    },
+    {
+      "circuit": "diode",
+      "recover": "flow",
+      "tone": 99,
+      "input_peak": 0.22,
+      "brownouts": 14,
+      "modulation_depth_db": 30.296735134656313,
+      "baseline_depth_db": 0.24277918442553853,
+      "audible_burst_rms": 0.02584791725406878,
+      "muted_rms": 0.0007899303459386349
+    },
+    {
+      "circuit": "diode",
+      "recover": "fast",
+      "tone": 0,
+      "input_peak": 0.22,
+      "brownouts": 23,
+      "modulation_depth_db": 22.70431237747558,
+      "baseline_depth_db": 0.8745030238665579,
+      "audible_burst_rms": 0.012908287527487811,
+      "muted_rms": 0.0009454814481586923
+    },
+    {
+      "circuit": "diode",
+      "recover": "fast",
+      "tone": 53,
+      "input_peak": 0.22,
+      "brownouts": 23,
+      "modulation_depth_db": 26.74689448176007,
+      "baseline_depth_db": 0.29187699980345294,
+      "audible_burst_rms": 0.02747772539440298,
+      "muted_rms": 0.00126367692395819
+    },
+    {
+      "circuit": "diode",
+      "recover": "fast",
+      "tone": 99,
+      "input_peak": 0.22,
+      "brownouts": 23,
+      "modulation_depth_db": 27.02253987797235,
+      "baseline_depth_db": 0.2390472062568933,
+      "audible_burst_rms": 0.029802889950474733,
+      "muted_rms": 0.0013277960893922913
+    },
+    {
+      "circuit": "diode",
+      "recover": "slow",
+      "tone": 0,
+      "input_peak": 0.22,
+      "brownouts": 11,
+      "modulation_depth_db": 30.04383708372512,
+      "baseline_depth_db": 0.8994139503261191,
+      "audible_burst_rms": 0.009937710510765016,
+      "muted_rms": 0.0003126759566337844
+    },
+    {
+      "circuit": "diode",
+      "recover": "slow",
+      "tone": 53,
+      "input_peak": 0.22,
+      "brownouts": 11,
+      "modulation_depth_db": 30.310418260994304,
+      "baseline_depth_db": 0.29739961011000426,
+      "audible_burst_rms": 0.02247327710033584,
+      "muted_rms": 0.0006857179114773993
+    },
+    {
+      "circuit": "diode",
+      "recover": "slow",
+      "tone": 99,
+      "input_peak": 0.22,
+      "brownouts": 11,
+      "modulation_depth_db": 30.37287314024782,
+      "baseline_depth_db": 0.24339578059593142,
+      "audible_burst_rms": 0.02490412076406328,
+      "muted_rms": 0.0007544449513331025
+    },
+    {
+      "circuit": "starved",
+      "recover": "flow",
+      "tone": 0,
+      "input_peak": 0.22,
+      "brownouts": 14,
+      "modulation_depth_db": 26.155622574628783,
+      "baseline_depth_db": 0.9100148730412349,
+      "audible_burst_rms": 0.007841053429101836,
+      "muted_rms": 0.00038600531482977166
+    },
+    {
+      "circuit": "starved",
+      "recover": "flow",
+      "tone": 53,
+      "input_peak": 0.22,
+      "brownouts": 14,
+      "modulation_depth_db": 29.015709090852887,
+      "baseline_depth_db": 0.9705058538003476,
+      "audible_burst_rms": 0.017024589203017297,
+      "muted_rms": 0.000602963727139057
+    },
+    {
+      "circuit": "starved",
+      "recover": "flow",
+      "tone": 99,
+      "input_peak": 0.22,
+      "brownouts": 14,
+      "modulation_depth_db": 29.260783249154144,
+      "baseline_depth_db": 0.5317000551666617,
+      "audible_burst_rms": 0.018517738469827953,
+      "muted_rms": 0.0006376006978318462
+    },
+    {
+      "circuit": "starved",
+      "recover": "fast",
+      "tone": 0,
+      "input_peak": 0.22,
+      "brownouts": 23,
+      "modulation_depth_db": 16.021710355368015,
+      "baseline_depth_db": 0.8967803599216373,
+      "audible_burst_rms": 0.009369705649990704,
+      "muted_rms": 0.0014812911561255956
+    },
+    {
+      "circuit": "starved",
+      "recover": "fast",
+      "tone": 53,
+      "input_peak": 0.22,
+      "brownouts": 23,
+      "modulation_depth_db": 21.94374488355215,
+      "baseline_depth_db": 0.9696442663247912,
+      "audible_burst_rms": 0.019812885454327144,
+      "muted_rms": 0.0015840193573862156
+    },
+    {
+      "circuit": "starved",
+      "recover": "fast",
+      "tone": 99,
+      "input_peak": 0.22,
+      "brownouts": 23,
+      "modulation_depth_db": 22.50831724886622,
+      "baseline_depth_db": 0.5282975840955396,
+      "audible_burst_rms": 0.021311242313486106,
+      "muted_rms": 0.0015965881614272827
+    },
+    {
+      "circuit": "starved",
+      "recover": "slow",
+      "tone": 0,
+      "input_peak": 0.22,
+      "brownouts": 11,
+      "modulation_depth_db": 29.017973637474977,
+      "baseline_depth_db": 0.9115225093838315,
+      "audible_burst_rms": 0.007364091374480495,
+      "muted_rms": 0.0002607477002825484
+    },
+    {
+      "circuit": "starved",
+      "recover": "slow",
+      "tone": 53,
+      "input_peak": 0.22,
+      "brownouts": 11,
+      "modulation_depth_db": 30.093728636471788,
+      "baseline_depth_db": 0.9718379918434483,
+      "audible_burst_rms": 0.016302025927053418,
+      "muted_rms": 0.0005099823521679356
+    },
+    {
+      "circuit": "starved",
+      "recover": "slow",
+      "tone": 99,
+      "input_peak": 0.22,
+      "brownouts": 11,
+      "modulation_depth_db": 30.155445822777725,
+      "baseline_depth_db": 0.5328035309274382,
+      "audible_burst_rms": 0.017805416362429802,
+      "muted_rms": 0.0005530696698292936
+    },
+    {
+      "circuit": "valve",
+      "recover": "flow",
+      "tone": 20,
+      "input_peak": 0.1,
+      "brownouts": 14,
+      "modulation_depth_db": 26.296468372764448,
+      "baseline_depth_db": 0.7919539681496459,
+      "audible_burst_rms": 0.023450127188785187,
+      "muted_rms": 0.0011358520964441857
+    },
+    {
+      "circuit": "valve",
+      "recover": "fast",
+      "tone": 20,
+      "input_peak": 0.1,
+      "brownouts": 21,
+      "modulation_depth_db": 12.80788745975392,
+      "baseline_depth_db": 0.7720628385195699,
+      "audible_burst_rms": 0.04193920224247696,
+      "muted_rms": 0.009598995590532951
+    },
+    {
+      "circuit": "valve",
+      "recover": "slow",
+      "tone": 20,
+      "input_peak": 0.1,
+      "brownouts": 11,
+      "modulation_depth_db": 29.732303357543152,
+      "baseline_depth_db": 0.8076885749823981,
+      "audible_burst_rms": 0.017562052443627067,
+      "muted_rms": 0.0005727434112410911
+    },
+    {
+      "circuit": "diode",
+      "recover": "flow",
+      "tone": 20,
+      "input_peak": 0.1,
+      "brownouts": 14,
+      "modulation_depth_db": 27.76250900300015,
+      "baseline_depth_db": 0.603466422319515,
+      "audible_burst_rms": 0.02176639914605368,
+      "muted_rms": 0.0008905558046546772
+    },
+    {
+      "circuit": "diode",
+      "recover": "fast",
+      "tone": 20,
+      "input_peak": 0.1,
+      "brownouts": 21,
+      "modulation_depth_db": 13.384587272937214,
+      "baseline_depth_db": 0.5626596507025364,
+      "audible_burst_rms": 0.038292567910613404,
+      "muted_rms": 0.008201345871706863
+    },
+    {
+      "circuit": "diode",
+      "recover": "slow",
+      "tone": 20,
+      "input_peak": 0.1,
+      "brownouts": 11,
+      "modulation_depth_db": 30.26674426117235,
+      "baseline_depth_db": 0.6192155391448138,
+      "audible_burst_rms": 0.01634718712076688,
+      "muted_rms": 0.0005013093685071958
+    },
+    {
+      "circuit": "starved",
+      "recover": "flow",
+      "tone": 20,
+      "input_peak": 0.1,
+      "brownouts": 14,
+      "modulation_depth_db": 26.739594793332024,
+      "baseline_depth_db": 1.0368352909012837,
+      "audible_burst_rms": 0.013907025444050291,
+      "muted_rms": 0.0006401098491174495
+    },
+    {
+      "circuit": "starved",
+      "recover": "fast",
+      "tone": 20,
+      "input_peak": 0.1,
+      "brownouts": 21,
+      "modulation_depth_db": 13.10153852199126,
+      "baseline_depth_db": 1.0305097576810511,
+      "audible_burst_rms": 0.023300664607402426,
+      "muted_rms": 0.00515574444511788
+    },
+    {
+      "circuit": "starved",
+      "recover": "slow",
+      "tone": 20,
+      "input_peak": 0.1,
+      "brownouts": 11,
+      "modulation_depth_db": 29.995175701974233,
+      "baseline_depth_db": 1.031563949416175,
+      "audible_burst_rms": 0.010747204615456855,
+      "muted_rms": 0.00034004526541220716
+    }
+  ],
+  "independent_sag_recovery": [
+    {
+      "circuit": "valve",
+      "mode": "flow",
+      "drive": 34,
+      "sag": 99,
+      "loaded_db_delta_vs_v7": -12.675065645903613,
+      "loaded_db_delta_vs_v8_sag_56": -18.309217205069796,
+      "loaded_to_quiet_recovered_ms": 203.17460317460316
+    },
+    {
+      "circuit": "valve",
+      "mode": "fast",
+      "drive": 34,
+      "sag": 99,
+      "loaded_db_delta_vs_v7": -11.01653808191644,
+      "loaded_db_delta_vs_v8_sag_56": -16.626629057053787,
+      "loaded_to_quiet_recovered_ms": 40.63492063492063
+    },
+    {
+      "circuit": "valve",
+      "mode": "slow",
+      "drive": 34,
+      "sag": 99,
+      "loaded_db_delta_vs_v7": -13.105751411242043,
+      "loaded_db_delta_vs_v8_sag_56": -18.74130050675158,
+      "loaded_to_quiet_recovered_ms": 859.1383219954648
+    },
+    {
+      "circuit": "diode",
+      "mode": "flow",
+      "drive": 34,
+      "sag": 99,
+      "loaded_db_delta_vs_v7": -12.675479603728341,
+      "loaded_db_delta_vs_v8_sag_56": -16.966429793274017,
+      "loaded_to_quiet_recovered_ms": 191.56462585034012
+    },
+    {
+      "circuit": "diode",
+      "mode": "fast",
+      "drive": 34,
+      "sag": 99,
+      "loaded_db_delta_vs_v7": -11.018080747647218,
+      "loaded_db_delta_vs_v8_sag_56": -15.379323457639433,
+      "loaded_to_quiet_recovered_ms": 40.63492063492063
+    },
+    {
+      "circuit": "diode",
+      "mode": "slow",
+      "drive": 34,
+      "sag": 99,
+      "loaded_db_delta_vs_v7": -13.106070467281663,
+      "loaded_db_delta_vs_v8_sag_56": -17.375762394668953,
+      "loaded_to_quiet_recovered_ms": 847.5283446712018
+    },
+    {
+      "circuit": "starved",
+      "mode": "flow",
+      "drive": 34,
+      "sag": 99,
+      "loaded_db_delta_vs_v7": -12.673974926225975,
+      "loaded_db_delta_vs_v8_sag_56": -17.912335613810114,
+      "loaded_to_quiet_recovered_ms": 238.0045351473923
+    },
+    {
+      "circuit": "starved",
+      "mode": "fast",
+      "drive": 34,
+      "sag": 99,
+      "loaded_db_delta_vs_v7": -11.012937310117097,
+      "loaded_db_delta_vs_v8_sag_56": -16.30592530323624,
+      "loaded_to_quiet_recovered_ms": 40.63492063492063
+    },
+    {
+      "circuit": "starved",
+      "mode": "slow",
+      "drive": 34,
+      "sag": 99,
+      "loaded_db_delta_vs_v7": -13.105602545613252,
+      "loaded_db_delta_vs_v8_sag_56": -18.32581547869269,
+      "loaded_to_quiet_recovered_ms": 882.358276643991
+    }
+  ]
+}

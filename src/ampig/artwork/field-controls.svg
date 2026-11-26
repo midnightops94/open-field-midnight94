@@ -1,0 +1,10 @@
+<svg width="480" height="220" viewBox="0 0 480 220">
+  <g id="cap0"><path d="M 13 20 V 10" fill="none" stroke="#4C7DA8" stroke-width="1"/></g>
+  <g id="val0"><path d="M 13 68 V 33" fill="none" stroke="#CDD0C2" stroke-width="1"/></g>
+  <g id="cap1"><path d="M 13 166 V 156" fill="none" stroke="#8A653C" stroke-width="1"/></g>
+  <g id="val1"><path d="M 13 212 V 177" fill="none" stroke="#CDD0C2" stroke-width="1"/></g>
+  <g id="cap2"><path d="M 467 20 V 10" fill="none" stroke="#CDD0C2" stroke-width="1"/></g>
+  <g id="val2"><path d="M 467 68 V 33" fill="none" stroke="#CDD0C2" stroke-width="1"/></g>
+  <g id="cap3"><path d="M 467 166 V 156" fill="none" stroke="#CC1F00" stroke-width="1"/></g>
+  <g id="val3"><path d="M 467 212 V 177" fill="none" stroke="#CDD0C2" stroke-width="1"/></g>
+</svg>

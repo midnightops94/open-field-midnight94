@@ -1,0 +1,162 @@
+{
+  "scope": "GNU Blackfin simulation of the exact N2-relocated Wave v9 image; an injected host grant models memory not yet available and available, not the base allocator or hardware timing.",
+  "sdk_commit": "c65e40de0ef51f601bc0445daa85d906378dea52",
+  "base_sha256": "90d518d17ea542259db8b73430e7aaa75d6f2eb43affa8db1af5f2febb194fc8",
+  "n2_loader_sha256": "12a6465065d6fd1f8ee9d6bf43fccc334446669ac8d94d115470d663d6169f0b",
+  "relocated_sha256": "bf4cee92cd24472995d81ac2eaa1e06dbeed383adf7b1ad239671fb584b22a12",
+  "simulated_setup_peak_cycles": 243948,
+  "simulated_setup_total_cycles": 6818059,
+  "setup_frames": 32,
+  "seed_zeroed": true,
+  "pack_sha256": "01a5d236676bebd6a079c635dcb91d925cb91afcf72314630637fe0364602430",
+  "checked_edge_words": 98304,
+  "edge_word_fingerprint": "a7eab2c9",
+  "expected_edge_table_sha256": "ca5931ff337a291a6796404a49ebd1e64ce39e53dc014bef860478d2bce6388d",
+  "memory_queries": 65,
+  "first_ready_held_note_nonzero_samples": 128,
+  "payload_matches_relocated_pack": true,
+  "simulated_peak_cycles": 69579,
+  "simulated_mean_cycles": 55110.83246527778,
+  "simulated_p99_cycles": 69108,
+  "callbacks": 1152,
+  "changed_samples": 146604,
+  "full_scale_peak": 0.07470481470227242,
+  "buffer_errors": 0,
+  "idle_nonzero_samples": 0,
+  "pcm_fingerprint": "a7a9c39d",
+  "pcm_sha256": "f270bb530c20df2957669d43172c1b860723326a64e3bbd69ff46749c7e4409c",
+  "over_declared": 1122,
+  "above_repeated_overrun_threshold": 0,
+  "above_single_overrun_threshold": 0,
+  "auditions": {
+    "clock bass": {
+      "engine_values": [
+        8192,
+        11468,
+        16384,
+        14745,
+        0,
+        1
+      ],
+      "simulated_peak_cycles": 44305,
+      "callbacks": 144,
+      "nonzero_samples": 18420,
+      "buffer_errors": 0,
+      "full_scale_peak": 0.06850712653249502,
+      "pcm_fingerprint": "e8221425"
+    },
+    "frozen vowel": {
+      "engine_values": [
+        16384,
+        9830,
+        16384,
+        3277,
+        0,
+        4
+      ],
+      "simulated_peak_cycles": 44561,
+      "callbacks": 144,
+      "nonzero_samples": 18420,
+      "buffer_errors": 0,
+      "full_scale_peak": 0.06834616884589195,
+      "pcm_fingerprint": "cfd31865"
+    },
+    "hollow init": {
+      "engine_values": [
+        9830,
+        14745,
+        16384,
+        8192,
+        0,
+        0
+      ],
+      "simulated_peak_cycles": 44305,
+      "callbacks": 144,
+      "nonzero_samples": 18420,
+      "buffer_errors": 0,
+      "full_scale_peak": 0.06828053202480078,
+      "pcm_fingerprint": "ad447d55"
+    },
+    "ice window": {
+      "engine_values": [
+        6553,
+        21299,
+        16384,
+        6553,
+        1,
+        2
+      ],
+      "simulated_peak_cycles": 45073,
+      "callbacks": 144,
+      "nonzero_samples": 18420,
+      "buffer_errors": 0,
+      "full_scale_peak": 0.07000148668885231,
+      "pcm_fingerprint": "e3c88e35"
+    },
+    "twin wires": {
+      "engine_values": [
+        14745,
+        18022,
+        16384,
+        26214,
+        2,
+        3
+      ],
+      "simulated_peak_cycles": 44868,
+      "callbacks": 144,
+      "nonzero_samples": 18420,
+      "buffer_errors": 0,
+      "full_scale_peak": 0.0661737797781825,
+      "pcm_fingerprint": "45abf5a5"
+    },
+    "reed stab": {
+      "engine_values": [
+        13107,
+        16384,
+        8519,
+        3277,
+        3,
+        2
+      ],
+      "simulated_peak_cycles": 47860,
+      "callbacks": 144,
+      "nonzero_samples": 18420,
+      "buffer_errors": 0,
+      "full_scale_peak": 0.07326357532292604,
+      "pcm_fingerprint": "f23196ad"
+    },
+    "choir haze": {
+      "engine_values": [
+        5898,
+        10158,
+        18677,
+        14745,
+        4,
+        4
+      ],
+      "simulated_peak_cycles": 47351,
+      "callbacks": 144,
+      "nonzero_samples": 18420,
+      "buffer_errors": 0,
+      "full_scale_peak": 0.07123484555631876,
+      "pcm_fingerprint": "374de795"
+    },
+    "broken bells": {
+      "engine_values": [
+        23920,
+        6226,
+        22609,
+        20971,
+        7,
+        0
+      ],
+      "simulated_peak_cycles": 47186,
+      "callbacks": 144,
+      "nonzero_samples": 18420,
+      "buffer_errors": 0,
+      "full_scale_peak": 0.06299791019409895,
+      "pcm_fingerprint": "7184b20d"
+    }
+  },
+  "protection_profiles": {}
+}

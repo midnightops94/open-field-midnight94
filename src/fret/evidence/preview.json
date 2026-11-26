@@ -1,0 +1,214 @@
+{
+  "pack_sha256": "cffdb9701357144dbe80958ac010055c9d32be118413c0a871eb3991d27f11fd",
+  "picture_sha256": "5bc61a936bcec840120fedc7ccb1fb19b847d03ca70924a2984b017f6e8e591e",
+  "page_source_sha256": "df7f5dd796f546317ab126901a4eb936edfe83788a06121ff8157cd1f4bc4411",
+  "open_field_commit": "25a8d7f524ec3f46902cbd8a96779df32fa5e9bc",
+  "renderer": "Chromium at 480 \u00d7 220 with the packed picture and WASM-compiled matching page callback. Browser substitute lettering.",
+  "image_sha256": "c918bddd8047fdb6870a83760360f8b060ab061dc0982a7386ea11e3ffefbf57",
+  "states": [
+    {
+      "raw": 0,
+      "labels": [
+        {
+          "name": "position",
+          "title": "position",
+          "text": "00",
+          "title_box": [
+            13,
+            154.8000030517578,
+            50.921875,
+            166.8000030517578
+          ],
+          "value_box": [
+            13,
+            172.8000030517578,
+            55.828125,
+            215.8000030517578
+          ],
+          "align": "start"
+        },
+        {
+          "name": "mute",
+          "title": "mute",
+          "text": "00",
+          "title_box": [
+            442.53125,
+            8.799999237060547,
+            467,
+            20.799999237060547
+          ],
+          "value_box": [
+            424.171875,
+            28.799999237060547,
+            467,
+            71.80000305175781
+          ],
+          "align": "end"
+        },
+        {
+          "name": "amp",
+          "title": "amp",
+          "text": "00",
+          "title_box": [
+            445.59375,
+            154.8000030517578,
+            467,
+            166.8000030517578
+          ],
+          "value_box": [
+            424.171875,
+            172.8000030517578,
+            467,
+            215.8000030517578
+          ],
+          "align": "end"
+        }
+      ],
+      "position_transform": "matrix(1 0 0 1 15.90234375 -3.0908203125)",
+      "active_controls": [
+        12451,
+        0,
+        0,
+        0
+      ],
+      "popup_hidden": true,
+      "right_corner_vertical_gap": 83.0
+    },
+    {
+      "raw": 16384,
+      "labels": [
+        {
+          "name": "position",
+          "title": "position",
+          "text": "50",
+          "title_box": [
+            13,
+            154.8000030517578,
+            50.921875,
+            166.8000030517578
+          ],
+          "value_box": [
+            13,
+            172.8000030517578,
+            55.828125,
+            215.8000030517578
+          ],
+          "align": "start"
+        },
+        {
+          "name": "mute",
+          "title": "mute",
+          "text": "50",
+          "title_box": [
+            442.53125,
+            8.799999237060547,
+            467,
+            20.799999237060547
+          ],
+          "value_box": [
+            424.171875,
+            28.799999237060547,
+            467,
+            71.80000305175781
+          ],
+          "align": "end"
+        },
+        {
+          "name": "amp",
+          "title": "amp",
+          "text": "50",
+          "title_box": [
+            445.59375,
+            154.8000030517578,
+            467,
+            166.8000030517578
+          ],
+          "value_box": [
+            424.171875,
+            172.8000030517578,
+            467,
+            215.8000030517578
+          ],
+          "align": "end"
+        }
+      ],
+      "position_transform": "matrix(1 0 0 1 0 0)",
+      "active_controls": [
+        12451,
+        16384,
+        16384,
+        16384
+      ],
+      "popup_hidden": true,
+      "right_corner_vertical_gap": 83.0
+    },
+    {
+      "raw": 32767,
+      "labels": [
+        {
+          "name": "position",
+          "title": "position",
+          "text": "99",
+          "title_box": [
+            13,
+            154.8000030517578,
+            50.921875,
+            166.8000030517578
+          ],
+          "value_box": [
+            13,
+            172.8000030517578,
+            55.828125,
+            215.8000030517578
+          ],
+          "align": "start"
+        },
+        {
+          "name": "mute",
+          "title": "mute",
+          "text": "99",
+          "title_box": [
+            442.53125,
+            8.799999237060547,
+            467,
+            20.799999237060547
+          ],
+          "value_box": [
+            424.171875,
+            28.799999237060547,
+            467,
+            71.80000305175781
+          ],
+          "align": "end"
+        },
+        {
+          "name": "amp",
+          "title": "amp",
+          "text": "99",
+          "title_box": [
+            445.59375,
+            154.8000030517578,
+            467,
+            166.8000030517578
+          ],
+          "value_box": [
+            424.171875,
+            172.8000030517578,
+            467,
+            215.8000030517578
+          ],
+          "align": "end"
+        }
+      ],
+      "position_transform": "matrix(1 0 0 1 -15.90234375 3.091796875)",
+      "active_controls": [
+        12451,
+        32767,
+        32767,
+        32767
+      ],
+      "popup_hidden": true,
+      "right_corner_vertical_gap": 83.0
+    }
+  ]
+}

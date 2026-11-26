@@ -1,0 +1,72 @@
+{
+  "effect": "skatter",
+  "version": 8,
+  "places": [
+    "synth 0",
+    "drum 0",
+    "master"
+  ],
+  "stored_knobs": [
+    8192,
+    16384,
+    24576,
+    3072
+  ],
+  "pages": {
+    "stock": {
+      "frames": 32792,
+      "effective_reads": 131168,
+      "base_writes": 0,
+      "seen_per_lane": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "raw_samples_checked_per_lane": 32768,
+      "min_mid_max": {
+        "0": "00",
+        "16383": "49",
+        "16384": "50",
+        "32767": "99"
+      }
+    },
+    "alternate": {
+      "frames": 226,
+      "effective_reads": 904,
+      "base_writes": 0,
+      "seen_per_lane": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "raw_samples_checked_per_lane": 202,
+      "min_mid_max": {
+        "0": "00",
+        "16383": "49",
+        "16384": "50",
+        "32767": "99"
+      }
+    },
+    "bitmap": {
+      "frames": 226,
+      "effective_reads": 904,
+      "base_writes": 0,
+      "seen_per_lane": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "raw_samples_checked_per_lane": 202,
+      "min_mid_max": {
+        "0": "00",
+        "16383": "49",
+        "16384": "50",
+        "32767": "99"
+      }
+    }
+  },
+  "hardware_verified": false
+}

@@ -1,0 +1,18 @@
+{
+  "11": {
+    "words_per_lane": 32768,
+    "numeric_lanes": 4,
+    "codes_per_lane": 101,
+    "non_numeric_art_event_hash": "13f72187a4add77f",
+    "material_changes": 16,
+    "stored_words_held_during_sweep": true
+  },
+  "12": {
+    "words_per_lane": 32768,
+    "numeric_lanes": 4,
+    "codes_per_lane": 100,
+    "non_numeric_art_event_hash": "13f72187a4add77f",
+    "material_changes": 16,
+    "stored_words_held_during_sweep": true
+  }
+}

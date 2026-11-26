@@ -1,6 +1,6 @@
 {
   "name": "fret",
-  "version": 7,
+  "version": 9,
   "interface": 1,
   "build": "fret_engine",
   "sources": [

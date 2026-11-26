@@ -1,4 +1,4 @@
-"""Build with the published Open-Field 0.14 SDK and its Blackfin compiler."""
+"""Build with the published Open-Field 0.20 SDK and its Blackfin compiler."""
 import argparse
 import json
 import os

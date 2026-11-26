@@ -1,11 +1,12 @@
 {
   "about": "skatter stereo effect for Open-Field 0.12",
   "name": "skatter",
-  "version": 6,
+  "version": 8,
   "interface": 1,
-  "build": "skatter_v6",
+  "build": "skatter_v8",
   "sources": [
     "examples/skatter/skatter.cpp",
+    "examples/skatter/standard_turns.cpp",
     "examples/skatter/splice.cpp",
     "examples/skatter/word_runtime.cpp",
     "examples/skatter/card.s",
@@ -26,10 +27,10 @@
   ],
   "card": {
     "level": 10,
-    "frame": "skatter_frame",
+    "frame": "skatter_standard_frame",
     "pick": null,
     "pictures": true,
-    "input": "skatter_input",
+    "input": "skatter_standard_input",
     "asks": [
       {
         "kind": "effect",
@@ -42,7 +43,7 @@
         "state_align": 8,
         "process": "skatter_process",
         "reset": "skatter_reset",
-        "shown": "skatter_shown",
+        "shown": "skatter_standard_shown",
         "params": [
           {
             "name": "net",

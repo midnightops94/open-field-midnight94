@@ -7,6 +7,9 @@ output=${2:?Pass an output pack filename}
 mkdir -p "$(dirname "$output")"
 output_dir=$(CDPATH= cd "$(dirname "$output")" && pwd)
 output="$output_dir/$(basename "$output")"
+if [ "$#" -ge 3 ]; then
+    object_hashes=$(realpath -m "$3")
+fi
 scratch=$(mktemp -d)
 trap 'rm -rf "$scratch"' EXIT
 
@@ -23,3 +26,6 @@ python3 -I tools/pack_build.py card --recipe examples/wave/recipe.json --out exa
 python3 -I tools/pack_build.py pictures --recipe examples/wave/recipe.json --out examples/wave/wave_pictures.s
 python3 -I tools/pack_build.py build3 --recipe examples/wave/recipe.json --profile profiles/op1f-1.7.3.json --build-dir "$scratch/objects" --out "$output"
 python3 -I tools/pack_build.py check --pack "$output"
+if [ "$#" -ge 3 ]; then
+    (cd "$scratch/objects" && sha256sum audio.cpp.o audio_build.cpp.o banks.s.o tables.cpp.o display.cpp.o) > "$object_hashes"
+fi

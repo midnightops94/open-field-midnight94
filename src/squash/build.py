@@ -1,4 +1,4 @@
-"""Build this standalone effect with the unmodified Open-Field 0.14 toolkit."""
+"""Build this standalone effect with the unmodified Open-Field 0.20 toolkit."""
 from pathlib import Path
 import json, hashlib, subprocess, shutil,sys,tempfile
 root=Path(__file__).resolve().parent

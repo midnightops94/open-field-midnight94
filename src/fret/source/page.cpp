@@ -51,11 +51,10 @@ unsigned hand_style(unsigned raw) {return raw<5243?0:raw<15729?1:raw<26214?2:3;}
 
 void show(void* part,bool visible) {if(part)op1f_show(part,visible);}
 void decimal(char* text,unsigned value) {
-    if(value==100) {text[0]='1';text[1]='0';text[2]='0';text[3]=0;return;}
     const unsigned tens=(value*205)>>11;
-    if(tens)*text++=char('0'+tens);
-    *text++=char('0'+value-tens*10);
-    *text=0;
+    text[0]=char('0'+tens);
+    text[1]=char('0'+value-tens*10);
+    text[2]=0;
 }
 void bind() {
     char hand[]="frHand0", pick[]="frPickup0", pad[]="frDamper0", line[]="frString00", panel[]="frCard0";
@@ -107,17 +106,12 @@ void readouts(const unsigned (&values)[4]) {
         hand_on=hand;
     }
     for(unsigned lane=1;lane<4;++lane) {
-        int code=int((values[lane]*100+16384)>>15);
-        if(lane==1 && values[lane]<=327)code=101;
-        else if(lane==1 && values[lane]>=32440)code=102;
+        const int code=int((values[lane]*99+16383)/32767);
         if(displayed[lane]==code)continue;
-        char number[4], id[]="frValue0";
-        const char* value=number;
-        if(code==101)value="neck";
-        else if(code==102)value="bridge";
-        else decimal(number,unsigned(code));
+        char number[3], id[]="frValue0";
+        decimal(number,unsigned(code));
         id[7]=char('0'+lane);
-        if(op1f_text_set(picture,id,value,0,lane<2?OP1F_LEFT:OP1F_RIGHT)>0)displayed[lane]=code;
+        if(op1f_text_set(picture,id,number,0,lane<2?OP1F_LEFT:OP1F_RIGHT)>0)displayed[lane]=code;
     }
 }
 

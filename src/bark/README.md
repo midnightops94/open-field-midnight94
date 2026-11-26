@@ -1,4 +1,4 @@
-# Bark v10
+# Bark v12
 
 Bark models four electric pianos. The central illustration shows the mechanism for the selected piano and moves with the controls.
 
@@ -15,16 +15,16 @@ Hold Shift while turning for finer control. The original contact is Tine Hammer 
 
 Smoked Tines, Velvet Tide, Redline Reed, Reed Clav, Finger Pop, Rebound Bass, Stage Eighty and Felt Room. Each preset stores volume 75.
 
+Color, Strike, Bark and Trem display `00` through `99` and follow LFO modulation. The eight factory sounds include the revised Felt Room. Open-Field preserves an existing same-name preset on upgrade. The release’s Felt Room preset is in `source/felt room.json`.
+
 ## Build
 
-Use Linux, Python 3 and the Blackfin toolchain configured in an Open-Field 0.14 checkout at commit `bb901bbe037db4114d294b8e3c4a8f9a7ddf28aa`. The pack targets OP-1 Field OS 1.7.3+0 and Open-Field base v32. [Open-Field SDK](https://github.com/LaP0573/open-field/tree/bb901bbe037db4114d294b8e3c4a8f9a7ddf28aa)
-
-From this directory, run the following commands with `SDK` set to that checkout.
+Set `SDK` to the absolute path of the Open-Field 0.20 checkout at `25a8d7f524ec3f46902cbd8a96779df32fa5e9bc` with its Blackfin toolchain installed. Run the commands from this directory. [Open-Field build guide](https://github.com/LaP0573/open-field/blob/25a8d7f524ec3f46902cbd8a96779df32fa5e9bc/docs/build.md)
 
 ```sh
-sha256sum -c SHA256SUMS
-sh build.sh "$SDK" /tmp/bark.pack
-sha256sum /tmp/bark.pack
+OUT=$(mktemp -d)
+python3 build.py --sdk "$SDK" --out "$OUT/bark.pack"
+sha256sum "$OUT/bark.pack"
 ```
 
-The released pack SHA-256 is `773267239b7070c23a1b5f4158524afc6fef1d6717e0eed46aac2893bd5c1add`. The `source/` directory contains the engine, page, editable SVG, build recipe, factory presets and tables used in that build.
+Expected SHA-256 for the 82,239-byte pack is `1e937f83d91ce3b95ebfbeb3b705780760e308409bf06d9126785b3600cc5d50`.

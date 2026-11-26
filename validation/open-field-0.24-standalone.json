@@ -1,0 +1,155 @@
+{
+  "scope": "Individual boot and link with base 42 only; see the main receipt for host replay boundaries.",
+  "sdk_commit": "c65e40de0ef51f601bc0445daa85d906378dea52",
+  "pack_sha256": {
+    "ampig.pack": "7546d16ff2a7439d72585f6f45bc078ec9e5de1fcf85fb93b2fb3024b962af7d",
+    "bark.pack": "1e937f83d91ce3b95ebfbeb3b705780760e308409bf06d9126785b3600cc5d50",
+    "cube.pack": "0af690a65017443f9eb172d5a6b308e6d34e8cf5dafda6f56a3223faadf421d5",
+    "fret.pack": "cffdb9701357144dbe80958ac010055c9d32be118413c0a871eb3991d27f11fd",
+    "organ.pack": "4db08b447cb5175d7d5efef4d147fed7a22d154e77817729e5336da5fa874ec6",
+    "plonk.pack": "fd8a04e80fd5543959de5d0ff956c3548bcb08b69c2ecaa3d7cb78752df814c2",
+    "pong.pack": "a902f79bb6aed1f4c705f17961cc847bf89ba62154ec7d439c2071ba5bc2b31a",
+    "sid.pack": "efddad065b91c49ad3dd37413ab6660c6c1ddf81cc307f0b5504ebc9d41093e5",
+    "skatter.pack": "bbeb61264035d38b129d023c388043d535942b1b340a30fce4ed7adb39a641be",
+    "split.pack": "3bad3c8bc62b44c2bccb82441f433431268b52cfccec7ba266aad81f8e06ba62",
+    "squash.pack": "ffafe18bb4aeae63cdc834ca9ab441d459081ed2f3c4795789a4b71b4bdcedc8",
+    "syrup.pack": "4be2788cab1446e8028f4680901167bb9ed4e34eb4941617ebd45eb46390a33b",
+    "wave.pack": "01a5d236676bebd6a079c635dcb91d925cb91afcf72314630637fe0364602430"
+  },
+  "loaders": {
+    "N1": {
+      "ampig": {
+        "runs": 2,
+        "left_out": [],
+        "free_bytes": 1326888
+      },
+      "bark": {
+        "runs": 2,
+        "left_out": [],
+        "free_bytes": 1321096
+      },
+      "cube": {
+        "runs": 2,
+        "left_out": [],
+        "free_bytes": 1338220
+      },
+      "fret": {
+        "runs": 2,
+        "left_out": [],
+        "free_bytes": 1307592
+      },
+      "organ": {
+        "runs": 2,
+        "left_out": [],
+        "free_bytes": 1219492
+      },
+      "plonk": {
+        "runs": 2,
+        "left_out": [],
+        "free_bytes": 1327320
+      },
+      "pong": {
+        "runs": 2,
+        "left_out": [],
+        "free_bytes": 1297332
+      },
+      "sid": {
+        "runs": 2,
+        "left_out": [],
+        "free_bytes": 1324320
+      },
+      "skatter": {
+        "runs": 2,
+        "left_out": [],
+        "free_bytes": 1331232
+      },
+      "split": {
+        "runs": 2,
+        "left_out": [],
+        "free_bytes": 1333124
+      },
+      "squash": {
+        "runs": 2,
+        "left_out": [],
+        "free_bytes": 1326140
+      },
+      "syrup": {
+        "runs": 2,
+        "left_out": [],
+        "free_bytes": 1333052
+      },
+      "wave": {
+        "runs": 2,
+        "left_out": [],
+        "free_bytes": 1247776
+      }
+    },
+    "N2": {
+      "ampig": {
+        "runs": 2,
+        "left_out": [],
+        "free_bytes": 16072468
+      },
+      "bark": {
+        "runs": 2,
+        "left_out": [],
+        "free_bytes": 16066676
+      },
+      "cube": {
+        "runs": 2,
+        "left_out": [],
+        "free_bytes": 16083800
+      },
+      "fret": {
+        "runs": 2,
+        "left_out": [],
+        "free_bytes": 16053172
+      },
+      "organ": {
+        "runs": 2,
+        "left_out": [],
+        "free_bytes": 15965072
+      },
+      "plonk": {
+        "runs": 2,
+        "left_out": [],
+        "free_bytes": 16072900
+      },
+      "pong": {
+        "runs": 2,
+        "left_out": [],
+        "free_bytes": 16042912
+      },
+      "sid": {
+        "runs": 2,
+        "left_out": [],
+        "free_bytes": 16069900
+      },
+      "skatter": {
+        "runs": 2,
+        "left_out": [],
+        "free_bytes": 16076812
+      },
+      "split": {
+        "runs": 2,
+        "left_out": [],
+        "free_bytes": 16078704
+      },
+      "squash": {
+        "runs": 2,
+        "left_out": [],
+        "free_bytes": 16071720
+      },
+      "syrup": {
+        "runs": 2,
+        "left_out": [],
+        "free_bytes": 16078632
+      },
+      "wave": {
+        "runs": 2,
+        "left_out": [],
+        "free_bytes": 15993356
+      }
+    }
+  }
+}

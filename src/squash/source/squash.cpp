@@ -152,13 +152,13 @@ void bind() {
 void readout(const int (&words)[4]) {
     char id[] = "val0";
     for (unsigned i = 0; i < 4; ++i) {
-        const int value = (words[i] * 99 + 16384) >> 15;
+        const int value = (words[i] * 99 + 16383) / 32767;
         if (previous_values[i] == value) continue;
         previous_values[i] = value;
         const int tens = value / 10;
         char text[] = {char('0' + tens), char('0' + value % 10), 0};
         id[3] = char('0' + i);
-        op1f_text_set(document, id, text + (tens == 0), 0, i < 2 ? OP1F_LEFT : OP1F_RIGHT);
+        op1f_text_set(document, id, text, 0, i < 2 ? OP1F_LEFT : OP1F_RIGHT);
     }
 }
 

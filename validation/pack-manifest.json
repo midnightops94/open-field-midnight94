@@ -1,0 +1,143 @@
+{
+  "release": "0.14",
+  "firmware": "1.7.3+0",
+  "current_open_field": "0.24",
+  "base_version": 42,
+  "open_field_commit": "c65e40de0ef51f601bc0445daa85d906378dea52",
+  "build_sdk_commit": "25a8d7f524ec3f46902cbd8a96779df32fa5e9bc",
+  "parent_v1_3_archive_sha256": "52bc90d1f163cb7856bab47aaeefcb1b2f2455e7abf13f7b479521649fb6643e",
+  "ampig_v11_source_trial_sha256": "1d7a645f34bf7b9ca0dfe8d5030cc59c18c63967093884158334a1ba55253198",
+  "total_device_pack_bytes": 1988248,
+  "packs": [
+    {
+      "id": "bark",
+      "kind": "engine",
+      "version": 12,
+      "file": "packs/bark.pack",
+      "bytes": 82239,
+      "sha256": "1e937f83d91ce3b95ebfbeb3b705780760e308409bf06d9126785b3600cc5d50",
+      "prior_v1_3_sha256": "1e937f83d91ce3b95ebfbeb3b705780760e308409bf06d9126785b3600cc5d50",
+      "changed_since_v1_3": false
+    },
+    {
+      "id": "cube",
+      "kind": "effect",
+      "version": 7,
+      "file": "packs/cube.pack",
+      "bytes": 18290,
+      "sha256": "0af690a65017443f9eb172d5a6b308e6d34e8cf5dafda6f56a3223faadf421d5",
+      "prior_v1_3_sha256": "0af690a65017443f9eb172d5a6b308e6d34e8cf5dafda6f56a3223faadf421d5",
+      "changed_since_v1_3": false
+    },
+    {
+      "id": "fret",
+      "kind": "engine",
+      "version": 9,
+      "file": "packs/fret.pack",
+      "bytes": 64220,
+      "sha256": "cffdb9701357144dbe80958ac010055c9d32be118413c0a871eb3991d27f11fd",
+      "prior_v1_3_sha256": "cffdb9701357144dbe80958ac010055c9d32be118413c0a871eb3991d27f11fd",
+      "changed_since_v1_3": false
+    },
+    {
+      "id": "organ",
+      "kind": "engine",
+      "version": 7,
+      "file": "packs/organ.pack",
+      "bytes": 161898,
+      "sha256": "4db08b447cb5175d7d5efef4d147fed7a22d154e77817729e5336da5fa874ec6",
+      "prior_v1_3_sha256": "4db08b447cb5175d7d5efef4d147fed7a22d154e77817729e5336da5fa874ec6",
+      "changed_since_v1_3": false
+    },
+    {
+      "id": "plonk",
+      "kind": "engine",
+      "version": 8,
+      "file": "packs/plonk.pack",
+      "bytes": 58582,
+      "sha256": "fd8a04e80fd5543959de5d0ff956c3548bcb08b69c2ecaa3d7cb78752df814c2",
+      "prior_v1_3_sha256": "fd8a04e80fd5543959de5d0ff956c3548bcb08b69c2ecaa3d7cb78752df814c2",
+      "changed_since_v1_3": false
+    },
+    {
+      "id": "pong",
+      "kind": "effect",
+      "version": 10,
+      "file": "packs/pong.pack",
+      "bytes": 703470,
+      "sha256": "a902f79bb6aed1f4c705f17961cc847bf89ba62154ec7d439c2071ba5bc2b31a",
+      "prior_v1_3_sha256": "a902f79bb6aed1f4c705f17961cc847bf89ba62154ec7d439c2071ba5bc2b31a",
+      "changed_since_v1_3": false
+    },
+    {
+      "id": "ampig",
+      "kind": "effect",
+      "version": 11,
+      "file": "packs/ampig.pack",
+      "bytes": 156026,
+      "sha256": "7546d16ff2a7439d72585f6f45bc078ec9e5de1fcf85fb93b2fb3024b962af7d",
+      "prior_v1_3_sha256": "1122da187d973d8d59984d9936b7a8eb9f9cf90bd824b2ffae4539f4722cf467",
+      "changed_since_v1_3": true
+    },
+    {
+      "id": "sid",
+      "kind": "engine",
+      "version": 8,
+      "file": "packs/sid.pack",
+      "bytes": 44395,
+      "sha256": "efddad065b91c49ad3dd37413ab6660c6c1ddf81cc307f0b5504ebc9d41093e5",
+      "prior_v1_3_sha256": "efddad065b91c49ad3dd37413ab6660c6c1ddf81cc307f0b5504ebc9d41093e5",
+      "changed_since_v1_3": false
+    },
+    {
+      "id": "skatter",
+      "kind": "effect",
+      "version": 8,
+      "file": "packs/skatter.pack",
+      "bytes": 150207,
+      "sha256": "bbeb61264035d38b129d023c388043d535942b1b340a30fce4ed7adb39a641be",
+      "prior_v1_3_sha256": "bbeb61264035d38b129d023c388043d535942b1b340a30fce4ed7adb39a641be",
+      "changed_since_v1_3": false
+    },
+    {
+      "id": "split",
+      "kind": "effect",
+      "version": 6,
+      "file": "packs/split.pack",
+      "bytes": 56709,
+      "sha256": "3bad3c8bc62b44c2bccb82441f433431268b52cfccec7ba266aad81f8e06ba62",
+      "prior_v1_3_sha256": "3bad3c8bc62b44c2bccb82441f433431268b52cfccec7ba266aad81f8e06ba62",
+      "changed_since_v1_3": false
+    },
+    {
+      "id": "squash",
+      "kind": "effect",
+      "version": 5,
+      "file": "packs/squash.pack",
+      "bytes": 59243,
+      "sha256": "ffafe18bb4aeae63cdc834ca9ab441d459081ed2f3c4795789a4b71b4bdcedc8",
+      "prior_v1_3_sha256": "ffafe18bb4aeae63cdc834ca9ab441d459081ed2f3c4795789a4b71b4bdcedc8",
+      "changed_since_v1_3": false
+    },
+    {
+      "id": "syrup",
+      "kind": "effect",
+      "version": 11,
+      "file": "packs/syrup.pack",
+      "bytes": 271885,
+      "sha256": "4be2788cab1446e8028f4680901167bb9ed4e34eb4941617ebd45eb46390a33b",
+      "prior_v1_3_sha256": "4be2788cab1446e8028f4680901167bb9ed4e34eb4941617ebd45eb46390a33b",
+      "changed_since_v1_3": false
+    },
+    {
+      "id": "wave",
+      "kind": "engine",
+      "version": 9,
+      "file": "packs/wave.pack",
+      "bytes": 161084,
+      "sha256": "01a5d236676bebd6a079c635dcb91d925cb91afcf72314630637fe0364602430",
+      "prior_v1_3_sha256": "01a5d236676bebd6a079c635dcb91d925cb91afcf72314630637fe0364602430",
+      "changed_since_v1_3": false
+    }
+  ]
+}

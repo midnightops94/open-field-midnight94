@@ -1,0 +1,56 @@
+{
+  "name": "OP-1-Field-Quick-Reference-v0.14.pdf",
+  "sha256": "e012380866c4bab801ce696e4acf3558cd85e14cf745d2bb613ea20dd3b53430",
+  "size": 2071889,
+  "parent_sha256": "3a8704a8416339967e418ac30966c1904020a7e737d0ed62bf5ad4a299e218b5",
+  "ampig_pack_sha256": "7546d16ff2a7439d72585f6f45bc078ec9e5de1fcf85fb93b2fb3024b962af7d",
+  "ampig_svg_sha256": "df71f5fd189d9edbdb7b1cca32a0929a01a2b48aa02afe61c393b487a318a776",
+  "ampig_illustration": {
+    "page": 4,
+    "display": [
+      39,
+      46,
+      52,
+      99
+    ],
+    "vector": true,
+    "type": "outlines from the browser preview font"
+  },
+  "page_order": [
+    [
+      "Bark",
+      "Fret"
+    ],
+    [
+      "Organ",
+      "Plonk"
+    ],
+    [
+      "SID",
+      "Wave"
+    ],
+    [
+      "Ampig",
+      "Cube"
+    ],
+    [
+      "Pong",
+      "Skatter"
+    ],
+    [
+      "Split",
+      "Squash"
+    ],
+    [
+      "Syrup"
+    ]
+  ],
+  "unchanged_body_text_in": "PyMuPDF and Poppler raw/layout",
+  "pixel_identical_outside_edited_regions": true,
+  "bookmarks_match_parent": true,
+  "compatibility": {
+    "0.24": 42,
+    "op1_field_os": "1.7.3+0"
+  },
+  "package_path": "docs/OP-1-Field-Quick-Reference-v0.14.pdf"
+}

@@ -1,7 +1,6 @@
-"""Build the stock-referenced Pong page and its independently drawn alternate."""
+"""Put the authored FX Off group above the single retained Pong court."""
 from pathlib import Path
 import re
-from stock_fx_off import compose, literal
 from standalone_fx_off import FALLBACK
 project = Path(__file__).resolve().parent
 # Each SVG command letter separates its operands from the preceding instruction.
@@ -15,5 +14,6 @@ def path_data(match):
 
 scene = re.sub(rb' d="([^"]*)"', path_data, (project/'pong-scene.svg').read_bytes())
 assert not any(name in scene for name in (b'id="pongoff"', b'id="stockFxOff"', b'id="fxOff"'))
-(project/'pong.svg.make').write_bytes(compose(scene))
-(project/'pong-safe.svg.make').write_bytes(literal(scene.replace(b'</svg>', FALLBACK+b'</svg>')))
+scene = scene.replace(b'</svg>', FALLBACK+b'</svg>')
+instructions = b'op1f picture 2\nsize %d\na %d\n' % (len(scene), len(scene))
+(project/'pong.svg.make').write_bytes(instructions + scene + b'\n')

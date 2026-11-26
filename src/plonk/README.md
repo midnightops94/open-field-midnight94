@@ -1,4 +1,4 @@
-# Plonk v7
+# Plonk v8
 
 Plonk is a percussive synthesizer with wavefolding and a spring effect. The screen’s ribbons follow Fold and Ratio. Chance introduces variation between strikes.
 
@@ -15,16 +15,16 @@ Hold Shift while turning for finer control. The internal Spring runs inside the 
 
 Aquatic, Brass Rivet, Glass Droplets, Init, Low Tine, Rubber Bass, Tank Bell and Wood Block. Each preset stores volume 75.
 
+Fold, Strike and Chance show their effective values on a two-digit `00`–`99` scale. Ratio displays the oscillator frequency ratio.
+
 ## Build
 
-Use Linux, Python 3 and the Blackfin toolchain configured in an Open-Field 0.14 checkout at commit `bb901bbe037db4114d294b8e3c4a8f9a7ddf28aa`. The pack targets OP-1 Field OS 1.7.3+0 and Open-Field base v32. [Open-Field SDK](https://github.com/LaP0573/open-field/tree/bb901bbe037db4114d294b8e3c4a8f9a7ddf28aa)
-
-From this directory, run the following commands with `SDK` set to that checkout.
+Set `SDK` to the absolute path of the Open-Field 0.20 checkout at `25a8d7f524ec3f46902cbd8a96779df32fa5e9bc` with its Blackfin toolchain installed. Run the commands from this directory. [Open-Field build guide](https://github.com/LaP0573/open-field/blob/25a8d7f524ec3f46902cbd8a96779df32fa5e9bc/docs/build.md)
 
 ```sh
-sha256sum -c SHA256SUMS
-sh build.sh "$SDK" /tmp/plonk.pack
-sha256sum /tmp/plonk.pack
+OUT=$(mktemp -d)
+sh build.sh "$SDK" "$OUT/plonk.pack"
+sha256sum "$OUT/plonk.pack"
 ```
 
-The released pack SHA-256 is `f2854cf0debae6ea50c42f78953c7e2907533854615fe6058a042b95025ae78e`. The `source/` directory contains the engine, page, editable SVG, build recipe, factory presets and tables used in that build.
+Expected SHA-256 for the 58,582-byte pack is `fd8a04e80fd5543959de5d0ff956c3548bcb08b69c2ecaa3d7cb78752df814c2`.

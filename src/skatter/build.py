@@ -29,6 +29,10 @@ with tempfile.TemporaryDirectory() as temp:
         run([*tool,'pictures','--recipe',recipe,'--out',f'examples/{name}/pictures.s'])
     run([*tool,'build3','--recipe',recipe,'--profile','profiles/op1f-1.7.3.json','--out',f'{name}.pack'])
     run([*tool,'check','--pack',f'{name}.pack'])
+    if len(sys.argv)>4:
+        native=sorted((stage/'build').glob('*.cpp.o'))
+        assert native
+        Path(sys.argv[4]).write_text(''.join(f'{hashlib.sha256(f.read_bytes()).hexdigest()}  {f.name}\n' for f in native))
     built=stage/(name+'.pack')
     shutil.copyfile(built,out/built.name)
     print('SHA256',hashlib.sha256(built.read_bytes()).hexdigest())

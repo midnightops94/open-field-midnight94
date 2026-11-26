@@ -1,9 +1,9 @@
 {
   "about": "Wave eight-bank wavetable engine with the prepared Pulse warp and full bank fades.",
   "name": "wave",
-  "version": 8,
+  "version": 9,
   "interface": 1,
-  "build": "wave_v8",
+  "build": "wave_v9",
   "sources": [
     "examples/wave/audio.cpp",
     "examples/wave/audio_build.cpp",

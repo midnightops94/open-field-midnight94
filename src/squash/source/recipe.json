@@ -1,12 +1,13 @@
 {
   "about": "Squash stereo compressor for the Open-Field effect interface",
   "name": "squash",
-  "version": 3,
+  "version": 5,
   "interface": 1,
-  "build": "squash_v3",
+  "build": "squash_v5",
   "sources": [
     "examples/squash/squash.cpp",
     "examples/squash/page_math.cpp",
+    "examples/squash/standard_turns.cpp",
     "examples/squash/card.s",
     "examples/squash/pictures.s"
   ],
@@ -26,8 +27,8 @@
   ],
   "card": {
     "level": 10,
-    "frame": "squash_frame",
-    "input": "squash_input",
+    "frame": "squash_standard_frame",
+    "input": "squash_standard_input",
     "pick": null,
     "pictures": true,
     "asks": [
@@ -42,7 +43,7 @@
         "state_align": 4,
         "process": "squash_process",
         "reset": "squash_reset",
-        "shown": "squash_shown",
+        "shown": "squash_standard_shown",
         "params": [
           {
             "name": "lid",

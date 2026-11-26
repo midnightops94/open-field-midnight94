@@ -1,15 +1,19 @@
-# Cube
+# Cube v7
 
-Cube is a stereo resonator effect for Open-Field 0.14. Shape moves between the Wood, Voice and Metal resonator families. Morph retunes the three bands. Reso changes their resonance and the room response. Mix blends the resonator with the dry signal. The wireframe follows the effective controls, including LFO modulation.
+Cube is a stereo resonator. Shape moves between the Wood, Voice and Metal resonator families. Morph retunes the three bands. Reso changes their resonance and the room response. Mix blends the resonator with the dry signal. The wireframe follows all four controls, including LFO modulation.
 
-The audio kernel lives in `source/cube-engine.hpp` and `source/cube-room.hpp`. The frame and surface use `source/frame.inc` and `source/cube_points.hpp`. Edit `source/chamber.svg` for the background and native text anchors. The bypass card uses a public stock-picture reference that the Field resolves locally. A self-contained alternate card covers installations with a different stock picture.
+The four corner values use the `00`–`99` scale. The audio kernel lives in `source/cube-engine.hpp` and `source/cube-room.hpp`. Edit `source/chamber.svg` for the background and native text anchors.
+
+Select Cube from a synth, drum or master FX page. Hold Shift while turning for finer adjustment.
 
 ## Build
 
-Use the BF707 toolchain specified by Open-Field 0.14 and checkout `bb901bbe037db4114d294b8e3c4a8f9a7ddf28aa`. Run this command from this directory. The second path contains the toolchain’s `bin/` directory. [Open-Field 0.14 build documentation](https://github.com/LaP0573/open-field/tree/bb901bbe037db4114d294b8e3c4a8f9a7ddf28aa)
+Set `SDK` to the absolute path of the Open-Field 0.20 checkout at `25a8d7f524ec3f46902cbd8a96779df32fa5e9bc` with its Blackfin toolchain installed. Run the commands from this directory. [Open-Field build guide](https://github.com/LaP0573/open-field/blob/25a8d7f524ec3f46902cbd8a96779df32fa5e9bc/docs/build.md)
 
 ```sh
-python3 build.py /path/to/open-field /path/to/bfin-tools
+OUT=$(mktemp -d)
+python3 build.py "$SDK" "$SDK/open-xy/local/toolchain" "$OUT"
+sha256sum "$OUT/cube.pack"
 ```
 
-The resulting `dist/cube.pack` is Cube v5. Its SHA-256 is `d8400c058b5959a4c7e8e31f7c935198e6333e535c382a592a0e6eba847a1072`.
+Expected SHA-256 for the 18,290-byte pack is `0af690a65017443f9eb172d5a6b308e6d34e8cf5dafda6f56a3223faadf421d5`.

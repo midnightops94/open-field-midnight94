@@ -1,0 +1,96 @@
+{
+  "about": "Ampig stereo amplifier with stronger Drive and Sag and a supply-collapse range",
+  "name": "ampig",
+  "version": 11,
+  "interface": 1,
+  "build": "ampig_v11",
+  "sources": [
+    "examples/ampig/audio.cpp",
+    "examples/ampig/state.cpp",
+    "examples/ampig/page.cpp",
+    "examples/ampig/page_math.cpp",
+    "examples/ampig/standard_turns.cpp",
+    "examples/ampig/card.s",
+    "examples/ampig/pictures.s"
+  ],
+  "works_with": [],
+  "serves": [],
+  "exports": [],
+  "pictures": [
+    {
+      "name": "ampig_off.svg",
+      "file": "examples/ampig/ampig_off.svg.make"
+    },
+    {
+      "name": "ampig_p3.svg",
+      "file": "examples/ampig/ampig_p3.svg.make"
+    }
+  ],
+  "card": {
+    "level": 10,
+    "frame": "ampig_standard_frame",
+    "pick": null,
+    "pictures": true,
+    "input": "ampig_standard_input",
+    "asks": [
+      {
+        "kind": "effect",
+        "name": "ampig",
+        "rides": "punch",
+        "mono": false,
+        "tails": false,
+        "cycles": 84000,
+        "state_bytes": 256,
+        "state_align": 4,
+        "process": "ampig_process",
+        "reset": "ampig_reset",
+        "shown": "ampig_standard_shown",
+        "params": [
+          {
+            "name": "drive",
+            "low": 0,
+            "high": 32767,
+            "start": 11141
+          },
+          {
+            "name": "sag",
+            "low": 0,
+            "high": 32767,
+            "start": 15073
+          },
+          {
+            "name": "tone",
+            "low": 0,
+            "high": 32767,
+            "start": 17367
+          },
+          {
+            "name": "mix",
+            "low": 0,
+            "high": 32767,
+            "start": 32767
+          }
+        ]
+      },
+      {
+        "kind": "keeps",
+        "name": "settings",
+        "changed": "ampig_changed",
+        "keys": [
+          {
+            "name": "ampig_mode",
+            "files": [
+              "synth",
+              "drum",
+              "master"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "marks": [],
+  "named": true,
+  "sum": true,
+  "path": null
+}
